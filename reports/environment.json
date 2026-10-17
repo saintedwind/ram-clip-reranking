@@ -1,0 +1,20 @@
+{
+  "python": "3.12.14",
+  "system": "Windows",
+  "machine": "AMD64",
+  "processor": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+  "packages": {
+    "torch": "2.8.0+cpu",
+    "torchvision": "0.23.0+cpu",
+    "numpy": "2.5.4",
+    "timm": "0.4.12",
+    "transformers": "4.38.2",
+    "huggingface-hub": "0.36.2",
+    "tokenizers": "0.15.2",
+    "safetensors": "0.8.0",
+    "ftfy": "6.3.1",
+    "regex": "2026.9.29",
+    "Pillow": "12.3.0"
+  },
+  "fairscale": "0.4.13 (registry source; Windows wheel build hit path-length limitation)"
+}
