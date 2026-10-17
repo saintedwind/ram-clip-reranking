@@ -5,3 +5,7 @@ __pycache__/
 *.pth
 *.pt
 data/
+/research/
+/reports/*.ram.json
+/reports/*.tmp
+/results/

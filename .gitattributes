@@ -1,0 +1,6 @@
+# Preserve recorded JSON bytes: manifests and results have SHA256 fingerprints.
+*.json -text
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
