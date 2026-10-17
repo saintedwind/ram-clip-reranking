@@ -6,9 +6,16 @@ The original code had confidence-extraction and evaluation errors. This revision
 
 ## Status
 
-Fifteen regression and recorded-result consistency tests pass. A real CLIP ViT-B/32 CPU run completed on all eight COCO photographs using the original annotations and a checksum-verified official checkpoint. On the fixed 69-label RAM/COCO intersection, mean P@5 was **0.2500**, recall@5 **0.8333**, and F1@5 **0.3720**. These are pilot observations, not a held-out benchmark or evidence of improvement over RAM. See the [raw run](reports/clip-pilot.json) and [interpretation](reports/PILOT.md).
+Sixteen regression and recorded-result checks pass. Real RAM and CLIP CPU inference completed on all eight COCO photographs with original annotations and checksum-verified official checkpoints. On the fixed 69-label RAM/COCO intersection:
 
-**The full RAM/fusion comparison is pending:** the 5.6 GB RAM download was truncated and is being resumed. No RAM or improvement score is reported before verified inference completes.
+| Method | Mean P@5 | Mean recall@5 | Mean F1@5 |
+|---|---:|---:|---:|
+| RAM | 0.3000 | 0.9583 | 0.4435 |
+| CLIP | 0.2500 | 0.8333 | 0.3720 |
+| Equal-weight fusion | 0.3000 | 0.9583 | 0.4435 |
+| Fusion + greedy MMR | 0.3000 | 0.9583 | 0.4435 |
+
+**The proposed reranking did not improve these metrics over RAM in this pilot.** These observations are not a held-out benchmark. See the [raw full run](reports/full-pilot.json), [independent CLIP run](reports/clip-pilot.json), [environment](reports/environment.json) and [interpretation](reports/PILOT.md).
 
 Read the [audit](reports/AUDIT.md), [fixed protocol](reports/PROTOCOL.md) and [data manifest](reports/data-manifest.json). The manifest contains hashes and existing object labels, not redistributed photographs.
 
@@ -23,7 +30,7 @@ Fusion standardizes each image's RAM confidence and CLIP cosine vectors before c
 
 ## Model experiment
 
-The experimental runner requires PyTorch 2.8, torchvision 0.23, timm 0.4.12, transformers 4.38.2, fairscale, ftfy, regex, and the official RAM/CLIP source trees. This integration remains under validation. CPU execution with the original RAM checkpoint needs several GB of storage and memory.
+The runner requires PyTorch 2.8, torchvision 0.23, timm 0.4.12, transformers 4.38.2, fairscale 0.4.13, ftfy, regex, and the official RAM/CLIP source trees. This combination completed the recorded CPU pilot. CPU execution with the original RAM checkpoint needs several GB of storage and memory.
 
 Pinned sources:
 
