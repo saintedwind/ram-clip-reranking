@@ -1,0 +1,22 @@
+{
+  "scope": "Computational equivalence on the eight existing real pilot images; not new accuracy evidence",
+  "images": 8,
+  "max_abs_probability_error": 2.9802322387695312e-08,
+  "per_image_max_abs_probability_error": [
+    2.9802322387695312e-08,
+    0.0,
+    0.0,
+    2.9802322387695312e-08,
+    0.0,
+    2.9802322387695312e-08,
+    0.0,
+    1.4901161193847656e-08
+  ],
+  "all_method_top5_predictions_identical": true,
+  "native_pilot_sha256": "63655cdf198aebb077d91ae71c64a079b30d36a7e55e95412e19960d3016c0cb",
+  "subset_run_sha256": "f9d7b2265550a57b403e51f2716809d67f9836685090f01c4d3faf5ef85e598c",
+  "tolerance": {
+    "atol": 1e-06,
+    "rtol": 1e-05
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "protocol_commit": "bfecb02837008e8b71346afd5b202dbf53940e11",
+  "protocol_sha256": "321966e0cc4800a69c9bd2414dde2b582d088ab5a219220c0a4a9feb36718d70",
+  "manifest_sha256": "0032298ca9a8fee34f3dcf18bf57905d2dc6910becfbc9bd9c6ce8500de615ef",
+  "subset_equivalence_passed": true,
+  "experiment_sha256": "22fd2df91ce3743e807c43a8f7b88df911f7b33ea3468378d5f150914739bf03",
+  "analysis_sha256": "56201ab6d7bb5678c78ee862a263c2112e76b4de826ac0f94206bbf750aba1fa"
+}

@@ -1,0 +1,6153 @@
+{
+  "source": "https://s3.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2017.zip",
+  "annotation_sha256": "e8c7f7908f1d7278341fae127d0da654f102f11bd7b21d8aeefa635b8c810b6f",
+  "selection": "512 smallest SHA256(ram-clip-validation-v1:<image_id>); first128 development, remaining384 evaluation",
+  "images": [
+    {
+      "image": "images/000000170670.jpg",
+      "image_id": 170670,
+      "split": "development",
+      "sha256": "e4dd8fbb9f4387c124505a280afc9d67595185e527a8d55d2b7431ae0265888a",
+      "truth": [
+        "bottle",
+        "bowl",
+        "carrot",
+        "chair",
+        "cup",
+        "dining table",
+        "fork"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000170670.jpg"
+    },
+    {
+      "image": "images/000000330790.jpg",
+      "image_id": 330790,
+      "split": "development",
+      "sha256": "08687a9320a720f9656f3a91e299c2e5bb5d7b45949eb92851f9ddfd0fdfd55c",
+      "truth": [
+        "elephant"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000330790.jpg"
+    },
+    {
+      "image": "images/000000577976.jpg",
+      "image_id": 577976,
+      "split": "development",
+      "sha256": "f4a69620b9c578112bdac7b7007aaa75d79e4b77e6b96318aa8b1a7defb3d4e5",
+      "truth": [
+        "car",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000577976.jpg"
+    },
+    {
+      "image": "images/000000170893.jpg",
+      "image_id": 170893,
+      "split": "development",
+      "sha256": "bf061e23b14d2fda9ade5fa12ebb39da559b2b3aca7637c21205be46f2ac8114",
+      "truth": [
+        "dog",
+        "toilet"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000170893.jpg"
+    },
+    {
+      "image": "images/000000405279.jpg",
+      "image_id": 405279,
+      "split": "development",
+      "sha256": "bdc769fa26d5f5c896bff480e128ac076ec6972c567b719a55c7eb74adefbafd",
+      "truth": [
+        "bench",
+        "kite",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000405279.jpg"
+    },
+    {
+      "image": "images/000000133819.jpg",
+      "image_id": 133819,
+      "split": "development",
+      "sha256": "ddb32ae4d1057b76bbfcde96ef5b03c0df64811155bf2da75ca622f83ddc1f29",
+      "truth": [
+        "bus",
+        "handbag",
+        "parking meter",
+        "person",
+        "traffic light"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000133819.jpg"
+    },
+    {
+      "image": "images/000000088040.jpg",
+      "image_id": 88040,
+      "split": "development",
+      "sha256": "8b46197eff2bc39805e73ee3dadd8c48b81e42e645e2f733acb94c814fe9199e",
+      "truth": [
+        "bottle",
+        "bowl",
+        "cup",
+        "dining table",
+        "fork",
+        "knife",
+        "spoon"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000088040.jpg"
+    },
+    {
+      "image": "images/000000538458.jpg",
+      "image_id": 538458,
+      "split": "development",
+      "sha256": "203c9583c75afd905b6ad3c1c28644b66c2508fc66d42cab29de1cb2532575a9",
+      "truth": [
+        "person",
+        "skateboard",
+        "traffic light",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000538458.jpg"
+    },
+    {
+      "image": "images/000000550426.jpg",
+      "image_id": 550426,
+      "split": "development",
+      "sha256": "46b4e78fc22c44edfca47861e94718fc98a4002955f478b874340a857b79bc74",
+      "truth": [
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000550426.jpg"
+    },
+    {
+      "image": "images/000000350607.jpg",
+      "image_id": 350607,
+      "split": "development",
+      "sha256": "88f3c399eb0ca5082788760cf6e1e8530d9d997a87fedd08b1a258f58163a40a",
+      "truth": [
+        "bench"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000350607.jpg"
+    },
+    {
+      "image": "images/000000342367.jpg",
+      "image_id": 342367,
+      "split": "development",
+      "sha256": "97537c2e8b3fb21beae758ee7644b8bd79a0d9066796b7099696406e458912ca",
+      "truth": [
+        "book",
+        "laptop",
+        "person",
+        "tv"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000342367.jpg"
+    },
+    {
+      "image": "images/000000446703.jpg",
+      "image_id": 446703,
+      "split": "development",
+      "sha256": "c00090abe4c7f1e57231ac98f09d480ee59fa1d7b5acb4d114834775377df084",
+      "truth": [
+        "teddy bear"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000446703.jpg"
+    },
+    {
+      "image": "images/000000106757.jpg",
+      "image_id": 106757,
+      "split": "development",
+      "sha256": "3638552bcd5b55fbbd710dbef5cbc4cb142b375397d006104fc87350683d7ad7",
+      "truth": [
+        "elephant",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000106757.jpg"
+    },
+    {
+      "image": "images/000000031093.jpg",
+      "image_id": 31093,
+      "split": "development",
+      "sha256": "769ceca7a3baf1319cffe4ad462561859d1e3f1029034fb87a12ef69acdf91bd",
+      "truth": [
+        "backpack",
+        "person",
+        "skateboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000031093.jpg"
+    },
+    {
+      "image": "images/000000482978.jpg",
+      "image_id": 482978,
+      "split": "development",
+      "sha256": "8b2fffff5d2b7d19b9533c2c55c57dee2f919fc2f5af15ba2a1f39b59f98d238",
+      "truth": [
+        "chair",
+        "train"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000482978.jpg"
+    },
+    {
+      "image": "images/000000427055.jpg",
+      "image_id": 427055,
+      "split": "development",
+      "sha256": "7d16daf50ccdcbda18b01c0d1e9cf4bd58999550184c951420416c7e916ef9ef",
+      "truth": [
+        "car",
+        "clock",
+        "stop sign"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000427055.jpg"
+    },
+    {
+      "image": "images/000000325527.jpg",
+      "image_id": 325527,
+      "split": "development",
+      "sha256": "2c9d2795fa85234ec7205254f11cd91fac2b83a6c846e447264ddc822b9d3937",
+      "truth": [
+        "teddy bear"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000325527.jpg"
+    },
+    {
+      "image": "images/000000227399.jpg",
+      "image_id": 227399,
+      "split": "development",
+      "sha256": "8215d52085a5c93de3aeb09ee0a8be74c2b7af3c49f3c8068d72edd745809773",
+      "truth": [
+        "backpack",
+        "bicycle",
+        "handbag",
+        "motorcycle",
+        "person",
+        "suitcase",
+        "train"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000227399.jpg"
+    },
+    {
+      "image": "images/000000157390.jpg",
+      "image_id": 157390,
+      "split": "development",
+      "sha256": "1be6a1f486ec13e5092986a181e7051a23b4c1fa1ec004c0dd3b46c29bc35abe",
+      "truth": [
+        "bowl",
+        "broccoli",
+        "carrot",
+        "dining table"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000157390.jpg"
+    },
+    {
+      "image": "images/000000508730.jpg",
+      "image_id": 508730,
+      "split": "development",
+      "sha256": "37bda05df3e3f02ebf2cd388c1611d9fbf49602d12e8b475b578970ceb14c07c",
+      "truth": [
+        "chair",
+        "person",
+        "sink",
+        "toilet"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000508730.jpg"
+    },
+    {
+      "image": "images/000000357238.jpg",
+      "image_id": 357238,
+      "split": "development",
+      "sha256": "52f4156aec8f9aa3795941e457f69da579b277e1df855acedc48c9a97a03445d",
+      "truth": [
+        "kite",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000357238.jpg"
+    },
+    {
+      "image": "images/000000295138.jpg",
+      "image_id": 295138,
+      "split": "development",
+      "sha256": "0ba71a4a90851b0c621e22b3f5e8b5b11e46965802a412a27adce28964085e40",
+      "truth": [
+        "bench",
+        "person",
+        "skateboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000295138.jpg"
+    },
+    {
+      "image": "images/000000506279.jpg",
+      "image_id": 506279,
+      "split": "development",
+      "sha256": "789bcf2d7202c47fe0a76621fdf578684858eba11ef78a2e72b8057f64cbbb5a",
+      "truth": [
+        "dining table",
+        "wine glass"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000506279.jpg"
+    },
+    {
+      "image": "images/000000276720.jpg",
+      "image_id": 276720,
+      "split": "development",
+      "sha256": "9dcd1f0112ea7eb4d389150b940d0d4c0c9738703ad9af443b267f05228b87b5",
+      "truth": [
+        "car",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000276720.jpg"
+    },
+    {
+      "image": "images/000000064718.jpg",
+      "image_id": 64718,
+      "split": "development",
+      "sha256": "23311e201fadb5ba2bd9a0d6cac209b1f91ce946362ef7100ba47993b2822ff4",
+      "truth": [
+        "person",
+        "sports ball",
+        "tennis racket"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000064718.jpg"
+    },
+    {
+      "image": "images/000000060347.jpg",
+      "image_id": 60347,
+      "split": "development",
+      "sha256": "18e94efcf2eefc061ee834216fce0c436f5f2efe08269f2499cf6b5c628b342d",
+      "truth": [
+        "bench",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000060347.jpg"
+    },
+    {
+      "image": "images/000000132408.jpg",
+      "image_id": 132408,
+      "split": "development",
+      "sha256": "a372ae17db103004a0f6ae5eeb0c47f6dcacfde552bcbcbf75ec03df18f8ead7",
+      "truth": [
+        "horse",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000132408.jpg"
+    },
+    {
+      "image": "images/000000259097.jpg",
+      "image_id": 259097,
+      "split": "development",
+      "sha256": "23acc13dba72469607a7e61b6c2fd6e0e2c73dfa33fff340424bd6c805ac8cfc",
+      "truth": [
+        "frisbee",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000259097.jpg"
+    },
+    {
+      "image": "images/000000478136.jpg",
+      "image_id": 478136,
+      "split": "development",
+      "sha256": "526077bd0069192c70bd094935f99c2715acf3507cafde02ee050744e9d54a6e",
+      "truth": [
+        "cake",
+        "dining table",
+        "donut"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000478136.jpg"
+    },
+    {
+      "image": "images/000000230166.jpg",
+      "image_id": 230166,
+      "split": "development",
+      "sha256": "7ea597cbad14789435e8df0ab919bd0ec43715dec13c1b44ec0fd174637967ab",
+      "truth": [
+        "sheep"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000230166.jpg"
+    },
+    {
+      "image": "images/000000027768.jpg",
+      "image_id": 27768,
+      "split": "development",
+      "sha256": "f9d68320358d980c1ef077c986316729fc3bd42b7e18e4433bf29b157f1f20f6",
+      "truth": [
+        "bus",
+        "car",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000027768.jpg"
+    },
+    {
+      "image": "images/000000051598.jpg",
+      "image_id": 51598,
+      "split": "development",
+      "sha256": "d727cfdbd87883caabe464636cebdac19c89cae7d948d19c1f86f4230edfcdbf",
+      "truth": [
+        "bottle",
+        "sink"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000051598.jpg"
+    },
+    {
+      "image": "images/000000222299.jpg",
+      "image_id": 222299,
+      "split": "development",
+      "sha256": "f172cb97c2176c8954ca652d32d1fb8a505556c99c97dd6c39dcca32d24360c2",
+      "truth": [
+        "bed",
+        "book",
+        "bottle",
+        "cell phone",
+        "laptop"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000222299.jpg"
+    },
+    {
+      "image": "images/000000377393.jpg",
+      "image_id": 377393,
+      "split": "development",
+      "sha256": "92959854e6f57534858455ae370cb6c0ec8a5bfc274c7f3a5fe628b5a3827ff8",
+      "truth": [
+        "clock",
+        "person",
+        "umbrella"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000377393.jpg"
+    },
+    {
+      "image": "images/000000450559.jpg",
+      "image_id": 450559,
+      "split": "development",
+      "sha256": "6b499bed18af66b182859133ab3208762c3c40c3048c5c21c91b7f6b144a7f36",
+      "truth": [
+        "person",
+        "skateboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000450559.jpg"
+    },
+    {
+      "image": "images/000000009891.jpg",
+      "image_id": 9891,
+      "split": "development",
+      "sha256": "dc8292c102663e64a5fcf7477e8ab5f5289660099817e7d52f40e3918784dc0e",
+      "truth": [
+        "backpack",
+        "car",
+        "person",
+        "suitcase",
+        "tie"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000009891.jpg"
+    },
+    {
+      "image": "images/000000376478.jpg",
+      "image_id": 376478,
+      "split": "development",
+      "sha256": "a860eaf59ac0a06e7db1e7009039dd72766f2dd5d2e1bb019f0fdb26b7d0e803",
+      "truth": [
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000376478.jpg"
+    },
+    {
+      "image": "images/000000459195.jpg",
+      "image_id": 459195,
+      "split": "development",
+      "sha256": "15a0f308fd7628a8ad89347c7b98c2326569920228c8b2bd1a6240d9f9f3b250",
+      "truth": [
+        "frisbee",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000459195.jpg"
+    },
+    {
+      "image": "images/000000414034.jpg",
+      "image_id": 414034,
+      "split": "development",
+      "sha256": "05435cdebe50a959e357ddd3eb9621559934b8761d3526e57fd9170658ce3d93",
+      "truth": [
+        "bed",
+        "bottle",
+        "cup",
+        "person",
+        "remote"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000414034.jpg"
+    },
+    {
+      "image": "images/000000349860.jpg",
+      "image_id": 349860,
+      "split": "development",
+      "sha256": "f07d8b177d8f2b0a9fa4dd06eaec034e5c52adec952caeb504eb794edf963da7",
+      "truth": [
+        "bench",
+        "car",
+        "person",
+        "skateboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000349860.jpg"
+    },
+    {
+      "image": "images/000000468233.jpg",
+      "image_id": 468233,
+      "split": "development",
+      "sha256": "368593e0f440236c8d44cf6730e6aabedc61c5a6296d52610bd6afa8e2343794",
+      "truth": [
+        "clock"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000468233.jpg"
+    },
+    {
+      "image": "images/000000311928.jpg",
+      "image_id": 311928,
+      "split": "development",
+      "sha256": "a6d2111d919c66f142459554a58697446623b2b109b32a70ee03ed4a86730dd1",
+      "truth": [
+        "baseball bat",
+        "person",
+        "sports ball"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000311928.jpg"
+    },
+    {
+      "image": "images/000000450202.jpg",
+      "image_id": 450202,
+      "split": "development",
+      "sha256": "1d5116c1e06d2b53cda3e87af6a6798787d0b62214bbc925f35bf065870bcd6b",
+      "truth": [
+        "dining table",
+        "fork",
+        "person",
+        "wine glass"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000450202.jpg"
+    },
+    {
+      "image": "images/000000226802.jpg",
+      "image_id": 226802,
+      "split": "development",
+      "sha256": "1be10574bd4a77358d6d778a5f1badf4ea2f081ebe59ce07db7e9105d07c4e0c",
+      "truth": [
+        "bus",
+        "car",
+        "motorcycle",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000226802.jpg"
+    },
+    {
+      "image": "images/000000434459.jpg",
+      "image_id": 434459,
+      "split": "development",
+      "sha256": "61e1baab4b3eb13f133a5702bd9c2711cc127e2e81406a68738ad6f18d457b00",
+      "truth": [
+        "cake",
+        "chair",
+        "dining table",
+        "knife",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000434459.jpg"
+    },
+    {
+      "image": "images/000000025986.jpg",
+      "image_id": 25986,
+      "split": "development",
+      "sha256": "721b718fe15a4f3739c0673acde4fa224ae7839f9317e7e66d256653551ea23b",
+      "truth": [
+        "bowl",
+        "broccoli",
+        "cup",
+        "donut",
+        "spoon"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000025986.jpg"
+    },
+    {
+      "image": "images/000000512985.jpg",
+      "image_id": 512985,
+      "split": "development",
+      "sha256": "3a987fb6acc3d4f360cb097f1c715a7115ebca5f0023f01382e90f62fcc55058",
+      "truth": [
+        "person",
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000512985.jpg"
+    },
+    {
+      "image": "images/000000089697.jpg",
+      "image_id": 89697,
+      "split": "development",
+      "sha256": "212184f1c130ab34054d031f6b84cc2c2fab3c8c92ebc8fbe5ca027c4379c3f8",
+      "truth": [
+        "bench",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000089697.jpg"
+    },
+    {
+      "image": "images/000000224093.jpg",
+      "image_id": 224093,
+      "split": "development",
+      "sha256": "7ed1f3b86156096c5ae2521b046c371c844fe60e5cd959e7f3a022de15e5dadf",
+      "truth": [
+        "cow"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000224093.jpg"
+    },
+    {
+      "image": "images/000000013659.jpg",
+      "image_id": 13659,
+      "split": "development",
+      "sha256": "b357d19dee467587a8788ac4e5b45677f4fde1b62726c690795e188ae75d822b",
+      "truth": [
+        "chair",
+        "cup",
+        "dining table",
+        "laptop",
+        "person",
+        "tv"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000013659.jpg"
+    },
+    {
+      "image": "images/000000533958.jpg",
+      "image_id": 533958,
+      "split": "development",
+      "sha256": "4822d53ce9a21aaaec01d508cd612fa0f319952414fe35b45c2f492547eaa262",
+      "truth": [
+        "fork"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000533958.jpg"
+    },
+    {
+      "image": "images/000000314541.jpg",
+      "image_id": 314541,
+      "split": "development",
+      "sha256": "2488efdc727a1ee1b50136a6b286a09761b2f188ac938fa89b729ad86268d915",
+      "truth": [
+        "bench"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000314541.jpg"
+    },
+    {
+      "image": "images/000000155051.jpg",
+      "image_id": 155051,
+      "split": "development",
+      "sha256": "32a972ffddab1471501143c307e1e98f647db46cc83c43a16fcd8efc40dabc22",
+      "truth": [
+        "clock"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000155051.jpg"
+    },
+    {
+      "image": "images/000000093717.jpg",
+      "image_id": 93717,
+      "split": "development",
+      "sha256": "5c6e3bbeea91c10e9fb55288c2b60305bf407aa5b74a9c49989d25a4d867604f",
+      "truth": [
+        "bicycle",
+        "person",
+        "skateboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000093717.jpg"
+    },
+    {
+      "image": "images/000000578093.jpg",
+      "image_id": 578093,
+      "split": "development",
+      "sha256": "5642371c96b67d0d0a78f86fba06c14546bd06743c9b62cfd2c8fe4d50591676",
+      "truth": [
+        "person",
+        "train"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000578093.jpg"
+    },
+    {
+      "image": "images/000000228981.jpg",
+      "image_id": 228981,
+      "split": "development",
+      "sha256": "998b5ff0b94372b72110d7a058de328c8142ad87d0c0de346e6073c3f92e501d",
+      "truth": [
+        "cell phone"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000228981.jpg"
+    },
+    {
+      "image": "images/000000135673.jpg",
+      "image_id": 135673,
+      "split": "development",
+      "sha256": "371cc6ced2adb3ac332df37eda1a2f5a7816d7d27d7a5d1212e2b42acf4f826d",
+      "truth": [
+        "airplane"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000135673.jpg"
+    },
+    {
+      "image": "images/000000029596.jpg",
+      "image_id": 29596,
+      "split": "development",
+      "sha256": "b8e8d8f5fb32fb90cc1c064bbc0fad3846b3a6c1fc6773fe74700a86b184c315",
+      "truth": [
+        "book",
+        "chair",
+        "couch",
+        "cup",
+        "dining table",
+        "potted plant",
+        "tv",
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000029596.jpg"
+    },
+    {
+      "image": "images/000000357081.jpg",
+      "image_id": 357081,
+      "split": "development",
+      "sha256": "185995d8680a3491f0f4e105151eb0c77c950530a22bf55e341415c0e12868b6",
+      "truth": [
+        "cow"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000357081.jpg"
+    },
+    {
+      "image": "images/000000310862.jpg",
+      "image_id": 310862,
+      "split": "development",
+      "sha256": "d308275268ce56f773ff5a8335194504089939acca75a040df20de0ed1e87582",
+      "truth": [
+        "dining table",
+        "person",
+        "tie"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000310862.jpg"
+    },
+    {
+      "image": "images/000000384513.jpg",
+      "image_id": 384513,
+      "split": "development",
+      "sha256": "74a72414872619d3db20efc956bf8f70b7a5acf58c73dfb949e9a0707d785c88",
+      "truth": [
+        "horse"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000384513.jpg"
+    },
+    {
+      "image": "images/000000498463.jpg",
+      "image_id": 498463,
+      "split": "development",
+      "sha256": "245b8c02d9d43e7eb806c850ba42f4b6e60141238089d00e827eb56395b8ffb1",
+      "truth": [
+        "microwave",
+        "refrigerator"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000498463.jpg"
+    },
+    {
+      "image": "images/000000396518.jpg",
+      "image_id": 396518,
+      "split": "development",
+      "sha256": "99c61958bdc57c9c073bc33ac8fda6dcb8f634c73dcce369bff5612b05d85b5e",
+      "truth": [
+        "boat",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000396518.jpg"
+    },
+    {
+      "image": "images/000000193926.jpg",
+      "image_id": 193926,
+      "split": "development",
+      "sha256": "fca3d27a492bbb4bd795d497f4883123c23050a8dbb0b26fb4d4d6c4ac9af975",
+      "truth": [
+        "apple",
+        "backpack",
+        "banana",
+        "bicycle",
+        "bowl",
+        "orange",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000193926.jpg"
+    },
+    {
+      "image": "images/000000255965.jpg",
+      "image_id": 255965,
+      "split": "development",
+      "sha256": "c0b097a4efe69c75afd2e8e9552c0c112b17dfded7c8dfa314876790fc1ee8e8",
+      "truth": [
+        "cat"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000255965.jpg"
+    },
+    {
+      "image": "images/000000075612.jpg",
+      "image_id": 75612,
+      "split": "development",
+      "sha256": "ad55b7fe3105db47f033892e97ffe87a92c3545ae303f129d4bd59c5f211148a",
+      "truth": [
+        "chair",
+        "person",
+        "remote"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000075612.jpg"
+    },
+    {
+      "image": "images/000000015272.jpg",
+      "image_id": 15272,
+      "split": "development",
+      "sha256": "d4a09d9517fea54811b7fabb1274117a107c4cb8fdccfbcae4ced6dd82034ce5",
+      "truth": [
+        "traffic light"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000015272.jpg"
+    },
+    {
+      "image": "images/000000561223.jpg",
+      "image_id": 561223,
+      "split": "development",
+      "sha256": "33f2c01189bd11d5f1a2c07f22fea3e69b581ca70c4859cfa1c65656eb207ec6",
+      "truth": [
+        "person",
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000561223.jpg"
+    },
+    {
+      "image": "images/000000050149.jpg",
+      "image_id": 50149,
+      "split": "development",
+      "sha256": "51e695b644f5f3431e44edd73d3ea54e1501335635c84743d0d7e24240c1497f",
+      "truth": [
+        "banana",
+        "bowl"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000050149.jpg"
+    },
+    {
+      "image": "images/000000453722.jpg",
+      "image_id": 453722,
+      "split": "development",
+      "sha256": "02439c92eca0c51c177cbc9c9b31bf6afeb6870c4d1e93b7475601f8f869021a",
+      "truth": [
+        "chair",
+        "couch",
+        "tv"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000453722.jpg"
+    },
+    {
+      "image": "images/000000410880.jpg",
+      "image_id": 410880,
+      "split": "development",
+      "sha256": "c3f1e039b14bec40394cec0cdcaf31f06c71cbe2723276731b209a16d0d39f11",
+      "truth": [
+        "bench",
+        "car",
+        "chair",
+        "person",
+        "sports ball",
+        "teddy bear"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000410880.jpg"
+    },
+    {
+      "image": "images/000000229849.jpg",
+      "image_id": 229849,
+      "split": "development",
+      "sha256": "3841b7c43e7eed3b0e214312f6ef90bf5d4918fc7a3d921f09a85c44a5f9174c",
+      "truth": [
+        "chair",
+        "person",
+        "tennis racket"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000229849.jpg"
+    },
+    {
+      "image": "images/000000218997.jpg",
+      "image_id": 218997,
+      "split": "development",
+      "sha256": "7da81641ff281c473141460750302125c55f9964c243a08e642f4c8f8e27faa3",
+      "truth": [
+        "baseball bat",
+        "person",
+        "sports ball"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000218997.jpg"
+    },
+    {
+      "image": "images/000000110721.jpg",
+      "image_id": 110721,
+      "split": "development",
+      "sha256": "f84ea80728eb631e44811b1909c2022728fd01284d124942fa3e167305e6eb81",
+      "truth": [
+        "airplane",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000110721.jpg"
+    },
+    {
+      "image": "images/000000279927.jpg",
+      "image_id": 279927,
+      "split": "development",
+      "sha256": "7b93a53ec3c3b64f60e8fc54bdf918e43ef75abfc72083756184f9ae083d90a5",
+      "truth": [
+        "person",
+        "umbrella"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000279927.jpg"
+    },
+    {
+      "image": "images/000000243867.jpg",
+      "image_id": 243867,
+      "split": "development",
+      "sha256": "92fa8e2adf6ad0fc3a2dc38f41ee25e1923fa45d7926dad96e4ac3d58b2bc4f6",
+      "truth": [
+        "bus",
+        "car",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000243867.jpg"
+    },
+    {
+      "image": "images/000000532855.jpg",
+      "image_id": 532855,
+      "split": "development",
+      "sha256": "64005f6d362a190ecedcc8c4adfabe8ed052eb72be85aa027c66b0b88bdadf9d",
+      "truth": [
+        "person",
+        "skateboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000532855.jpg"
+    },
+    {
+      "image": "images/000000484404.jpg",
+      "image_id": 484404,
+      "split": "development",
+      "sha256": "c61e17a3b972aaa3f9525eeaf181538f544263b1f44e840f05eb892eee2e898e",
+      "truth": [
+        "bus",
+        "chair",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000484404.jpg"
+    },
+    {
+      "image": "images/000000560911.jpg",
+      "image_id": 560911,
+      "split": "development",
+      "sha256": "4ae9b7ef1c72aeaade768fcc83c419dfafa344d5c39be721453c13d669aa8529",
+      "truth": [
+        "cell phone",
+        "couch",
+        "person",
+        "suitcase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000560911.jpg"
+    },
+    {
+      "image": "images/000000417249.jpg",
+      "image_id": 417249,
+      "split": "development",
+      "sha256": "a0788f6d609cf3a4e194b317b810b1e806fe95436588355cc76073d783a4f7d2",
+      "truth": [
+        "handbag",
+        "person",
+        "suitcase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000417249.jpg"
+    },
+    {
+      "image": "images/000000486573.jpg",
+      "image_id": 486573,
+      "split": "development",
+      "sha256": "5ef9eda85c70a1298ceb23d5c30c7a3592010e430cb558c09d1ae533069cec58",
+      "truth": [
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000486573.jpg"
+    },
+    {
+      "image": "images/000000318114.jpg",
+      "image_id": 318114,
+      "split": "development",
+      "sha256": "8e6da930dbb9d44c5674f231ecc190c69679139ae97967e953860c3bc12b9725",
+      "truth": [
+        "bowl",
+        "cake",
+        "cup",
+        "dining table",
+        "fork",
+        "orange"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000318114.jpg"
+    },
+    {
+      "image": "images/000000092839.jpg",
+      "image_id": 92839,
+      "split": "development",
+      "sha256": "8cef3815ef0704e21f1c9700db528de5159408edf517831c79b7eedab9a07557",
+      "truth": [
+        "bear"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000092839.jpg"
+    },
+    {
+      "image": "images/000000166391.jpg",
+      "image_id": 166391,
+      "split": "development",
+      "sha256": "4ee9bb8a8ac31522bd24dc3068760d4cf7a9255257ba38572ba5b4c750360c35",
+      "truth": [
+        "car",
+        "traffic light",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000166391.jpg"
+    },
+    {
+      "image": "images/000000157767.jpg",
+      "image_id": 157767,
+      "split": "development",
+      "sha256": "36925d12db108fe211a82557068ccf0baaaa5e30ac2bdcade60c74eb6e33cf64",
+      "truth": [
+        "book",
+        "bowl",
+        "cell phone",
+        "cup",
+        "dining table",
+        "handbag",
+        "person",
+        "spoon"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000157767.jpg"
+    },
+    {
+      "image": "images/000000162130.jpg",
+      "image_id": 162130,
+      "split": "development",
+      "sha256": "688dbaa4b39c792ef94ad2f3b2b665e1b37bcb8aa03c838c17451f2fba75fee9",
+      "truth": [
+        "bench"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000162130.jpg"
+    },
+    {
+      "image": "images/000000002153.jpg",
+      "image_id": 2153,
+      "split": "development",
+      "sha256": "8795ff243cf20405bd442631d5d1cb7e60665dd459c8d57f5764333808dd49fd",
+      "truth": [
+        "baseball bat",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000002153.jpg"
+    },
+    {
+      "image": "images/000000203488.jpg",
+      "image_id": 203488,
+      "split": "development",
+      "sha256": "28a0a02064f31577ac111b8ce6949f3d049cbe8b3d04cdd86ed4a286c07eac03",
+      "truth": [
+        "bench",
+        "parking meter"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000203488.jpg"
+    },
+    {
+      "image": "images/000000260470.jpg",
+      "image_id": 260470,
+      "split": "development",
+      "sha256": "a3d60aaef393ccd87e3ffe4841936cc8a2841cdb8319bac27c2dbf1cf68d3f84",
+      "truth": [
+        "cake",
+        "car",
+        "donut",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000260470.jpg"
+    },
+    {
+      "image": "images/000000067310.jpg",
+      "image_id": 67310,
+      "split": "development",
+      "sha256": "d0dab872bf367cbf1b8380dd3b39a365d9a3c2e0b38e5db98d90e24e66ef55ba",
+      "truth": [
+        "person",
+        "skateboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000067310.jpg"
+    },
+    {
+      "image": "images/000000066635.jpg",
+      "image_id": 66635,
+      "split": "development",
+      "sha256": "0969fb5fb163065ac5f0a8ee922db3339a3e099086a40f6d4da4b3254fc1a422",
+      "truth": [
+        "keyboard",
+        "mouse",
+        "remote",
+        "tv"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000066635.jpg"
+    },
+    {
+      "image": "images/000000182611.jpg",
+      "image_id": 182611,
+      "split": "development",
+      "sha256": "c819074e44adebad82ebad4f0e86d673d710cee0f4fe7a0522249aff07d94e71",
+      "truth": [
+        "bottle",
+        "bowl",
+        "cake",
+        "cup",
+        "dining table",
+        "oven",
+        "person",
+        "sandwich",
+        "spoon"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000182611.jpg"
+    },
+    {
+      "image": "images/000000069213.jpg",
+      "image_id": 69213,
+      "split": "development",
+      "sha256": "c219b7e4409b0dcaab0ec1932372f7f91bfc72abb999a3ed92405c1089eb0b0f",
+      "truth": [
+        "motorcycle",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000069213.jpg"
+    },
+    {
+      "image": "images/000000297147.jpg",
+      "image_id": 297147,
+      "split": "development",
+      "sha256": "f92aec9e439cc02e54f0ddb7bf7acac4a77675f19bbe476033bfa72f7e5dd689",
+      "truth": [
+        "motorcycle",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000297147.jpg"
+    },
+    {
+      "image": "images/000000344909.jpg",
+      "image_id": 344909,
+      "split": "development",
+      "sha256": "963758fe1359544f537414afa68230ac2a6043ceb37347f157d95416beef18d4",
+      "truth": [
+        "car",
+        "fire hydrant"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000344909.jpg"
+    },
+    {
+      "image": "images/000000578236.jpg",
+      "image_id": 578236,
+      "split": "development",
+      "sha256": "05b11188488d00de6c52dfc89cdabde235fe58603f0a17bfbd5529c26d7266d8",
+      "truth": [
+        "bird"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000578236.jpg"
+    },
+    {
+      "image": "images/000000425227.jpg",
+      "image_id": 425227,
+      "split": "development",
+      "sha256": "332c20d5b88df3494bc276ab964a6a0fd097d64cb23bc2a02c6c5d2170b4319b",
+      "truth": [
+        "kite",
+        "person",
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000425227.jpg"
+    },
+    {
+      "image": "images/000000311081.jpg",
+      "image_id": 311081,
+      "split": "development",
+      "sha256": "20cb3b94e696e3db902c519caf0f17b4f98def916a31c2a24071a78528e3a517",
+      "truth": [
+        "toilet"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000311081.jpg"
+    },
+    {
+      "image": "images/000000382122.jpg",
+      "image_id": 382122,
+      "split": "development",
+      "sha256": "b1398a7fa27d4a377f5055933e502c565b84cd76185c71094bb411c2e6d09e51",
+      "truth": [
+        "clock"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000382122.jpg"
+    },
+    {
+      "image": "images/000000062808.jpg",
+      "image_id": 62808,
+      "split": "development",
+      "sha256": "547ee9c5c2f5a1b0da558c30f01a92818961999392d205e88422bd4d5bb2e54e",
+      "truth": [
+        "bottle",
+        "cell phone",
+        "chair",
+        "dining table",
+        "knife",
+        "person",
+        "pizza"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000062808.jpg"
+    },
+    {
+      "image": "images/000000563349.jpg",
+      "image_id": 563349,
+      "split": "development",
+      "sha256": "c0cae527104995431e0e90c67a0805089e2ccfeabcc968ac67f0c5290b783792",
+      "truth": [
+        "person",
+        "snowboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000563349.jpg"
+    },
+    {
+      "image": "images/000000208901.jpg",
+      "image_id": 208901,
+      "split": "development",
+      "sha256": "cac12003fbac894b1ae9aae6e7361f74b6a5bc796ec3fd5c8cdc843cff4be320",
+      "truth": [
+        "airplane"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000208901.jpg"
+    },
+    {
+      "image": "images/000000356347.jpg",
+      "image_id": 356347,
+      "split": "development",
+      "sha256": "866001cc56b4cd99081f4a86677db1c83fbb412a89898df463698e97db9f20e6",
+      "truth": [
+        "bowl",
+        "spoon"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000356347.jpg"
+    },
+    {
+      "image": "images/000000363072.jpg",
+      "image_id": 363072,
+      "split": "development",
+      "sha256": "68ea39b2f7a4e31b6b0015350cd15e36025eea450fcef6e80a15cf252627500c",
+      "truth": [
+        "train"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000363072.jpg"
+    },
+    {
+      "image": "images/000000257566.jpg",
+      "image_id": 257566,
+      "split": "development",
+      "sha256": "c5c99da77c25fab2d20117f4cce7734825deb80d0e38385d6d6623bd86377c98",
+      "truth": [
+        "boat",
+        "cell phone",
+        "handbag",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000257566.jpg"
+    },
+    {
+      "image": "images/000000407614.jpg",
+      "image_id": 407614,
+      "split": "development",
+      "sha256": "dd3bddaa96d4d0beb4d8770a77dd76cbd9507f771e9d3c301ef84199ab8c083c",
+      "truth": [
+        "bottle",
+        "bowl",
+        "chair",
+        "cup",
+        "microwave",
+        "oven",
+        "potted plant",
+        "refrigerator",
+        "sink",
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000407614.jpg"
+    },
+    {
+      "image": "images/000000379533.jpg",
+      "image_id": 379533,
+      "split": "development",
+      "sha256": "1ae5c58f3c865066c4731ff6379d8781da8a25986b8c1c6c9028e7293a04ab51",
+      "truth": [
+        "elephant",
+        "zebra"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000379533.jpg"
+    },
+    {
+      "image": "images/000000370042.jpg",
+      "image_id": 370042,
+      "split": "development",
+      "sha256": "8b5795fbc21b0d2f327e63ed4a44eb9dccbcd36d5a85a420731f7d3abcc59bc1",
+      "truth": [
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000370042.jpg"
+    },
+    {
+      "image": "images/000000185409.jpg",
+      "image_id": 185409,
+      "split": "development",
+      "sha256": "9675e520965a741d41778599430395ad68c2446d597e80235961e042730639f8",
+      "truth": [
+        "zebra"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000185409.jpg"
+    },
+    {
+      "image": "images/000000071938.jpg",
+      "image_id": 71938,
+      "split": "development",
+      "sha256": "14dee6fc9af713e90dade9ae855bc9905ffc6ebe8de44adccd97d9f5a99ad153",
+      "truth": [
+        "bed",
+        "cell phone",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000071938.jpg"
+    },
+    {
+      "image": "images/000000476787.jpg",
+      "image_id": 476787,
+      "split": "development",
+      "sha256": "e349a7e122f8e2804bdcb3b959edc9acdc0a915949a7e4e986096d4d2398d195",
+      "truth": [
+        "bottle",
+        "bowl",
+        "cup",
+        "knife",
+        "pizza"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000476787.jpg"
+    },
+    {
+      "image": "images/000000177714.jpg",
+      "image_id": 177714,
+      "split": "development",
+      "sha256": "a657517c647e12a9f1fa3d6ca70ef672e6692f8c83d054cb60341a7b65f1daff",
+      "truth": [
+        "apple",
+        "carrot",
+        "fork"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000177714.jpg"
+    },
+    {
+      "image": "images/000000537991.jpg",
+      "image_id": 537991,
+      "split": "development",
+      "sha256": "54a0356ad918b76c12aa25e98aadd6720786eade12fe0676f63b802ecddf370c",
+      "truth": [
+        "cell phone",
+        "couch",
+        "laptop",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000537991.jpg"
+    },
+    {
+      "image": "images/000000050811.jpg",
+      "image_id": 50811,
+      "split": "development",
+      "sha256": "c69067b49ec7f1f07045130495c56fd29da44178965a33861b51a503a041acfa",
+      "truth": [
+        "bottle",
+        "bowl",
+        "cell phone",
+        "dining table",
+        "person",
+        "remote",
+        "tie"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000050811.jpg"
+    },
+    {
+      "image": "images/000000261706.jpg",
+      "image_id": 261706,
+      "split": "development",
+      "sha256": "6e89cb79c20d610eed019833b4fda2ff7376c8a8a086f3447cb292ec753c8a5e",
+      "truth": [
+        "cat",
+        "couch",
+        "remote"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000261706.jpg"
+    },
+    {
+      "image": "images/000000172946.jpg",
+      "image_id": 172946,
+      "split": "development",
+      "sha256": "1e756b137d72a1ea4e07b4689a55905202f5c01270d48009877329b0afc5e81a",
+      "truth": [
+        "person",
+        "remote",
+        "tv"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000172946.jpg"
+    },
+    {
+      "image": "images/000000233567.jpg",
+      "image_id": 233567,
+      "split": "development",
+      "sha256": "0f2deb33a988bbf55dd0c42d66e9b085356b0fe5609bbb7597b382c065c9e39e",
+      "truth": [
+        "cow",
+        "sheep"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000233567.jpg"
+    },
+    {
+      "image": "images/000000095069.jpg",
+      "image_id": 95069,
+      "split": "development",
+      "sha256": "ede9efc081430c76f84a0a7faa54e785abc03f5996f9e51a6854351ce4c8c644",
+      "truth": [
+        "clock"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000095069.jpg"
+    },
+    {
+      "image": "images/000000245102.jpg",
+      "image_id": 245102,
+      "split": "development",
+      "sha256": "0a80f5f2ab54c11477641ffa731a8afdcb5309d70bf2eb18c4c834b2bca90971",
+      "truth": [
+        "traffic light"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000245102.jpg"
+    },
+    {
+      "image": "images/000000025228.jpg",
+      "image_id": 25228,
+      "split": "development",
+      "sha256": "2b6b45ffe7197a9006a98ed31b8f55495bb876e0c224f1695810f04e61f626cd",
+      "truth": [
+        "person",
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000025228.jpg"
+    },
+    {
+      "image": "images/000000186624.jpg",
+      "image_id": 186624,
+      "split": "development",
+      "sha256": "b041e6c1451614e6a7a117291e6519729d38e292cf448cfbe5dab313f3aaa587",
+      "truth": [
+        "backpack",
+        "handbag",
+        "person",
+        "train"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000186624.jpg"
+    },
+    {
+      "image": "images/000000110638.jpg",
+      "image_id": 110638,
+      "split": "development",
+      "sha256": "e002401e4038fe47dbd68ccad90c1b5ef0365527d12fae72b4fbd3cfd7473dc9",
+      "truth": [
+        "elephant"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000110638.jpg"
+    },
+    {
+      "image": "images/000000045229.jpg",
+      "image_id": 45229,
+      "split": "development",
+      "sha256": "998d76a1367d02919e07a672c028b5f41ed2713000357cf3a8b6832ad7ca2368",
+      "truth": [
+        "book",
+        "bottle",
+        "bowl",
+        "oven",
+        "potted plant"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000045229.jpg"
+    },
+    {
+      "image": "images/000000242287.jpg",
+      "image_id": 242287,
+      "split": "development",
+      "sha256": "28926e1727c30c84dc8be5537cd607817dd39f44c40a03c822779135755d2d23",
+      "truth": [
+        "bicycle"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000242287.jpg"
+    },
+    {
+      "image": "images/000000423971.jpg",
+      "image_id": 423971,
+      "split": "development",
+      "sha256": "ad98f4d8afe26aa4431cc6d45729ade1413520333f1fc814f24f82cb052c5e12",
+      "truth": [
+        "toilet"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000423971.jpg"
+    },
+    {
+      "image": "images/000000379476.jpg",
+      "image_id": 379476,
+      "split": "development",
+      "sha256": "3db245a5ee0b45adfd3e1a8a514d6dbf287a9cadd52a9be7a2a18dd09bbfb325",
+      "truth": [
+        "chair",
+        "dining table",
+        "wine glass"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000379476.jpg"
+    },
+    {
+      "image": "images/000000451043.jpg",
+      "image_id": 451043,
+      "split": "development",
+      "sha256": "0b79c8133168ff166f8b7ece8095e8679a8187936c22c65cea6acc52ed9b2418",
+      "truth": [
+        "person",
+        "snowboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000451043.jpg"
+    },
+    {
+      "image": "images/000000166563.jpg",
+      "image_id": 166563,
+      "split": "development",
+      "sha256": "c8478b6b153105a252bd65c4c415da6c1f37f249e304cc6232d9b66c501e6d49",
+      "truth": [
+        "elephant"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000166563.jpg"
+    },
+    {
+      "image": "images/000000288042.jpg",
+      "image_id": 288042,
+      "split": "evaluation",
+      "sha256": "e914c0385ad155f468011797f4203ae3d43add6793154a3258f3efc2c87792d7",
+      "truth": [
+        "person",
+        "truck",
+        "umbrella"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000288042.jpg"
+    },
+    {
+      "image": "images/000000210502.jpg",
+      "image_id": 210502,
+      "split": "evaluation",
+      "sha256": "e8c709efa2312454086332cec788ab860055f2bf366437c87e66a5c4d3d935c3",
+      "truth": [
+        "train"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000210502.jpg"
+    },
+    {
+      "image": "images/000000498747.jpg",
+      "image_id": 498747,
+      "split": "evaluation",
+      "sha256": "0f461d36f7e1e4445f4ac6e8ee03a1999126394ecf28b53f4c51c1e016ae8858",
+      "truth": [
+        "bottle",
+        "cell phone",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000498747.jpg"
+    },
+    {
+      "image": "images/000000227898.jpg",
+      "image_id": 227898,
+      "split": "evaluation",
+      "sha256": "6169122c7fd64b036eb85598a7f1085a4f25c7ffb57f0e1ac61e0e2ea52196d0",
+      "truth": [
+        "bench",
+        "car",
+        "horse",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000227898.jpg"
+    },
+    {
+      "image": "images/000000011122.jpg",
+      "image_id": 11122,
+      "split": "evaluation",
+      "sha256": "74e9d13ddccbc52d2fd9da5984279a6218b250668e1ae1c6450be9d1ca2bc41a",
+      "truth": [
+        "stop sign"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000011122.jpg"
+    },
+    {
+      "image": "images/000000577959.jpg",
+      "image_id": 577959,
+      "split": "evaluation",
+      "sha256": "bdaff0380da866f91b3457760a54ea63131bf0e746cb14386d3dcbc3a6328258",
+      "truth": [
+        "kite",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000577959.jpg"
+    },
+    {
+      "image": "images/000000240940.jpg",
+      "image_id": 240940,
+      "split": "evaluation",
+      "sha256": "6e339df9c9ee33f5cb0217348ff1421b253caf8b32fc2d27cf758f31a06a8e7c",
+      "truth": [
+        "book",
+        "car",
+        "cat",
+        "refrigerator",
+        "tv"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000240940.jpg"
+    },
+    {
+      "image": "images/000000161044.jpg",
+      "image_id": 161044,
+      "split": "evaluation",
+      "sha256": "c9956965842a9a164f3159e7e490468dff2e014d899be5273b079c50d5180d3d",
+      "truth": [
+        "airplane"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000161044.jpg"
+    },
+    {
+      "image": "images/000000049810.jpg",
+      "image_id": 49810,
+      "split": "evaluation",
+      "sha256": "d8fd48490a34f0f1e206a6206653881036e889e79c022f1ef97fb05dafdccf9a",
+      "truth": [
+        "bench",
+        "cat"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000049810.jpg"
+    },
+    {
+      "image": "images/000000036494.jpg",
+      "image_id": 36494,
+      "split": "evaluation",
+      "sha256": "08defd539aa6aaea4f85c03b650b6b3d4ceb5d47e65a29d9aa17d18915daf9b8",
+      "truth": [
+        "bottle",
+        "bowl",
+        "chair",
+        "clock",
+        "cup",
+        "dining table",
+        "person",
+        "refrigerator",
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000036494.jpg"
+    },
+    {
+      "image": "images/000000270297.jpg",
+      "image_id": 270297,
+      "split": "evaluation",
+      "sha256": "c3bf6e40c2108e285af5b941cd8ebc5693254bb73e4fbce330a97538079260ec",
+      "truth": [
+        "person",
+        "train"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000270297.jpg"
+    },
+    {
+      "image": "images/000000470779.jpg",
+      "image_id": 470779,
+      "split": "evaluation",
+      "sha256": "d85ff30a9bd3d7fcf36a4deee3500bc289c37489f081c367a98ba1435ed92314",
+      "truth": [
+        "backpack",
+        "person",
+        "skis",
+        "snowboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000470779.jpg"
+    },
+    {
+      "image": "images/000000541291.jpg",
+      "image_id": 541291,
+      "split": "evaluation",
+      "sha256": "3a994cffa3c30e9066f3083a507fb80bf863ea55075c8707bb8ddbe2dc69d834",
+      "truth": [
+        "sink"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000541291.jpg"
+    },
+    {
+      "image": "images/000000132931.jpg",
+      "image_id": 132931,
+      "split": "evaluation",
+      "sha256": "864021ab3a93ca6ca3ebe071a1fa75d2825960183a0921eebf22da0b725e1e6c",
+      "truth": [
+        "baseball glove",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000132931.jpg"
+    },
+    {
+      "image": "images/000000255165.jpg",
+      "image_id": 255165,
+      "split": "evaluation",
+      "sha256": "f7e0fd0c8f9c0bd753be75b504f0e41e3b3109259107bf7a8f27c7c950bccbe7",
+      "truth": [
+        "book",
+        "cup",
+        "keyboard",
+        "laptop",
+        "mouse",
+        "tv"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000255165.jpg"
+    },
+    {
+      "image": "images/000000451150.jpg",
+      "image_id": 451150,
+      "split": "evaluation",
+      "sha256": "d332bf4136013b6dec66c97b0668f3ee80aaab9aa92c821b62a1b323a781df07",
+      "truth": [
+        "donut"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000451150.jpg"
+    },
+    {
+      "image": "images/000000440475.jpg",
+      "image_id": 440475,
+      "split": "evaluation",
+      "sha256": "9f183229fce4e13f8651f6c3c349d2fcae6057debc691cafe80658a63bc2351f",
+      "truth": [
+        "apple",
+        "book",
+        "bowl",
+        "chair",
+        "couch",
+        "dining table",
+        "person",
+        "tv",
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000440475.jpg"
+    },
+    {
+      "image": "images/000000235252.jpg",
+      "image_id": 235252,
+      "split": "evaluation",
+      "sha256": "695345146f2a6b6716aa2b2f71c4a5acdab139218d0ea9959c40e7f2af1f6fb7",
+      "truth": [
+        "giraffe"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000235252.jpg"
+    },
+    {
+      "image": "images/000000288685.jpg",
+      "image_id": 288685,
+      "split": "evaluation",
+      "sha256": "cd33f1aae3ea110b6de7b35f2225bce018cf30248a78652955678d67b4c19a21",
+      "truth": [
+        "bench",
+        "dog",
+        "handbag",
+        "person",
+        "sheep"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000288685.jpg"
+    },
+    {
+      "image": "images/000000323496.jpg",
+      "image_id": 323496,
+      "split": "evaluation",
+      "sha256": "54fdf53eb11798dd1b1876de56776797b40da1b5805c593e91a80e76d002a286",
+      "truth": [
+        "bench",
+        "person",
+        "sports ball",
+        "tennis racket"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000323496.jpg"
+    },
+    {
+      "image": "images/000000101068.jpg",
+      "image_id": 101068,
+      "split": "evaluation",
+      "sha256": "c7e214905c25c01403f3677f0c4070bd70a285f3aa8bafd6711bd27d73453bf9",
+      "truth": [
+        "baseball bat",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000101068.jpg"
+    },
+    {
+      "image": "images/000000050638.jpg",
+      "image_id": 50638,
+      "split": "evaluation",
+      "sha256": "7bddfb9dcb6fced3a5d40fa18ba6bd6ee2f769b37d980989620007b29765ff84",
+      "truth": [
+        "person",
+        "teddy bear"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000050638.jpg"
+    },
+    {
+      "image": "images/000000172648.jpg",
+      "image_id": 172648,
+      "split": "evaluation",
+      "sha256": "09eb185b95f7ff9b2fbfd0ede3a704f227fcd02d6b1d1a5cbb891a8536e21157",
+      "truth": [
+        "car",
+        "person",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000172648.jpg"
+    },
+    {
+      "image": "images/000000402783.jpg",
+      "image_id": 402783,
+      "split": "evaluation",
+      "sha256": "3fd9f4dd5ba7c92961bed3485d297b7c4f28262fc13b10c851ab8ff940183b8c",
+      "truth": [
+        "orange"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000402783.jpg"
+    },
+    {
+      "image": "images/000000475779.jpg",
+      "image_id": 475779,
+      "split": "evaluation",
+      "sha256": "b8aba7fdf9b84905e8e09146c6ed262eb91f55b38abf6b6df8c4c59a75885a8a",
+      "truth": [
+        "elephant"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000475779.jpg"
+    },
+    {
+      "image": "images/000000044068.jpg",
+      "image_id": 44068,
+      "split": "evaluation",
+      "sha256": "f87295880cbe28c49af27753a63cf939b78192da5dfed7d01d9a8087b8976af3",
+      "truth": [
+        "chair",
+        "teddy bear"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000044068.jpg"
+    },
+    {
+      "image": "images/000000297427.jpg",
+      "image_id": 297427,
+      "split": "evaluation",
+      "sha256": "eaf7b61fe63d008cf2660f87ba4b96cdbb7ea93094617efb26628501a42c31f8",
+      "truth": [
+        "donut",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000297427.jpg"
+    },
+    {
+      "image": "images/000000554838.jpg",
+      "image_id": 554838,
+      "split": "evaluation",
+      "sha256": "12f576eed10d3ee8885c075bbac45e654ab2511a2042898413f7928acf52b378",
+      "truth": [
+        "bottle",
+        "refrigerator"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000554838.jpg"
+    },
+    {
+      "image": "images/000000117374.jpg",
+      "image_id": 117374,
+      "split": "evaluation",
+      "sha256": "d5af6e66ee264eae5e041c5894be1ff7d78141b1aeccc13b7115cf4bd96ebfcb",
+      "truth": [
+        "bird",
+        "cat"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000117374.jpg"
+    },
+    {
+      "image": "images/000000541634.jpg",
+      "image_id": 541634,
+      "split": "evaluation",
+      "sha256": "238f614674164a4c3d3d2e57980a2aa32788f03fc269daf80123ca9e2a1ed6d4",
+      "truth": [
+        "bowl",
+        "broccoli",
+        "cup",
+        "dining table",
+        "spoon"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000541634.jpg"
+    },
+    {
+      "image": "images/000000537506.jpg",
+      "image_id": 537506,
+      "split": "evaluation",
+      "sha256": "eb926dac8bba2ef2c30db3833fddf6229c21b5d3331f20da193b86231060a4ef",
+      "truth": [
+        "apple",
+        "car",
+        "handbag",
+        "person",
+        "umbrella"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000537506.jpg"
+    },
+    {
+      "image": "images/000000125405.jpg",
+      "image_id": 125405,
+      "split": "evaluation",
+      "sha256": "aeb172b088be9b334a97fcd4df1fe89b5730bc5836765a23c82f2b8b4ff3d03b",
+      "truth": [
+        "dog",
+        "frisbee"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000125405.jpg"
+    },
+    {
+      "image": "images/000000528578.jpg",
+      "image_id": 528578,
+      "split": "evaluation",
+      "sha256": "f4e6671d9be6d7bb897365eaad70051c1eaa4e292947f7e547e53fa4ddb3b55d",
+      "truth": [
+        "clock",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000528578.jpg"
+    },
+    {
+      "image": "images/000000155291.jpg",
+      "image_id": 155291,
+      "split": "evaluation",
+      "sha256": "8fb839e348366168cc0fd36a8066d04019131b18024bf1edd72f404dd4712996",
+      "truth": [
+        "cat"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000155291.jpg"
+    },
+    {
+      "image": "images/000000341921.jpg",
+      "image_id": 341921,
+      "split": "evaluation",
+      "sha256": "40ec6e7a9b261979db6c8294b0cd9c0228541ed6647d3aaf129a6e6915bfe267",
+      "truth": [
+        "backpack",
+        "bench",
+        "book",
+        "car",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000341921.jpg"
+    },
+    {
+      "image": "images/000000248284.jpg",
+      "image_id": 248284,
+      "split": "evaluation",
+      "sha256": "9f3308ac7ee40f7e983b1f36adb8a65244063a1cebcd609407951d5457bd260a",
+      "truth": [
+        "handbag",
+        "person",
+        "traffic light",
+        "umbrella"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000248284.jpg"
+    },
+    {
+      "image": "images/000000318080.jpg",
+      "image_id": 318080,
+      "split": "evaluation",
+      "sha256": "c7acb98203e36fe331a1ecd7a9fbd816edc6143725ac5fc81c118fcdea031328",
+      "truth": [
+        "bear"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000318080.jpg"
+    },
+    {
+      "image": "images/000000343706.jpg",
+      "image_id": 343706,
+      "split": "evaluation",
+      "sha256": "4207680ffcb21507f686d815a1119b4f7d1d70b1a766addbd0d0f15cc31cc493",
+      "truth": [
+        "cell phone",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000343706.jpg"
+    },
+    {
+      "image": "images/000000194724.jpg",
+      "image_id": 194724,
+      "split": "evaluation",
+      "sha256": "ef3c018f96fdab2b7bfb28ffd8b952535c8c1084d2a39eb5133c14e585c137c4",
+      "truth": [
+        "book",
+        "bottle",
+        "cell phone",
+        "chair",
+        "cup",
+        "dining table",
+        "fork",
+        "pizza",
+        "refrigerator"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000194724.jpg"
+    },
+    {
+      "image": "images/000000153510.jpg",
+      "image_id": 153510,
+      "split": "evaluation",
+      "sha256": "cbf6cd5b43a03cf1e7abb01f239c577d3125285b00b463991145b9b6929a6d3b",
+      "truth": [
+        "broccoli",
+        "carrot"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000153510.jpg"
+    },
+    {
+      "image": "images/000000088848.jpg",
+      "image_id": 88848,
+      "split": "evaluation",
+      "sha256": "b919218033c7e8beb8621a0d3ebf9e3460a06c6c7f0f2690433fe4be88d0dd64",
+      "truth": [
+        "backpack",
+        "boat",
+        "fire hydrant",
+        "handbag",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000088848.jpg"
+    },
+    {
+      "image": "images/000000475678.jpg",
+      "image_id": 475678,
+      "split": "evaluation",
+      "sha256": "90536452d9eab598526aca535f1e7894e1668b05ea51c32738b37d2c260f3753",
+      "truth": [
+        "suitcase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000475678.jpg"
+    },
+    {
+      "image": "images/000000042102.jpg",
+      "image_id": 42102,
+      "split": "evaluation",
+      "sha256": "13adc5e53fd4b2e2610663744fbc76be64abf81a2932bf2acf26afb5e107368c",
+      "truth": [
+        "handbag",
+        "person",
+        "tie"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000042102.jpg"
+    },
+    {
+      "image": "images/000000028449.jpg",
+      "image_id": 28449,
+      "split": "evaluation",
+      "sha256": "520039fa3e2dad9a09632c7f5c5babb2ac30ce78137d3d140372ea6d43cd3ff2",
+      "truth": [
+        "elephant"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000028449.jpg"
+    },
+    {
+      "image": "images/000000311518.jpg",
+      "image_id": 311518,
+      "split": "evaluation",
+      "sha256": "4278aef9f1583ee3509b245f7eff537b23f345094260fc5b269b8068e2e543b8",
+      "truth": [
+        "boat"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000311518.jpg"
+    },
+    {
+      "image": "images/000000392933.jpg",
+      "image_id": 392933,
+      "split": "evaluation",
+      "sha256": "12968fb52b7bd01d2e9a77bc7c7a7ff1c7e9ebb2527f8af5c64bceebed8addcf",
+      "truth": [
+        "giraffe"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000392933.jpg"
+    },
+    {
+      "image": "images/000000449661.jpg",
+      "image_id": 449661,
+      "split": "evaluation",
+      "sha256": "2895c86db358797e7524830ceff5826d3f0bbaf9a79ca717e8e2c587ff4631e3",
+      "truth": [
+        "bed",
+        "chair",
+        "person",
+        "sink",
+        "tv"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000449661.jpg"
+    },
+    {
+      "image": "images/000000041872.jpg",
+      "image_id": 41872,
+      "split": "evaluation",
+      "sha256": "9ef41d1689519ff9d93fcd59fdd4ab43e9ba205f76b23fc1aeaf4f2d5cc5337e",
+      "truth": [
+        "bed",
+        "chair",
+        "clock",
+        "tv"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000041872.jpg"
+    },
+    {
+      "image": "images/000000338304.jpg",
+      "image_id": 338304,
+      "split": "evaluation",
+      "sha256": "87908252c0c03d2ae5b0e0c118860b089b6938b83a6121e3b8e1beb97bb7ce30",
+      "truth": [
+        "cell phone",
+        "handbag",
+        "person",
+        "sheep"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000338304.jpg"
+    },
+    {
+      "image": "images/000000067180.jpg",
+      "image_id": 67180,
+      "split": "evaluation",
+      "sha256": "ab41dd4de57cbe9067c5d279778605032b3b44832e679f44af1cfde72e8911ea",
+      "truth": [
+        "bench",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000067180.jpg"
+    },
+    {
+      "image": "images/000000169076.jpg",
+      "image_id": 169076,
+      "split": "evaluation",
+      "sha256": "01691e2b44fc35cbaf9f7aace00aba77f7324edf5de3d06d633b3fe239bd73df",
+      "truth": [
+        "bed",
+        "cat",
+        "dog",
+        "person",
+        "tv"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000169076.jpg"
+    },
+    {
+      "image": "images/000000063154.jpg",
+      "image_id": 63154,
+      "split": "evaluation",
+      "sha256": "dcabe02e909c4b02f7796008b70312d5a4a10d8b1ad7b957393508eae0a52887",
+      "truth": [
+        "person",
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000063154.jpg"
+    },
+    {
+      "image": "images/000000011813.jpg",
+      "image_id": 11813,
+      "split": "evaluation",
+      "sha256": "a7387846c67b6900e02eeca0b3fdddfde24d44e336950f38ee2b54a91d5874be",
+      "truth": [
+        "chair",
+        "laptop"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000011813.jpg"
+    },
+    {
+      "image": "images/000000090284.jpg",
+      "image_id": 90284,
+      "split": "evaluation",
+      "sha256": "6337308cc3e54d38c875788f1906158697fc25fe48b05bf4b8f8ef1850469f18",
+      "truth": [
+        "person",
+        "tennis racket"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000090284.jpg"
+    },
+    {
+      "image": "images/000000378454.jpg",
+      "image_id": 378454,
+      "split": "evaluation",
+      "sha256": "1ae76b4a2a9b1f4cb20cbc63977de7326eba87405aac9e16d0e958619ebccd98",
+      "truth": [
+        "frisbee",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000378454.jpg"
+    },
+    {
+      "image": "images/000000489842.jpg",
+      "image_id": 489842,
+      "split": "evaluation",
+      "sha256": "f7f10f095d48750b8a7115ce18c4a140c14f5f22f439963a30674d0ecf26ba86",
+      "truth": [
+        "person",
+        "tie",
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000489842.jpg"
+    },
+    {
+      "image": "images/000000497568.jpg",
+      "image_id": 497568,
+      "split": "evaluation",
+      "sha256": "02de0154b5ee5226abb14ec491c521600950b74ca917865d325f3d9a8e62b9a3",
+      "truth": [
+        "airplane",
+        "person",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000497568.jpg"
+    },
+    {
+      "image": "images/000000336209.jpg",
+      "image_id": 336209,
+      "split": "evaluation",
+      "sha256": "8d15da4c86f55473e74dbae34ad2a94f067aab9eaf56bea037ccee3a6f0814ef",
+      "truth": [
+        "bench",
+        "person",
+        "skateboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000336209.jpg"
+    },
+    {
+      "image": "images/000000417632.jpg",
+      "image_id": 417632,
+      "split": "evaluation",
+      "sha256": "665996069d6d83ebbd634b262936a468d63947f1c9ace9cd74d4e2737133b8e4",
+      "truth": [
+        "bottle",
+        "bowl",
+        "cup",
+        "handbag",
+        "person",
+        "tie",
+        "wine glass"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000417632.jpg"
+    },
+    {
+      "image": "images/000000511398.jpg",
+      "image_id": 511398,
+      "split": "evaluation",
+      "sha256": "7948bc967ac3b7526ce99e970eae3e87832cace645299565ef5da3d8b20d96b4",
+      "truth": [
+        "dog"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000511398.jpg"
+    },
+    {
+      "image": "images/000000306136.jpg",
+      "image_id": 306136,
+      "split": "evaluation",
+      "sha256": "4409dddd7ba4c58cd3c8f37f170075677db1284d34e75bd312b9cb84f528268d",
+      "truth": [
+        "bicycle",
+        "bus",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000306136.jpg"
+    },
+    {
+      "image": "images/000000047769.jpg",
+      "image_id": 47769,
+      "split": "evaluation",
+      "sha256": "05ded59f58ff9936caaecf0be4cbe8ac15aae965828d9d11734825deb0fb7ea6",
+      "truth": [
+        "chair",
+        "couch",
+        "dining table",
+        "tv"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000047769.jpg"
+    },
+    {
+      "image": "images/000000257478.jpg",
+      "image_id": 257478,
+      "split": "evaluation",
+      "sha256": "7cd8ad2ab327eb205ec2f0c2972f22f23aba50bf9e60fcbb90e23037e215f82d",
+      "truth": [
+        "baseball glove",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000257478.jpg"
+    },
+    {
+      "image": "images/000000329041.jpg",
+      "image_id": 329041,
+      "split": "evaluation",
+      "sha256": "e7b699bba23d6e61b6e921c247d483e37e9d42cd3f18b1555490ad1b8a666f62",
+      "truth": [
+        "handbag",
+        "person",
+        "suitcase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000329041.jpg"
+    },
+    {
+      "image": "images/000000342186.jpg",
+      "image_id": 342186,
+      "split": "evaluation",
+      "sha256": "2cc24743f4674e542c9b20ff4b23f4af3ffedd445cd0285e0888ec91b7e6ad99",
+      "truth": [
+        "dining table",
+        "pizza"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000342186.jpg"
+    },
+    {
+      "image": "images/000000358427.jpg",
+      "image_id": 358427,
+      "split": "evaluation",
+      "sha256": "075b357e2d31b1bc48489a7d8cbe18473e6b4801472b8306365f68a37ae1030f",
+      "truth": [
+        "broccoli",
+        "fork"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000358427.jpg"
+    },
+    {
+      "image": "images/000000047010.jpg",
+      "image_id": 47010,
+      "split": "evaluation",
+      "sha256": "d3d2e08209430be0d54b9aab3b6bd7c8ce4c2ddd79b9ed7f994dbb3bc5134856",
+      "truth": [
+        "cow",
+        "giraffe"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000047010.jpg"
+    },
+    {
+      "image": "images/000000048396.jpg",
+      "image_id": 48396,
+      "split": "evaluation",
+      "sha256": "7bcd2860143837c1dd81c63236d02526e832ba83f181162f101f232dff0b35f4",
+      "truth": [
+        "cake",
+        "chair",
+        "cup",
+        "dining table",
+        "knife",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000048396.jpg"
+    },
+    {
+      "image": "images/000000356432.jpg",
+      "image_id": 356432,
+      "split": "evaluation",
+      "sha256": "61bcd9574a1f84e1a2be178071179a5355e660672e3325fbd6e6b89c66090729",
+      "truth": [
+        "couch",
+        "cup",
+        "keyboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000356432.jpg"
+    },
+    {
+      "image": "images/000000252216.jpg",
+      "image_id": 252216,
+      "split": "evaluation",
+      "sha256": "4d1e6e1342d3ec42bd4aa18e64e0a3c3fd928c093730c8cc62212d89724dec90",
+      "truth": [
+        "horse"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000252216.jpg"
+    },
+    {
+      "image": "images/000000502599.jpg",
+      "image_id": 502599,
+      "split": "evaluation",
+      "sha256": "bf53a16ada54c785bc30d01c703129ab2d4de818cbecfbd2a9f0851d1e232138",
+      "truth": [
+        "airplane"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000502599.jpg"
+    },
+    {
+      "image": "images/000000057150.jpg",
+      "image_id": 57150,
+      "split": "evaluation",
+      "sha256": "ae7e6f712229d1ab128aab94e4b358c2dd58b63af4e45438bf9aa0d089eb963f",
+      "truth": [
+        "backpack",
+        "person",
+        "teddy bear"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000057150.jpg"
+    },
+    {
+      "image": "images/000000084477.jpg",
+      "image_id": 84477,
+      "split": "evaluation",
+      "sha256": "182bab08d6173f7d044f291b2493833dcd7ce61f54bd83e0ecfc2e58b22e33b2",
+      "truth": [
+        "chair",
+        "person",
+        "umbrella"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000084477.jpg"
+    },
+    {
+      "image": "images/000000172649.jpg",
+      "image_id": 172649,
+      "split": "evaluation",
+      "sha256": "cab16032364caf6808cde47a8be432d3efb71c2c8c114285443fbccf108692e1",
+      "truth": [
+        "person",
+        "skateboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000172649.jpg"
+    },
+    {
+      "image": "images/000000091615.jpg",
+      "image_id": 91615,
+      "split": "evaluation",
+      "sha256": "4129b8e7fd52e262d9dffbddb3c5d0287b6e0cb0933315f84ddd1f30c0c98441",
+      "truth": [
+        "book",
+        "bottle",
+        "bowl",
+        "cup",
+        "microwave",
+        "oven",
+        "sink",
+        "tv",
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000091615.jpg"
+    },
+    {
+      "image": "images/000000179653.jpg",
+      "image_id": 179653,
+      "split": "evaluation",
+      "sha256": "fb70e639d74155523fbcba2071e6a1461071f18d9f58805f40e7adf2c3cd649e",
+      "truth": [
+        "clock"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000179653.jpg"
+    },
+    {
+      "image": "images/000000285349.jpg",
+      "image_id": 285349,
+      "split": "evaluation",
+      "sha256": "90d1860527359f379c0ae6b270b1e1d5aaebd06c17151619788d46969e6e8a05",
+      "truth": [
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000285349.jpg"
+    },
+    {
+      "image": "images/000000380913.jpg",
+      "image_id": 380913,
+      "split": "evaluation",
+      "sha256": "5e9b8a7ce105df1ca2551d8b00101b53c53140a7a27cfbb6d549197a6798b707",
+      "truth": [
+        "cell phone",
+        "handbag",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000380913.jpg"
+    },
+    {
+      "image": "images/000000132329.jpg",
+      "image_id": 132329,
+      "split": "evaluation",
+      "sha256": "78a2bdb448e5729fe89f9a4c768bdf6164ccb992e52aa7469d3c4c82a8707e49",
+      "truth": [
+        "bottle",
+        "refrigerator"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000132329.jpg"
+    },
+    {
+      "image": "images/000000039951.jpg",
+      "image_id": 39951,
+      "split": "evaluation",
+      "sha256": "471847fe98e8c4672ed59c9cc73fe3699c9654152f667a65a586fb2c24500834",
+      "truth": [
+        "person",
+        "sports ball",
+        "tennis racket"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000039951.jpg"
+    },
+    {
+      "image": "images/000000054593.jpg",
+      "image_id": 54593,
+      "split": "evaluation",
+      "sha256": "2927085bfe4c7b09fc4cea90216f71beedcaed0ec501cdb06630bf40b126ec25",
+      "truth": [
+        "backpack",
+        "baseball bat",
+        "baseball glove",
+        "bottle",
+        "car",
+        "chair",
+        "motorcycle",
+        "person",
+        "sports ball"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000054593.jpg"
+    },
+    {
+      "image": "images/000000316666.jpg",
+      "image_id": 316666,
+      "split": "evaluation",
+      "sha256": "9435bba3fd0dd221b88cb8d712996a91c7f0a9be6ffc349eb03835720029b084",
+      "truth": [
+        "book",
+        "bottle",
+        "bowl",
+        "clock",
+        "cup",
+        "dining table",
+        "vase",
+        "wine glass"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000316666.jpg"
+    },
+    {
+      "image": "images/000000312552.jpg",
+      "image_id": 312552,
+      "split": "evaluation",
+      "sha256": "48debaf09e71230fc9aad193c78d4b35e150b48bbeeb1959a663223761ad5efd",
+      "truth": [
+        "person",
+        "pizza"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000312552.jpg"
+    },
+    {
+      "image": "images/000000179898.jpg",
+      "image_id": 179898,
+      "split": "evaluation",
+      "sha256": "83881e46c85859364f569994e2cec8e63525926d66779815b08ee77df493eb97",
+      "truth": [
+        "backpack",
+        "book",
+        "chair",
+        "dining table",
+        "hot dog",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000179898.jpg"
+    },
+    {
+      "image": "images/000000350002.jpg",
+      "image_id": 350002,
+      "split": "evaluation",
+      "sha256": "da0150f99c3e14a4ab56679028ef2cd6a0d467d998ca223ca2a586d92593154c",
+      "truth": [
+        "hair drier",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000350002.jpg"
+    },
+    {
+      "image": "images/000000396903.jpg",
+      "image_id": 396903,
+      "split": "evaluation",
+      "sha256": "bba5cfd5761b87880d5e939b101e86285ee58bc22a52e8eb01a5badda5e7962d",
+      "truth": [
+        "airplane",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000396903.jpg"
+    },
+    {
+      "image": "images/000000168458.jpg",
+      "image_id": 168458,
+      "split": "evaluation",
+      "sha256": "9d79b9739c0ebb2089e3475b9a664ebd982a1b6ed2d93739590a5bbc1f5bbd5e",
+      "truth": [
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000168458.jpg"
+    },
+    {
+      "image": "images/000000501243.jpg",
+      "image_id": 501243,
+      "split": "evaluation",
+      "sha256": "563be53973f8385eb1927f5f1ca5c4732272566a45000db7a21f99501ec5e233",
+      "truth": [
+        "zebra"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000501243.jpg"
+    },
+    {
+      "image": "images/000000144798.jpg",
+      "image_id": 144798,
+      "split": "evaluation",
+      "sha256": "097ec56a2d66a8ed90190da09b1fa35ec1b960fbae9afb1894a3ee0b56e3b2e4",
+      "truth": [
+        "book",
+        "bottle",
+        "cup",
+        "toilet"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000144798.jpg"
+    },
+    {
+      "image": "images/000000259854.jpg",
+      "image_id": 259854,
+      "split": "evaluation",
+      "sha256": "75df0302d3818cd27c7ea7dd131bcc172ca058377a977dd30df667160670296b",
+      "truth": [
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000259854.jpg"
+    },
+    {
+      "image": "images/000000336053.jpg",
+      "image_id": 336053,
+      "split": "evaluation",
+      "sha256": "28cbe23d3cc16ff41ab438987bca6dbb4b3fa174d04c1c241658312b1b1dcfc1",
+      "truth": [
+        "carrot",
+        "chair",
+        "cup",
+        "dining table",
+        "fork",
+        "person",
+        "spoon",
+        "wine glass"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000336053.jpg"
+    },
+    {
+      "image": "images/000000470121.jpg",
+      "image_id": 470121,
+      "split": "evaluation",
+      "sha256": "ba9c3196c76031a4e7ff21027ac91c6018860085999d1576175719b467b1efa9",
+      "truth": [
+        "bottle",
+        "bowl",
+        "cake",
+        "dining table"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000470121.jpg"
+    },
+    {
+      "image": "images/000000364636.jpg",
+      "image_id": 364636,
+      "split": "evaluation",
+      "sha256": "eac5667435413331e352fdf585c8930e537f8fd7919790888a3e5ab8f2394ae9",
+      "truth": [
+        "bench",
+        "dog"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000364636.jpg"
+    },
+    {
+      "image": "images/000000085772.jpg",
+      "image_id": 85772,
+      "split": "evaluation",
+      "sha256": "c21e2a798c8463fa01aace0312ddfb55bd6898565c8c3f6c22e87ea0d803128d",
+      "truth": [
+        "person",
+        "sports ball",
+        "tennis racket"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000085772.jpg"
+    },
+    {
+      "image": "images/000000028809.jpg",
+      "image_id": 28809,
+      "split": "evaluation",
+      "sha256": "ae2c7be44df33d27135b6aa2f5d82d4c8bb9784e99469a04be708ee68943a45d",
+      "truth": [
+        "banana"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000028809.jpg"
+    },
+    {
+      "image": "images/000000119641.jpg",
+      "image_id": 119641,
+      "split": "evaluation",
+      "sha256": "4c194846e3c0bbac0667517f786ecfa4677d6687791a2a1123ecf72840370464",
+      "truth": [
+        "elephant",
+        "person",
+        "tie"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000119641.jpg"
+    },
+    {
+      "image": "images/000000088265.jpg",
+      "image_id": 88265,
+      "split": "evaluation",
+      "sha256": "91f854ea66dbbc6fc3dd1cfe4410157be13194bc8e083dc79032aef5af2c81cc",
+      "truth": [
+        "horse"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000088265.jpg"
+    },
+    {
+      "image": "images/000000454978.jpg",
+      "image_id": 454978,
+      "split": "evaluation",
+      "sha256": "6b2614bab34a31ada0b112c2ed29af589929aa7cf02978ad1ab41c9b1b6c512b",
+      "truth": [
+        "motorcycle"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000454978.jpg"
+    },
+    {
+      "image": "images/000000100283.jpg",
+      "image_id": 100283,
+      "split": "evaluation",
+      "sha256": "6d8f00dd337db5c1422c9d8acfa515462b5b188f3287d04ad82bca23dc63f264",
+      "truth": [
+        "car",
+        "stop sign"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000100283.jpg"
+    },
+    {
+      "image": "images/000000566042.jpg",
+      "image_id": 566042,
+      "split": "evaluation",
+      "sha256": "9eee0276629bf7fdce167f100841c3f4f17c38128938acba183b790d2ca8ef41",
+      "truth": [
+        "giraffe"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000566042.jpg"
+    },
+    {
+      "image": "images/000000334555.jpg",
+      "image_id": 334555,
+      "split": "evaluation",
+      "sha256": "4a388fd316719eb740ad6b6c710dc5b8cf13be8abdff0030597ae15fd71b63aa",
+      "truth": [
+        "car",
+        "cell phone",
+        "cow",
+        "handbag",
+        "person",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000334555.jpg"
+    },
+    {
+      "image": "images/000000076625.jpg",
+      "image_id": 76625,
+      "split": "evaluation",
+      "sha256": "e7d1448bc57f8ffd10a19d12665a164779add701e07daa67b82ff51480a4105e",
+      "truth": [
+        "cell phone",
+        "handbag",
+        "person",
+        "train"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000076625.jpg"
+    },
+    {
+      "image": "images/000000429623.jpg",
+      "image_id": 429623,
+      "split": "evaluation",
+      "sha256": "2cb147fefa5e4a7fea0e2a87d0564864105df1b6c4d8adfa6b45ca9a74740bda",
+      "truth": [
+        "chair",
+        "dining table",
+        "fork",
+        "pizza"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000429623.jpg"
+    },
+    {
+      "image": "images/000000309391.jpg",
+      "image_id": 309391,
+      "split": "evaluation",
+      "sha256": "8ed212a0ffcf1b3d5f1fb307839030fb41aed1ff7488845a3bed02e386474082",
+      "truth": [
+        "bicycle",
+        "bus",
+        "car",
+        "person",
+        "traffic light"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000309391.jpg"
+    },
+    {
+      "image": "images/000000407825.jpg",
+      "image_id": 407825,
+      "split": "evaluation",
+      "sha256": "0871a7c6e308afd0675688a556254bec9652d9ffe5be9f991b4030817e714f50",
+      "truth": [
+        "apple",
+        "bird",
+        "bowl",
+        "clock",
+        "potted plant"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000407825.jpg"
+    },
+    {
+      "image": "images/000000372577.jpg",
+      "image_id": 372577,
+      "split": "evaluation",
+      "sha256": "d5c469f4bcf2228dbadb1890841a4fba197adac78b2afc736ce23645cca8e92a",
+      "truth": [
+        "person",
+        "tennis racket"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000372577.jpg"
+    },
+    {
+      "image": "images/000000507015.jpg",
+      "image_id": 507015,
+      "split": "evaluation",
+      "sha256": "3e1e27b0ffcd3d5673c69ba4914fa68ab44c23716e2435111ea5298648e68a70",
+      "truth": [
+        "baseball glove",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000507015.jpg"
+    },
+    {
+      "image": "images/000000329080.jpg",
+      "image_id": 329080,
+      "split": "evaluation",
+      "sha256": "52eabab8da99db60a5f3e356ba6a1b7a418ede74e873aeb180586925590e27e6",
+      "truth": [
+        "bed",
+        "suitcase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000329080.jpg"
+    },
+    {
+      "image": "images/000000003255.jpg",
+      "image_id": 3255,
+      "split": "evaluation",
+      "sha256": "c075f51a798e65d23e1c65a3fcc7736aeae4e03fbdd126f6d6b82cb07957d28b",
+      "truth": [
+        "backpack",
+        "person",
+        "skis"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000003255.jpg"
+    },
+    {
+      "image": "images/000000055002.jpg",
+      "image_id": 55002,
+      "split": "evaluation",
+      "sha256": "df75b3c0b09e519fa531f8bb57d27bb6eb86f0e2a951c47c8defe593746fef77",
+      "truth": [
+        "person",
+        "toilet"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000055002.jpg"
+    },
+    {
+      "image": "images/000000480842.jpg",
+      "image_id": 480842,
+      "split": "evaluation",
+      "sha256": "fa24a7f3a0142e7dc8182d2ea76520d5b06c09ce89b6220fa565ac8a22c605fd",
+      "truth": [
+        "giraffe"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000480842.jpg"
+    },
+    {
+      "image": "images/000000466567.jpg",
+      "image_id": 466567,
+      "split": "evaluation",
+      "sha256": "a0cba3048fa7c5c5c8a1a40b9411b170097334e1c1a15daafc35cb0736c0f987",
+      "truth": [
+        "donut"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000466567.jpg"
+    },
+    {
+      "image": "images/000000248810.jpg",
+      "image_id": 248810,
+      "split": "evaluation",
+      "sha256": "45f0c3ff2c7a8ff6ea3b6ae2f697e1e1254a729675d2d1c38439e36aae8c7f1b",
+      "truth": [
+        "giraffe",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000248810.jpg"
+    },
+    {
+      "image": "images/000000171740.jpg",
+      "image_id": 171740,
+      "split": "evaluation",
+      "sha256": "c40e1b4cfeb630f49af0513dfa0992d90d05a83235caf85c5670b5d7d6c3282c",
+      "truth": [
+        "clock",
+        "couch",
+        "cup"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000171740.jpg"
+    },
+    {
+      "image": "images/000000572388.jpg",
+      "image_id": 572388,
+      "split": "evaluation",
+      "sha256": "b20f2652ed377a5340cb8ca273348ba58ebf50465d6818a42ae4e74647d8ade4",
+      "truth": [
+        "cat",
+        "donut"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000572388.jpg"
+    },
+    {
+      "image": "images/000000278749.jpg",
+      "image_id": 278749,
+      "split": "evaluation",
+      "sha256": "650549983b136a7015ce7a24791a08720516939378d788dbaba158baf37ebb48",
+      "truth": [
+        "car",
+        "handbag",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000278749.jpg"
+    },
+    {
+      "image": "images/000000031118.jpg",
+      "image_id": 31118,
+      "split": "evaluation",
+      "sha256": "2cdfc92ff0193efb0a93f9021841308f1cb204d1ac4810d00aa32a515ef033f7",
+      "truth": [
+        "car",
+        "clock",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000031118.jpg"
+    },
+    {
+      "image": "images/000000431545.jpg",
+      "image_id": 431545,
+      "split": "evaluation",
+      "sha256": "ae95bd418ccaeacb5254137d5e76b47b1cb41e94128779b892f34fbfa4b8b3d7",
+      "truth": [
+        "baseball glove",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000431545.jpg"
+    },
+    {
+      "image": "images/000000083113.jpg",
+      "image_id": 83113,
+      "split": "evaluation",
+      "sha256": "7b1ee2a4a38edc0247d08f645a4c65ed3184a9035198e5e0b4f00e735aa807b0",
+      "truth": [
+        "elephant"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000083113.jpg"
+    },
+    {
+      "image": "images/000000191471.jpg",
+      "image_id": 191471,
+      "split": "evaluation",
+      "sha256": "9e0d6d66e9d3db64282d7f1a57fdc56cbe6723707fdca5428130c2bcb1ffc877",
+      "truth": [
+        "stop sign"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000191471.jpg"
+    },
+    {
+      "image": "images/000000155451.jpg",
+      "image_id": 155451,
+      "split": "evaluation",
+      "sha256": "d53c8637732ca8e9542fb324cba5bf8224b5816d0bdc86f3deb5bf9315534427",
+      "truth": [
+        "car",
+        "traffic light"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000155451.jpg"
+    },
+    {
+      "image": "images/000000094326.jpg",
+      "image_id": 94326,
+      "split": "evaluation",
+      "sha256": "492ffd8a904c5f016947af4928607b8978c10d3d46dbf9231e394162c26f6263",
+      "truth": [
+        "bench",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000094326.jpg"
+    },
+    {
+      "image": "images/000000060052.jpg",
+      "image_id": 60052,
+      "split": "evaluation",
+      "sha256": "848b664f24e2ceecb900bb21ed3491e2f21096272de294114cfae34a56aba97b",
+      "truth": [
+        "person",
+        "umbrella"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000060052.jpg"
+    },
+    {
+      "image": "images/000000030828.jpg",
+      "image_id": 30828,
+      "split": "evaluation",
+      "sha256": "0c9fb9dc3bd6a11defb1ebecc1c3a50914a0007e53cf4b16f1cffe7b363fbd79",
+      "truth": [
+        "backpack",
+        "bench",
+        "car",
+        "parking meter",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000030828.jpg"
+    },
+    {
+      "image": "images/000000437898.jpg",
+      "image_id": 437898,
+      "split": "evaluation",
+      "sha256": "80a69fe0b425618642c322b5d6144af30d6f93f79acb20f6f9585141d5fed90c",
+      "truth": [
+        "cup",
+        "knife",
+        "oven",
+        "refrigerator",
+        "sink",
+        "spoon"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000437898.jpg"
+    },
+    {
+      "image": "images/000000465585.jpg",
+      "image_id": 465585,
+      "split": "evaluation",
+      "sha256": "e3f134c23b12cbf26929e4de7e89dcfdea55b63c6294367c73d6ba1a554176a3",
+      "truth": [
+        "broccoli",
+        "carrot"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000465585.jpg"
+    },
+    {
+      "image": "images/000000500270.jpg",
+      "image_id": 500270,
+      "split": "evaluation",
+      "sha256": "e201c4bd2a7ea8d9e503cac62e380a765f56c8bfbde494514e51c364c0c11835",
+      "truth": [
+        "person",
+        "skateboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000500270.jpg"
+    },
+    {
+      "image": "images/000000244411.jpg",
+      "image_id": 244411,
+      "split": "evaluation",
+      "sha256": "c44b35401825f62c63dc9c9503f0c0b77d94ed1f25b44439236d4b81b604bccd",
+      "truth": [
+        "cow"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000244411.jpg"
+    },
+    {
+      "image": "images/000000239773.jpg",
+      "image_id": 239773,
+      "split": "evaluation",
+      "sha256": "be75e4667ebbabacce06e80a2df46e01f0c813a3a4b54b587b22007584e10267",
+      "truth": [
+        "baseball bat",
+        "baseball glove",
+        "person",
+        "sports ball"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000239773.jpg"
+    },
+    {
+      "image": "images/000000393115.jpg",
+      "image_id": 393115,
+      "split": "evaluation",
+      "sha256": "810ec9c453a1e857b7c555a5b52b31c1e754a61a2b6d944c59f52fc870448a48",
+      "truth": [
+        "person",
+        "skateboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000393115.jpg"
+    },
+    {
+      "image": "images/000000039785.jpg",
+      "image_id": 39785,
+      "split": "evaluation",
+      "sha256": "887b76f9732bdbb0038f0338cd1a687b49623114352bdde634a3a25a12454b99",
+      "truth": [
+        "bench",
+        "person",
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000039785.jpg"
+    },
+    {
+      "image": "images/000000184384.jpg",
+      "image_id": 184384,
+      "split": "evaluation",
+      "sha256": "ac94969d745f9dfc069f2762675f77dae48b1bdde7ccb673161f964f0e99e7eb",
+      "truth": [
+        "cake",
+        "cup",
+        "dining table",
+        "orange",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000184384.jpg"
+    },
+    {
+      "image": "images/000000227187.jpg",
+      "image_id": 227187,
+      "split": "evaluation",
+      "sha256": "3f99b1de07362d40264170cea285e33162c661c27ae9b16a11415fe172b5bbe9",
+      "truth": [
+        "banana",
+        "bird"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000227187.jpg"
+    },
+    {
+      "image": "images/000000220584.jpg",
+      "image_id": 220584,
+      "split": "evaluation",
+      "sha256": "343e0e3a67454826a63962f938585a73ea42da422d912c8c16978c142496c8e6",
+      "truth": [
+        "person",
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000220584.jpg"
+    },
+    {
+      "image": "images/000000089761.jpg",
+      "image_id": 89761,
+      "split": "evaluation",
+      "sha256": "77578f52ee4644ec8ff4d8ffd712116b2ce0a498ae7ed5bd5430dec7b784cdc5",
+      "truth": [
+        "toilet"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000089761.jpg"
+    },
+    {
+      "image": "images/000000347693.jpg",
+      "image_id": 347693,
+      "split": "evaluation",
+      "sha256": "2f3bf48e66d0f5ec0b9494f04a34a32441e9ca025ca1db177e3a49606b47f161",
+      "truth": [
+        "bed"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000347693.jpg"
+    },
+    {
+      "image": "images/000000022969.jpg",
+      "image_id": 22969,
+      "split": "evaluation",
+      "sha256": "a4cd0db37176242a6911559074b58a67306c6a774df9dd07f1c9a30112ecbc30",
+      "truth": [
+        "giraffe"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000022969.jpg"
+    },
+    {
+      "image": "images/000000184324.jpg",
+      "image_id": 184324,
+      "split": "evaluation",
+      "sha256": "5bfec85c40197744fc7fa8262a0a0e14ad1a6fc0e11cee4b7b0c5df97a146107",
+      "truth": [
+        "backpack",
+        "bicycle",
+        "bus",
+        "car",
+        "handbag",
+        "person",
+        "stop sign",
+        "truck",
+        "umbrella"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000184324.jpg"
+    },
+    {
+      "image": "images/000000182202.jpg",
+      "image_id": 182202,
+      "split": "evaluation",
+      "sha256": "6c3cee9f0da8f494523c9bde554da113f44042128b22c94be7bd29d27df1d181",
+      "truth": [
+        "cell phone",
+        "dining table",
+        "keyboard",
+        "laptop"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000182202.jpg"
+    },
+    {
+      "image": "images/000000203294.jpg",
+      "image_id": 203294,
+      "split": "evaluation",
+      "sha256": "c5d43fb94e11fae1e3bf97b08bebb4a96d7735bb92a6bab8bf8618000208ef9c",
+      "truth": [
+        "backpack",
+        "bus",
+        "handbag",
+        "person",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000203294.jpg"
+    },
+    {
+      "image": "images/000000199395.jpg",
+      "image_id": 199395,
+      "split": "evaluation",
+      "sha256": "408fae0020a19c9f11c2e5f7688832fba85b0db5009bfbeb21d2c7003c47afba",
+      "truth": [
+        "boat",
+        "kite",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000199395.jpg"
+    },
+    {
+      "image": "images/000000166287.jpg",
+      "image_id": 166287,
+      "split": "evaluation",
+      "sha256": "8c1e01146df6e51a43b12bedd7913834d5ed8f91031924a964e915a74cc9f72d",
+      "truth": [
+        "bird",
+        "cow"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000166287.jpg"
+    },
+    {
+      "image": "images/000000527960.jpg",
+      "image_id": 527960,
+      "split": "evaluation",
+      "sha256": "8be06a8ebb4f0b7626a8315f158d65bf862e6817ad4a191b80edc5d662f98249",
+      "truth": [
+        "bench"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000527960.jpg"
+    },
+    {
+      "image": "images/000000287959.jpg",
+      "image_id": 287959,
+      "split": "evaluation",
+      "sha256": "7c83e874c299fdc7c71d6c9cba60cf0eecf5e7e9b1e1b6b747094ba73144b595",
+      "truth": [
+        "sandwich"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000287959.jpg"
+    },
+    {
+      "image": "images/000000225184.jpg",
+      "image_id": 225184,
+      "split": "evaluation",
+      "sha256": "aa03f1ca7f63f541daf98a9f14e4674f909aa2d43c242b8b54d63a479275fd2e",
+      "truth": [
+        "dog",
+        "sheep"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000225184.jpg"
+    },
+    {
+      "image": "images/000000278463.jpg",
+      "image_id": 278463,
+      "split": "evaluation",
+      "sha256": "991fe427551c787dcae0a60952f6506de50cd9d4e16040072929108f34c5eebd",
+      "truth": [
+        "book",
+        "bottle",
+        "cat",
+        "cell phone",
+        "cup",
+        "laptop",
+        "potted plant"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000278463.jpg"
+    },
+    {
+      "image": "images/000000190007.jpg",
+      "image_id": 190007,
+      "split": "evaluation",
+      "sha256": "fc62af958876dfb4d4f8e7bdb210b7a88463e22a41981d975f1c1dae93585d74",
+      "truth": [
+        "person",
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000190007.jpg"
+    },
+    {
+      "image": "images/000000537802.jpg",
+      "image_id": 537802,
+      "split": "evaluation",
+      "sha256": "9a8d325a5eceec3d06bbc57331cbb1e8ed0f11f082ee584ca1861b7c9a687455",
+      "truth": [
+        "teddy bear"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000537802.jpg"
+    },
+    {
+      "image": "images/000000090062.jpg",
+      "image_id": 90062,
+      "split": "evaluation",
+      "sha256": "9817cac2a13efa5bb8cb41194ebf96c30141c4bb7b890470c6472073c262bc78",
+      "truth": [
+        "cow"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000090062.jpg"
+    },
+    {
+      "image": "images/000000131131.jpg",
+      "image_id": 131131,
+      "split": "evaluation",
+      "sha256": "af525fcd8c44989eaba2a16cb1fc63d8cc40dace49ad01da74dd0938ab250006",
+      "truth": [
+        "cat",
+        "tv"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000131131.jpg"
+    },
+    {
+      "image": "images/000000184321.jpg",
+      "image_id": 184321,
+      "split": "evaluation",
+      "sha256": "5018ca72abedb01bd8634a238a941d7f6b99a0112435adbfd4a2ae0e338162e3",
+      "truth": [
+        "train"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000184321.jpg"
+    },
+    {
+      "image": "images/000000083531.jpg",
+      "image_id": 83531,
+      "split": "evaluation",
+      "sha256": "36fa21336135c0c487085011bb469ee8acab9804cf53736e2492584af5a8ecb0",
+      "truth": [
+        "bottle",
+        "cup",
+        "hot dog",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000083531.jpg"
+    },
+    {
+      "image": "images/000000236412.jpg",
+      "image_id": 236412,
+      "split": "evaluation",
+      "sha256": "437f364f15b29caa27ba255d8a25776f01e2e0d3e4fba3c5aea93e017650a179",
+      "truth": [
+        "pizza",
+        "spoon"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000236412.jpg"
+    },
+    {
+      "image": "images/000000546659.jpg",
+      "image_id": 546659,
+      "split": "evaluation",
+      "sha256": "ca49e09b807397a5b5185c451e79d257c92734a447d30e4f86645ab431bf2e1b",
+      "truth": [
+        "person",
+        "train"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000546659.jpg"
+    },
+    {
+      "image": "images/000000481390.jpg",
+      "image_id": 481390,
+      "split": "evaluation",
+      "sha256": "92b3103f5a4a3620ca6090217a7bb55bdfec87fb2092596f0cbcabe9d9b00fb2",
+      "truth": [
+        "bench",
+        "chair",
+        "person",
+        "sports ball",
+        "tie"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000481390.jpg"
+    },
+    {
+      "image": "images/000000574297.jpg",
+      "image_id": 574297,
+      "split": "evaluation",
+      "sha256": "fdf3ab0fc576b6fcea27d692fcd14c21d8c3bcd1c1a1ef66de8f0d98e6a85c75",
+      "truth": [
+        "horse",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000574297.jpg"
+    },
+    {
+      "image": "images/000000449579.jpg",
+      "image_id": 449579,
+      "split": "evaluation",
+      "sha256": "93eaf6ecb0627ae04cd7c6414baf845353594ada97d80494f39300accf60427a",
+      "truth": [
+        "person",
+        "tennis racket"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000449579.jpg"
+    },
+    {
+      "image": "images/000000488385.jpg",
+      "image_id": 488385,
+      "split": "evaluation",
+      "sha256": "3e710ac2f09c96f1cb1011ea17988d2e0b50c8fc62387490c239f6fa99c575cf",
+      "truth": [
+        "motorcycle"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000488385.jpg"
+    },
+    {
+      "image": "images/000000040036.jpg",
+      "image_id": 40036,
+      "split": "evaluation",
+      "sha256": "4668e4529c5e8a2e60df6fe4fb3882c089ce93e59ea8c8a5cd86856b6d6b66dc",
+      "truth": [
+        "horse",
+        "person",
+        "potted plant"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000040036.jpg"
+    },
+    {
+      "image": "images/000000530457.jpg",
+      "image_id": 530457,
+      "split": "evaluation",
+      "sha256": "aa58c984b17e3a99a06cba95745642566bcb07358b3acc36095604123f5eef06",
+      "truth": [
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000530457.jpg"
+    },
+    {
+      "image": "images/000000322574.jpg",
+      "image_id": 322574,
+      "split": "evaluation",
+      "sha256": "ce4fc4045c9dbe6d5c321248c3d8af821036e2403c6d159d3745c75f6f6bc9e1",
+      "truth": [
+        "bowl",
+        "cup",
+        "hot dog",
+        "sandwich"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000322574.jpg"
+    },
+    {
+      "image": "images/000000383842.jpg",
+      "image_id": 383842,
+      "split": "evaluation",
+      "sha256": "de9e05f37d8b3dd2c025ce80be273e364c6ad95dd337dacd7cd811f17db91e7b",
+      "truth": [
+        "handbag",
+        "laptop",
+        "person",
+        "remote",
+        "tie"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000383842.jpg"
+    },
+    {
+      "image": "images/000000322959.jpg",
+      "image_id": 322959,
+      "split": "evaluation",
+      "sha256": "57f2bc4665e7cecfa799fb3ee60c79a5e9df4b2383e0f9921179265f2acdd832",
+      "truth": [
+        "apple",
+        "banana",
+        "bowl",
+        "dining table",
+        "fork",
+        "knife",
+        "orange"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000322959.jpg"
+    },
+    {
+      "image": "images/000000493613.jpg",
+      "image_id": 493613,
+      "split": "evaluation",
+      "sha256": "49847e0bd4a5272275941c515dcb779af6b7d8bb172fc75bef0bc04538c90f8e",
+      "truth": [
+        "skateboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000493613.jpg"
+    },
+    {
+      "image": "images/000000497344.jpg",
+      "image_id": 497344,
+      "split": "evaluation",
+      "sha256": "41c47ff946c875b939b32f96d53b6bb7b3001852e5a6c0b3ae5b958d979e36d0",
+      "truth": [
+        "bottle",
+        "cell phone",
+        "laptop",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000497344.jpg"
+    },
+    {
+      "image": "images/000000485237.jpg",
+      "image_id": 485237,
+      "split": "evaluation",
+      "sha256": "981ddf60fe010dd308d1f813febf81cca921b38fc0c7eb0b568e0b30b15406cb",
+      "truth": [
+        "airplane",
+        "car",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000485237.jpg"
+    },
+    {
+      "image": "images/000000060090.jpg",
+      "image_id": 60090,
+      "split": "evaluation",
+      "sha256": "6e53971813dde9f951aca91f8d4990ede14c3a9e524569ad683d56c379bcadde",
+      "truth": [
+        "person",
+        "train"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000060090.jpg"
+    },
+    {
+      "image": "images/000000389532.jpg",
+      "image_id": 389532,
+      "split": "evaluation",
+      "sha256": "dbbd71bdca1e21d52a9e0ec34d0ed68141e45ab804e67d5adefa392b00378b98",
+      "truth": [
+        "bird",
+        "boat",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000389532.jpg"
+    },
+    {
+      "image": "images/000000520832.jpg",
+      "image_id": 520832,
+      "split": "evaluation",
+      "sha256": "d1b9e423d47f18595f1ca39c3038c06731496903af40778f58a5ebd815afd20d",
+      "truth": [
+        "handbag",
+        "person",
+        "umbrella"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000520832.jpg"
+    },
+    {
+      "image": "images/000000292908.jpg",
+      "image_id": 292908,
+      "split": "evaluation",
+      "sha256": "52f7f41a335b5b9a2ba00858cf8536748739228502d6ca931498e175db74658c",
+      "truth": [
+        "person",
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000292908.jpg"
+    },
+    {
+      "image": "images/000000210388.jpg",
+      "image_id": 210388,
+      "split": "evaluation",
+      "sha256": "fa6c51682ef9eed545698b2a05c7009b257d0e4ff0443f4c4912f650a3f5695d",
+      "truth": [
+        "person",
+        "suitcase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000210388.jpg"
+    },
+    {
+      "image": "images/000000503755.jpg",
+      "image_id": 503755,
+      "split": "evaluation",
+      "sha256": "ebf2bba226a7df755a310889557d08caa0295eceae0e52f60318b1ec5abeef60",
+      "truth": [
+        "person",
+        "tennis racket"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000503755.jpg"
+    },
+    {
+      "image": "images/000000113403.jpg",
+      "image_id": 113403,
+      "split": "evaluation",
+      "sha256": "ff974f9495b64648225c9c6fc2d13e642fec69033aa46a524596cb77c5a02224",
+      "truth": [
+        "bed",
+        "teddy bear"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000113403.jpg"
+    },
+    {
+      "image": "images/000000397279.jpg",
+      "image_id": 397279,
+      "split": "evaluation",
+      "sha256": "69c92ac515b372adeecba63f4cd49b12c9bc6f1a1c357f776c7d2985ea179445",
+      "truth": [
+        "person",
+        "tennis racket"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000397279.jpg"
+    },
+    {
+      "image": "images/000000521509.jpg",
+      "image_id": 521509,
+      "split": "evaluation",
+      "sha256": "32e087992c2613f404b90f768c5035999b53e19d26dec4e6018303b3dcb03672",
+      "truth": [
+        "bed",
+        "person",
+        "potted plant",
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000521509.jpg"
+    },
+    {
+      "image": "images/000000245448.jpg",
+      "image_id": 245448,
+      "split": "evaluation",
+      "sha256": "fb9fc13da201d2523fe43f36bcb2cbd474d6c0d03aed9f1f7d1768964f6bb4bb",
+      "truth": [
+        "motorcycle",
+        "person",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000245448.jpg"
+    },
+    {
+      "image": "images/000000226058.jpg",
+      "image_id": 226058,
+      "split": "evaluation",
+      "sha256": "69940a3d85873f0a39a9ef3348b140ae7ebf4ea6a8a446a2ac5094a8d0b9927a",
+      "truth": [
+        "couch",
+        "teddy bear"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000226058.jpg"
+    },
+    {
+      "image": "images/000000051326.jpg",
+      "image_id": 51326,
+      "split": "evaluation",
+      "sha256": "f1e5fecbdb78c1af6ea0a286840076f9f8102d5e5622af183df2c3de13a5e679",
+      "truth": [
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000051326.jpg"
+    },
+    {
+      "image": "images/000000449603.jpg",
+      "image_id": 449603,
+      "split": "evaluation",
+      "sha256": "fa28d10dbafff22de8c4fa60a3369df1c4a46f611c73c950cb8bfbb883a8da23",
+      "truth": [
+        "person",
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000449603.jpg"
+    },
+    {
+      "image": "images/000000347544.jpg",
+      "image_id": 347544,
+      "split": "evaluation",
+      "sha256": "9d9cbb07a6f3b727e1f45c0208cad1ec6f83f41814752bc4c9bcec1ddfe2909d",
+      "truth": [
+        "bus",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000347544.jpg"
+    },
+    {
+      "image": "images/000000226147.jpg",
+      "image_id": 226147,
+      "split": "evaluation",
+      "sha256": "bf59212be5221a26ae41a0e3e05adc902986b029d00b89d0c68760991a322053",
+      "truth": [
+        "backpack",
+        "cell phone",
+        "chair",
+        "clock",
+        "cup",
+        "dining table",
+        "fork",
+        "handbag",
+        "knife",
+        "person",
+        "sandwich",
+        "spoon",
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000226147.jpg"
+    },
+    {
+      "image": "images/000000173008.jpg",
+      "image_id": 173008,
+      "split": "evaluation",
+      "sha256": "57e4391ce5b3b06e3b778342e9c4272a9a4a93e9fbb8ab8270f4d0c4dfd3e5c5",
+      "truth": [
+        "banana",
+        "cake",
+        "cup",
+        "microwave",
+        "orange",
+        "oven",
+        "person",
+        "scissors",
+        "toaster"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000173008.jpg"
+    },
+    {
+      "image": "images/000000034452.jpg",
+      "image_id": 34452,
+      "split": "evaluation",
+      "sha256": "a1b87d38128e4507b46e9cb99ab1fe96b062f3838af2be0618e6e3fc5abdd5e5",
+      "truth": [
+        "frisbee",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000034452.jpg"
+    },
+    {
+      "image": "images/000000291551.jpg",
+      "image_id": 291551,
+      "split": "evaluation",
+      "sha256": "a3e85b65167a1b47eacc0e7439309baf003fbaa0bb6f12e4fa9f441ecc977596",
+      "truth": [
+        "bench",
+        "person",
+        "skateboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000291551.jpg"
+    },
+    {
+      "image": "images/000000458790.jpg",
+      "image_id": 458790,
+      "split": "evaluation",
+      "sha256": "e47e459ae6eeb0faecae6a0a5b0b13040d225be5c48066cfa2b46aa156a4f67f",
+      "truth": [],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000458790.jpg"
+    },
+    {
+      "image": "images/000000523811.jpg",
+      "image_id": 523811,
+      "split": "evaluation",
+      "sha256": "b2a70dc9a4dcd8bfa71f3bd1e9e3dfe871588f1d9102f254a6dfeec4e5452eac",
+      "truth": [
+        "bird"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000523811.jpg"
+    },
+    {
+      "image": "images/000000184762.jpg",
+      "image_id": 184762,
+      "split": "evaluation",
+      "sha256": "09b8cae54375d9aedc310d4d12a17943518e1749a40dd6967ec963d8ea8a196c",
+      "truth": [
+        "clock"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000184762.jpg"
+    },
+    {
+      "image": "images/000000375278.jpg",
+      "image_id": 375278,
+      "split": "evaluation",
+      "sha256": "1c8da1eabfff62cbca8233739b1313b6c0e7755268dbb2cd5cd401466e1c8bbb",
+      "truth": [
+        "book",
+        "cat",
+        "dog",
+        "person",
+        "suitcase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000375278.jpg"
+    },
+    {
+      "image": "images/000000284762.jpg",
+      "image_id": 284762,
+      "split": "evaluation",
+      "sha256": "9b6fbb641587c76dce561a05d715bbb078175d4a2f93131f2b90ef297b9226b7",
+      "truth": [
+        "traffic light"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000284762.jpg"
+    },
+    {
+      "image": "images/000000122046.jpg",
+      "image_id": 122046,
+      "split": "evaluation",
+      "sha256": "4bd45688ba9e814bcb787e71c389f971aa4b99ad2ff621361054d880ce4a7947",
+      "truth": [
+        "chair",
+        "person",
+        "umbrella"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000122046.jpg"
+    },
+    {
+      "image": "images/000000138979.jpg",
+      "image_id": 138979,
+      "split": "evaluation",
+      "sha256": "1422f5ad941613d3a62795c276abda2ed3b45972d0fc84d9df5a1a715338131e",
+      "truth": [
+        "bus",
+        "car",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000138979.jpg"
+    },
+    {
+      "image": "images/000000158660.jpg",
+      "image_id": 158660,
+      "split": "evaluation",
+      "sha256": "a33426379658d6ddc0a3b4c574e224eee02b9a26589a699e122a40c74cac9a05",
+      "truth": [
+        "apple",
+        "banana",
+        "bowl",
+        "oven",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000158660.jpg"
+    },
+    {
+      "image": "images/000000056344.jpg",
+      "image_id": 56344,
+      "split": "evaluation",
+      "sha256": "2aedd846bfe767e86dc858282c286ff9bcd3f1303ef51dababc4bd459f5a5060",
+      "truth": [
+        "cell phone",
+        "keyboard",
+        "mouse",
+        "remote",
+        "tv"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000056344.jpg"
+    },
+    {
+      "image": "images/000000293245.jpg",
+      "image_id": 293245,
+      "split": "evaluation",
+      "sha256": "faea4409b1d598acc6038fbdc712595c44798f5d778cd063bfc67f7b68a158ab",
+      "truth": [
+        "motorcycle",
+        "potted plant"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000293245.jpg"
+    },
+    {
+      "image": "images/000000183965.jpg",
+      "image_id": 183965,
+      "split": "evaluation",
+      "sha256": "f2f31c324710401014e4f5591948706dd9f10cf97b6079d7a2c335533c105c99",
+      "truth": [
+        "bowl",
+        "cup",
+        "dining table",
+        "hot dog",
+        "sandwich"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000183965.jpg"
+    },
+    {
+      "image": "images/000000261061.jpg",
+      "image_id": 261061,
+      "split": "evaluation",
+      "sha256": "886f87e9e2cea4ea6855ae03b8707b99ef321dc3ad409f7ff9a712b94c569cd9",
+      "truth": [
+        "baseball bat",
+        "person",
+        "potted plant"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000261061.jpg"
+    },
+    {
+      "image": "images/000000519522.jpg",
+      "image_id": 519522,
+      "split": "evaluation",
+      "sha256": "6afa6be95de9eb3b052850c120fd3acf2c3121b5e3747440f445787b463308f2",
+      "truth": [
+        "clock"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000519522.jpg"
+    },
+    {
+      "image": "images/000000268000.jpg",
+      "image_id": 268000,
+      "split": "evaluation",
+      "sha256": "3c9437a1335fa20f64b9172234e89faa73a1b6c19ac6bb2e5051774e9f1ab619",
+      "truth": [
+        "person",
+        "train"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000268000.jpg"
+    },
+    {
+      "image": "images/000000313034.jpg",
+      "image_id": 313034,
+      "split": "evaluation",
+      "sha256": "f28a3fbb83c019dd88dd28c683c36d1cc960e3678dc802eb2d24437fa5640477",
+      "truth": [
+        "bottle",
+        "cake",
+        "clock",
+        "cup",
+        "fork",
+        "person",
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000313034.jpg"
+    },
+    {
+      "image": "images/000000074209.jpg",
+      "image_id": 74209,
+      "split": "evaluation",
+      "sha256": "6d32368bfbdede591acc67ca65b8b673e8ead5ce15cb309eeb0af7275e209122",
+      "truth": [
+        "apple",
+        "banana",
+        "bottle",
+        "bowl",
+        "chair",
+        "clock",
+        "cup",
+        "dining table",
+        "orange",
+        "oven",
+        "refrigerator",
+        "sink"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000074209.jpg"
+    },
+    {
+      "image": "images/000000420069.jpg",
+      "image_id": 420069,
+      "split": "evaluation",
+      "sha256": "c36c27173406ed334f53013ed8fdd13991b075bcccee0350018b92e26854cb29",
+      "truth": [
+        "baseball bat",
+        "chair",
+        "person",
+        "sports ball"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000420069.jpg"
+    },
+    {
+      "image": "images/000000060886.jpg",
+      "image_id": 60886,
+      "split": "evaluation",
+      "sha256": "746e5db6776623e0c0782b2c37488470092e59982960c544acdb315576470349",
+      "truth": [
+        "baseball glove",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000060886.jpg"
+    },
+    {
+      "image": "images/000000190756.jpg",
+      "image_id": 190756,
+      "split": "evaluation",
+      "sha256": "bf0912b5588750086467ccc832942bced9380771fcf057add3fb1e67d6b2e95a",
+      "truth": [
+        "motorcycle",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000190756.jpg"
+    },
+    {
+      "image": "images/000000016228.jpg",
+      "image_id": 16228,
+      "split": "evaluation",
+      "sha256": "b34d80f1f13989eb0c7031f95373a9e26c698397cb9511b422dcf5daba60110e",
+      "truth": [
+        "bench",
+        "horse",
+        "person",
+        "tie",
+        "train",
+        "umbrella"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000016228.jpg"
+    },
+    {
+      "image": "images/000000182805.jpg",
+      "image_id": 182805,
+      "split": "evaluation",
+      "sha256": "e502d762b1a264156f1e6349702d742d6cdddd40a2b54a3390acbd8e5059d1dd",
+      "truth": [
+        "dog",
+        "handbag",
+        "person",
+        "umbrella"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000182805.jpg"
+    },
+    {
+      "image": "images/000000188592.jpg",
+      "image_id": 188592,
+      "split": "evaluation",
+      "sha256": "d91e1e7121a0f877856108f6244212ef0b34cfcbea0b6563f22a0f618eeafc27",
+      "truth": [
+        "apple",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000188592.jpg"
+    },
+    {
+      "image": "images/000000441491.jpg",
+      "image_id": 441491,
+      "split": "evaluation",
+      "sha256": "f2edc54861bad62509808255c5afb8075d575aeb7e43bae6cc9b69652743b0c9",
+      "truth": [
+        "cup",
+        "person",
+        "pizza"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000441491.jpg"
+    },
+    {
+      "image": "images/000000263679.jpg",
+      "image_id": 263679,
+      "split": "evaluation",
+      "sha256": "45080540d93502d59aecf0a2b1c7b0cc72f49dc67e6e60bcd092779cc3321a63",
+      "truth": [
+        "kite",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000263679.jpg"
+    },
+    {
+      "image": "images/000000145597.jpg",
+      "image_id": 145597,
+      "split": "evaluation",
+      "sha256": "759414026675f0190a7eef3c64953a5c43427a6ce8873ae9287c58f28dce0422",
+      "truth": [
+        "bottle",
+        "cup",
+        "handbag",
+        "orange",
+        "person",
+        "wine glass"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000145597.jpg"
+    },
+    {
+      "image": "images/000000180560.jpg",
+      "image_id": 180560,
+      "split": "evaluation",
+      "sha256": "b485d64a3c769704ecabd162d63788b07069c3fe3b2bd4658857658d58bc2fc7",
+      "truth": [
+        "cake",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000180560.jpg"
+    },
+    {
+      "image": "images/000000400794.jpg",
+      "image_id": 400794,
+      "split": "evaluation",
+      "sha256": "5349be150c2d7e247d150a6873f1f22b839b1296c88e44a17dce49155f8cee5c",
+      "truth": [
+        "bottle",
+        "fork",
+        "person",
+        "pizza"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000400794.jpg"
+    },
+    {
+      "image": "images/000000269866.jpg",
+      "image_id": 269866,
+      "split": "evaluation",
+      "sha256": "8ed86217a895bb5484ccf37bc50af39b67ba1fa68220003c86515199a291d321",
+      "truth": [
+        "microwave"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000269866.jpg"
+    },
+    {
+      "image": "images/000000469652.jpg",
+      "image_id": 469652,
+      "split": "evaluation",
+      "sha256": "b80d47ed676779de6bd1e474e54825607aa9eab2b445c1cd3500a477543d78e6",
+      "truth": [
+        "giraffe"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000469652.jpg"
+    },
+    {
+      "image": "images/000000435206.jpg",
+      "image_id": 435206,
+      "split": "evaluation",
+      "sha256": "1e8f37827f316e5b51e1db3fdf2efc2c4751557c7ccb6f0b7c1d0a836b307ca1",
+      "truth": [
+        "boat",
+        "cow",
+        "elephant",
+        "person",
+        "sheep"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000435206.jpg"
+    },
+    {
+      "image": "images/000000333772.jpg",
+      "image_id": 333772,
+      "split": "evaluation",
+      "sha256": "45abc24e5d525f4da47cafca857b5db9b08e8b4ee7fe03bcd3d6b2683ebfbcc7",
+      "truth": [
+        "cat",
+        "chair",
+        "cup",
+        "keyboard",
+        "mouse",
+        "tv"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000333772.jpg"
+    },
+    {
+      "image": "images/000000322844.jpg",
+      "image_id": 322844,
+      "split": "evaluation",
+      "sha256": "ed66e04795ad9b134edfc18ef77963494d9ecf47ffbdfd37c8fe1334e3df727e",
+      "truth": [
+        "bench",
+        "teddy bear"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000322844.jpg"
+    },
+    {
+      "image": "images/000000460683.jpg",
+      "image_id": 460683,
+      "split": "evaluation",
+      "sha256": "44126e3bc1ec94274f7814c07e80d64368bfc7ebbabe8105e152a04e23de74be",
+      "truth": [
+        "chair",
+        "dining table",
+        "person",
+        "tie"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000460683.jpg"
+    },
+    {
+      "image": "images/000000502732.jpg",
+      "image_id": 502732,
+      "split": "evaluation",
+      "sha256": "e4bd9edf973ab3bd9c5c538b55188ba7cef57778a083e15b6ce8ffbf5b5fff39",
+      "truth": [
+        "refrigerator"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000502732.jpg"
+    },
+    {
+      "image": "images/000000355677.jpg",
+      "image_id": 355677,
+      "split": "evaluation",
+      "sha256": "cfed285fe730e7db7923cd9324607af6474df4ac71fae66b9cec5e0b7002293f",
+      "truth": [
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000355677.jpg"
+    },
+    {
+      "image": "images/000000284991.jpg",
+      "image_id": 284991,
+      "split": "evaluation",
+      "sha256": "916e3eab5929c2ec0ebc9971f98ce5fa5b5cc44af1036b5104e093f53f48c46a",
+      "truth": [
+        "bottle",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000284991.jpg"
+    },
+    {
+      "image": "images/000000201934.jpg",
+      "image_id": 201934,
+      "split": "evaluation",
+      "sha256": "a5702ac025e235ee3de6205238323c50ef6792142b53e8b379a41e57f037a2cf",
+      "truth": [
+        "bus",
+        "car"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000201934.jpg"
+    },
+    {
+      "image": "images/000000414385.jpg",
+      "image_id": 414385,
+      "split": "evaluation",
+      "sha256": "14794d8f9a4d7241f55e3dc15794a8063b83bbc0ae95f4b787aca5891a48bc3b",
+      "truth": [
+        "car",
+        "person",
+        "skateboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000414385.jpg"
+    },
+    {
+      "image": "images/000000351559.jpg",
+      "image_id": 351559,
+      "split": "evaluation",
+      "sha256": "07007111c43cdef4a099526a9d658dfff956ea59681fa3f3766e7d029f6f720d",
+      "truth": [
+        "traffic light"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000351559.jpg"
+    },
+    {
+      "image": "images/000000525286.jpg",
+      "image_id": 525286,
+      "split": "evaluation",
+      "sha256": "fc59935b296e9b8417ae6900069dfabed05be86b35fd3a0dc137320023fb4f06",
+      "truth": [
+        "clock"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000525286.jpg"
+    },
+    {
+      "image": "images/000000196185.jpg",
+      "image_id": 196185,
+      "split": "evaluation",
+      "sha256": "931b8f734fd47e70d98b6ba3be704ae86d220e651e1b352cbaa8a9a1dadbb2d6",
+      "truth": [
+        "airplane"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000196185.jpg"
+    },
+    {
+      "image": "images/000000021167.jpg",
+      "image_id": 21167,
+      "split": "evaluation",
+      "sha256": "b77df96f91ed9a0842559ea8a238d602d4a09069b9129c43a9d62a27361df156",
+      "truth": [
+        "person",
+        "tie",
+        "wine glass"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000021167.jpg"
+    },
+    {
+      "image": "images/000000085329.jpg",
+      "image_id": 85329,
+      "split": "evaluation",
+      "sha256": "6f51ea5ea5be7df989ac264225486516e39c1cf90fe8a9e01b83c62a26a44f6e",
+      "truth": [
+        "person",
+        "tie"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000085329.jpg"
+    },
+    {
+      "image": "images/000000116362.jpg",
+      "image_id": 116362,
+      "split": "evaluation",
+      "sha256": "016c0d06fa81cdd90a9516c582b0627fc091ca00030db77a903f3db2b310e2ca",
+      "truth": [
+        "apple",
+        "bowl",
+        "carrot",
+        "dining table",
+        "spoon"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000116362.jpg"
+    },
+    {
+      "image": "images/000000253452.jpg",
+      "image_id": 253452,
+      "split": "evaluation",
+      "sha256": "90b9cd707259e153539ccf4d223534622dcb6ff38bf7d4c515dfda6997b8e0dd",
+      "truth": [
+        "cake",
+        "carrot",
+        "cup",
+        "dining table",
+        "donut",
+        "fork",
+        "knife",
+        "spoon"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000253452.jpg"
+    },
+    {
+      "image": "images/000000175443.jpg",
+      "image_id": 175443,
+      "split": "evaluation",
+      "sha256": "a4de35a8792c8a53681720f87baa92ab42d8e2e78894a17c764209f65b58a868",
+      "truth": [
+        "potted plant",
+        "teddy bear"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000175443.jpg"
+    },
+    {
+      "image": "images/000000326970.jpg",
+      "image_id": 326970,
+      "split": "evaluation",
+      "sha256": "30b9cac3319a6458aa7d209b863f8860a7e7d7f028d39559dd8b20b96c112aa3",
+      "truth": [
+        "book",
+        "cell phone",
+        "handbag",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000326970.jpg"
+    },
+    {
+      "image": "images/000000163155.jpg",
+      "image_id": 163155,
+      "split": "evaluation",
+      "sha256": "0fd43885c0ecc7f058a4e8232e60abf0baf224496ed8df353c341ce7ce7b5564",
+      "truth": [
+        "cat"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000163155.jpg"
+    },
+    {
+      "image": "images/000000082812.jpg",
+      "image_id": 82812,
+      "split": "evaluation",
+      "sha256": "f6e17c4b9898880d5f12545b60806f497cf54dba8921434e02d9df7d41502ac2",
+      "truth": [
+        "backpack",
+        "handbag",
+        "person",
+        "suitcase",
+        "train"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000082812.jpg"
+    },
+    {
+      "image": "images/000000369541.jpg",
+      "image_id": 369541,
+      "split": "evaluation",
+      "sha256": "91d0d63804ac7e593a84a8f40fe9b89f81ab359dc9ddba6381e658f8b6e3d919",
+      "truth": [
+        "dog",
+        "frisbee",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000369541.jpg"
+    },
+    {
+      "image": "images/000000099114.jpg",
+      "image_id": 99114,
+      "split": "evaluation",
+      "sha256": "609688ffdec87ab6416ee436ebc6520cab61d8f4db8d1e5072eb1d1772cffa98",
+      "truth": [
+        "bicycle",
+        "handbag",
+        "person",
+        "traffic light"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000099114.jpg"
+    },
+    {
+      "image": "images/000000119365.jpg",
+      "image_id": 119365,
+      "split": "evaluation",
+      "sha256": "ba7802a366dfb88aeb301abd2d4f938158a3880d62f46d9908220127a7013bfa",
+      "truth": [
+        "cell phone",
+        "keyboard",
+        "laptop",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000119365.jpg"
+    },
+    {
+      "image": "images/000000327701.jpg",
+      "image_id": 327701,
+      "split": "evaluation",
+      "sha256": "3a4f7d2ad3afa74fbe65cc2a3d0a8e12244e06122a66e74ffe6a22d884c95709",
+      "truth": [
+        "cup",
+        "person",
+        "sports ball",
+        "tennis racket"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000327701.jpg"
+    },
+    {
+      "image": "images/000000215245.jpg",
+      "image_id": 215245,
+      "split": "evaluation",
+      "sha256": "8f26d81db7cb960105b0dbfdd5e2846a4aace8d2fb352b0698f00afb3fe6ebb4",
+      "truth": [
+        "zebra"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000215245.jpg"
+    },
+    {
+      "image": "images/000000092053.jpg",
+      "image_id": 92053,
+      "split": "evaluation",
+      "sha256": "b31ae99dde64c615138636ae6f3c3d139d7d398e830126594532a701da146ac3",
+      "truth": [
+        "bowl",
+        "cup",
+        "dining table",
+        "donut",
+        "fork",
+        "knife",
+        "person",
+        "sandwich"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000092053.jpg"
+    },
+    {
+      "image": "images/000000345356.jpg",
+      "image_id": 345356,
+      "split": "evaluation",
+      "sha256": "6747504c0e3c993e6bf493a19bbd343e65685b2bfcd656302f1d5ab828c2a109",
+      "truth": [
+        "bottle",
+        "cell phone",
+        "cup",
+        "dining table",
+        "person",
+        "spoon",
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000345356.jpg"
+    },
+    {
+      "image": "images/000000498919.jpg",
+      "image_id": 498919,
+      "split": "evaluation",
+      "sha256": "207e1007cad81d6fdb5e4061c0a652c351b217c23570dbe0bac920929841d537",
+      "truth": [
+        "apple",
+        "orange"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000498919.jpg"
+    },
+    {
+      "image": "images/000000073946.jpg",
+      "image_id": 73946,
+      "split": "evaluation",
+      "sha256": "83f98b5f14fdfa024bf06ff2699aa8152133f012a0b17741d026ef3a2fbd8178",
+      "truth": [
+        "bed",
+        "person",
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000073946.jpg"
+    },
+    {
+      "image": "images/000000511384.jpg",
+      "image_id": 511384,
+      "split": "evaluation",
+      "sha256": "47fdcbc254d768f333731cf7d748952bfa5114a78059586fa6f9069080a3316f",
+      "truth": [
+        "frisbee",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000511384.jpg"
+    },
+    {
+      "image": "images/000000462756.jpg",
+      "image_id": 462756,
+      "split": "evaluation",
+      "sha256": "fd587baec12e47e21fbf4ac5375b5b41c92a26fe1326b7772ee53511c352fb61",
+      "truth": [
+        "car",
+        "motorcycle",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000462756.jpg"
+    },
+    {
+      "image": "images/000000430377.jpg",
+      "image_id": 430377,
+      "split": "evaluation",
+      "sha256": "77d618c8a700daec616d1827bc0afff3fa5b6423670ccf91003506c02f2ee73e",
+      "truth": [
+        "person",
+        "skis"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000430377.jpg"
+    },
+    {
+      "image": "images/000000559348.jpg",
+      "image_id": 559348,
+      "split": "evaluation",
+      "sha256": "a73654c0617b1c814453ecb7db42adb053b50b521775fe67e54de7fe839062a4",
+      "truth": [
+        "baseball bat",
+        "baseball glove",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000559348.jpg"
+    },
+    {
+      "image": "images/000000142790.jpg",
+      "image_id": 142790,
+      "split": "evaluation",
+      "sha256": "765d8b193b9350dcabbe5bb338f172c08eba969eda914afcae4787a90ec29bcb",
+      "truth": [
+        "person",
+        "skis",
+        "snowboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000142790.jpg"
+    },
+    {
+      "image": "images/000000344611.jpg",
+      "image_id": 344611,
+      "split": "evaluation",
+      "sha256": "01e78cd4c4e4fbbdf618a980b0726da279e2b4a66f71c47970b58efa4dd22888",
+      "truth": [],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000344611.jpg"
+    },
+    {
+      "image": "images/000000410428.jpg",
+      "image_id": 410428,
+      "split": "evaluation",
+      "sha256": "af15371bf710dd3b772f372b33fd231851c92490c639e30c53d2d783e53baa83",
+      "truth": [
+        "sheep"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000410428.jpg"
+    },
+    {
+      "image": "images/000000533855.jpg",
+      "image_id": 533855,
+      "split": "evaluation",
+      "sha256": "97be90aa226092086975ad3dfa355a04f73e7d5cb3c9d590848eddb67387375d",
+      "truth": [
+        "donut"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000533855.jpg"
+    },
+    {
+      "image": "images/000000376625.jpg",
+      "image_id": 376625,
+      "split": "evaluation",
+      "sha256": "81267617f13de3900abfe82e0e48f5b66ca43b2092cac9b3c15e8606ebf81b72",
+      "truth": [
+        "bottle",
+        "car",
+        "motorcycle",
+        "person",
+        "train"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000376625.jpg"
+    },
+    {
+      "image": "images/000000142472.jpg",
+      "image_id": 142472,
+      "split": "evaluation",
+      "sha256": "db7173813c230d969afa81c1012904f95a680a4b6b756eb07e17e6727c88c0dd",
+      "truth": [
+        "bus",
+        "car",
+        "person",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000142472.jpg"
+    },
+    {
+      "image": "images/000000069224.jpg",
+      "image_id": 69224,
+      "split": "evaluation",
+      "sha256": "6835fd2b6c4803964ac088a1c9c5e3aa7c7270b24586c5d9f3068a54d4027aad",
+      "truth": [
+        "bottle",
+        "chair",
+        "dining table",
+        "donut",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000069224.jpg"
+    },
+    {
+      "image": "images/000000304404.jpg",
+      "image_id": 304404,
+      "split": "evaluation",
+      "sha256": "1c4558988298208b5be0ecb4d4ece23f7b1cc51b0cd166119fd3bbf0f16c75d4",
+      "truth": [
+        "baseball bat",
+        "baseball glove",
+        "person",
+        "umbrella"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000304404.jpg"
+    },
+    {
+      "image": "images/000000283318.jpg",
+      "image_id": 283318,
+      "split": "evaluation",
+      "sha256": "4b94d49605715fe88957ac8838ba58746a9082d5beee2928429f4bda101477ee",
+      "truth": [
+        "car",
+        "fire hydrant",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000283318.jpg"
+    },
+    {
+      "image": "images/000000577149.jpg",
+      "image_id": 577149,
+      "split": "evaluation",
+      "sha256": "9b8873feb4b0945738924c28d3238dbae3a62c88b9aca9dde729908fe6e4416f",
+      "truth": [
+        "zebra"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000577149.jpg"
+    },
+    {
+      "image": "images/000000151629.jpg",
+      "image_id": 151629,
+      "split": "evaluation",
+      "sha256": "2719bd2ae3cd3723e8ded71e0faefa89c41abee8d512c3ff677ba2610e8be415",
+      "truth": [
+        "person",
+        "sports ball",
+        "tennis racket"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000151629.jpg"
+    },
+    {
+      "image": "images/000000272566.jpg",
+      "image_id": 272566,
+      "split": "evaluation",
+      "sha256": "98cc0f4521cbf4165ded35d4e4e23bb0b4d208272ae11f6144296826214aa19c",
+      "truth": [
+        "apple",
+        "banana",
+        "cup",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000272566.jpg"
+    },
+    {
+      "image": "images/000000338986.jpg",
+      "image_id": 338986,
+      "split": "evaluation",
+      "sha256": "62fee3f216c3cb2af25eac42d4b1b48acf30652ea1e8dd154aa4dcca480b852f",
+      "truth": [
+        "car",
+        "train"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000338986.jpg"
+    },
+    {
+      "image": "images/000000419601.jpg",
+      "image_id": 419601,
+      "split": "evaluation",
+      "sha256": "7bfe8b2c679d115b3647ef9eb444ec6c40a0609e9497c0021900139bbdb4341e",
+      "truth": [
+        "bed",
+        "book",
+        "chair",
+        "couch"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000419601.jpg"
+    },
+    {
+      "image": "images/000000153011.jpg",
+      "image_id": 153011,
+      "split": "evaluation",
+      "sha256": "e051d5c7180bec8cb38caae0cbeca57f4d09879d097065c581bb9f9c0d474a09",
+      "truth": [
+        "bus",
+        "car",
+        "chair",
+        "dining table",
+        "handbag",
+        "person",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000153011.jpg"
+    },
+    {
+      "image": "images/000000080022.jpg",
+      "image_id": 80022,
+      "split": "evaluation",
+      "sha256": "e3c1e8b731b5341d90766539ab4e3e1fb6efa7754d5eb8dc3fbe757d0b16f9a2",
+      "truth": [
+        "person",
+        "sports ball",
+        "tennis racket"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000080022.jpg"
+    },
+    {
+      "image": "images/000000390246.jpg",
+      "image_id": 390246,
+      "split": "evaluation",
+      "sha256": "fdd80fa16451c010ab2fdf31cc02fbc2c92257ed5a2cb285dc27fb228d30cc42",
+      "truth": [
+        "person",
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000390246.jpg"
+    },
+    {
+      "image": "images/000000289960.jpg",
+      "image_id": 289960,
+      "split": "evaluation",
+      "sha256": "d15915ba13037711c683ffb79f6f1da0414a49820cba70ee2f1b0cdc5c40bba3",
+      "truth": [
+        "kite",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000289960.jpg"
+    },
+    {
+      "image": "images/000000360943.jpg",
+      "image_id": 360943,
+      "split": "evaluation",
+      "sha256": "9a6d9379fd7feb77987a43d1ce0e304e2eb5dd7f28c2a818fd8baec5ed4cb700",
+      "truth": [
+        "cat"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000360943.jpg"
+    },
+    {
+      "image": "images/000000350003.jpg",
+      "image_id": 350003,
+      "split": "evaluation",
+      "sha256": "4278c4c673a2e75b1f63780d026b3c05dd9955eeae50cd017a8e1844b736ce58",
+      "truth": [
+        "bicycle",
+        "car",
+        "person",
+        "suitcase",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000350003.jpg"
+    },
+    {
+      "image": "images/000000307172.jpg",
+      "image_id": 307172,
+      "split": "evaluation",
+      "sha256": "d0fc594a75f8407f6595501b86bd98bd8c3a245a124c3dcfb17fc77e6b2e5aef",
+      "truth": [
+        "bowl",
+        "cup",
+        "dining table",
+        "person",
+        "pizza"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000307172.jpg"
+    },
+    {
+      "image": "images/000000532575.jpg",
+      "image_id": 532575,
+      "split": "evaluation",
+      "sha256": "3f2fbcee04c5dbd0ad0939fcb6d000cc16613ea0bc93f2fc406958b71c86cd12",
+      "truth": [
+        "boat",
+        "dog"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000532575.jpg"
+    },
+    {
+      "image": "images/000000277584.jpg",
+      "image_id": 277584,
+      "split": "evaluation",
+      "sha256": "82b88986235d8b83b74aea2716948170bf0e9c2ee17e2a86d897335bad4fc610",
+      "truth": [
+        "bench",
+        "cat"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000277584.jpg"
+    },
+    {
+      "image": "images/000000066561.jpg",
+      "image_id": 66561,
+      "split": "evaluation",
+      "sha256": "9d6b1f7638ca075af1b8f5c740eb681199cdaf9adea67abc1671542687019ee9",
+      "truth": [
+        "sheep"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000066561.jpg"
+    },
+    {
+      "image": "images/000000036844.jpg",
+      "image_id": 36844,
+      "split": "evaluation",
+      "sha256": "45107746c8c33123a387d8293890c4e08e0d8959f4cf5987e022556758ab5f1a",
+      "truth": [
+        "bicycle",
+        "chair",
+        "couch",
+        "cup",
+        "potted plant",
+        "refrigerator",
+        "remote",
+        "tv"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000036844.jpg"
+    },
+    {
+      "image": "images/000000463542.jpg",
+      "image_id": 463542,
+      "split": "evaluation",
+      "sha256": "7ade6ec85fa5c00bcf796ae32a2b019b680d14aca71e425ca668907646ea41c4",
+      "truth": [
+        "person",
+        "skis",
+        "snowboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000463542.jpg"
+    },
+    {
+      "image": "images/000000001490.jpg",
+      "image_id": 1490,
+      "split": "evaluation",
+      "sha256": "a044804a0b0186a1267acae34975932f14ede96c4a2b78fcee74e6c2fbd8414d",
+      "truth": [
+        "person",
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000001490.jpg"
+    },
+    {
+      "image": "images/000000205105.jpg",
+      "image_id": 205105,
+      "split": "evaluation",
+      "sha256": "63126096550f5f9d35c81261d7f8ba341896a1ec8f958200c4fe20c6417462bc",
+      "truth": [
+        "person",
+        "sports ball",
+        "tennis racket"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000205105.jpg"
+    },
+    {
+      "image": "images/000000064462.jpg",
+      "image_id": 64462,
+      "split": "evaluation",
+      "sha256": "1f1c45a106be672324c5c69a709ce1366a8fab4a9d55d194bb68de0d70275c24",
+      "truth": [
+        "person",
+        "skis"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000064462.jpg"
+    },
+    {
+      "image": "images/000000275198.jpg",
+      "image_id": 275198,
+      "split": "evaluation",
+      "sha256": "c34482da7ff6fc53d5e78dc433cc673ab601757761e07948f15450cc8214a483",
+      "truth": [
+        "bottle",
+        "bowl",
+        "chair",
+        "cup",
+        "dining table",
+        "fork",
+        "knife",
+        "person",
+        "spoon",
+        "umbrella"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000275198.jpg"
+    },
+    {
+      "image": "images/000000554595.jpg",
+      "image_id": 554595,
+      "split": "evaluation",
+      "sha256": "f87552f48714dda9163196051781716d6ae1e26824f214237f604f9f829f9fa5",
+      "truth": [
+        "person",
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000554595.jpg"
+    },
+    {
+      "image": "images/000000537672.jpg",
+      "image_id": 537672,
+      "split": "evaluation",
+      "sha256": "f021329a3139127e815a6f2f9e270d4f69480a29bea3f0e4950fd55c949b7249",
+      "truth": [
+        "chair",
+        "refrigerator"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000537672.jpg"
+    },
+    {
+      "image": "images/000000280325.jpg",
+      "image_id": 280325,
+      "split": "evaluation",
+      "sha256": "5f0cc672f51b21ae96214ae334274e5bc714ab20815423df14f6aaa73caa8c3d",
+      "truth": [
+        "parking meter"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000280325.jpg"
+    },
+    {
+      "image": "images/000000275058.jpg",
+      "image_id": 275058,
+      "split": "evaluation",
+      "sha256": "cffdab202c9cc07314e225c6a85caaed78e2f49d54480ec0f3409eedddd81f3e",
+      "truth": [
+        "person",
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000275058.jpg"
+    },
+    {
+      "image": "images/000000138954.jpg",
+      "image_id": 138954,
+      "split": "evaluation",
+      "sha256": "14a895c56f6b10febc4006ce2d8351f047cf81c0288ba1e10f7c86d269e54822",
+      "truth": [
+        "apple",
+        "dining table"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000138954.jpg"
+    },
+    {
+      "image": "images/000000121153.jpg",
+      "image_id": 121153,
+      "split": "evaluation",
+      "sha256": "e32144eabe58a6c0b4a6f124f233653d301d76a7e169435950be420c9354b7f0",
+      "truth": [],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000121153.jpg"
+    },
+    {
+      "image": "images/000000016598.jpg",
+      "image_id": 16598,
+      "split": "evaluation",
+      "sha256": "a794c8d8258774f04fcf04921d0daf10d60a35d038117279ff0880a2accd49b3",
+      "truth": [
+        "cell phone",
+        "person",
+        "tie"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000016598.jpg"
+    },
+    {
+      "image": "images/000000228771.jpg",
+      "image_id": 228771,
+      "split": "evaluation",
+      "sha256": "62781e0d0dee9534ccb053e23287f80d8781ec1a72b327066c2537a41dda9eea",
+      "truth": [],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000228771.jpg"
+    },
+    {
+      "image": "images/000000451879.jpg",
+      "image_id": 451879,
+      "split": "evaluation",
+      "sha256": "b3c662f4a3cdf90d458dcad696669135383c83db0eb7f9f6fc25f752c8f5ffd5",
+      "truth": [
+        "baseball glove",
+        "person",
+        "sports ball"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000451879.jpg"
+    },
+    {
+      "image": "images/000000493566.jpg",
+      "image_id": 493566,
+      "split": "evaluation",
+      "sha256": "badff95cd80f05aa73f3b8fe5a5d72d37008b4aa1d59c62560aecbf2534402c9",
+      "truth": [
+        "train"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000493566.jpg"
+    },
+    {
+      "image": "images/000000424162.jpg",
+      "image_id": 424162,
+      "split": "evaluation",
+      "sha256": "765a481659aa263c0ac345053f0f47ce073144fa93b667c3eb66a565994116a8",
+      "truth": [
+        "backpack",
+        "bicycle",
+        "car",
+        "dog",
+        "person",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000424162.jpg"
+    },
+    {
+      "image": "images/000000560371.jpg",
+      "image_id": 560371,
+      "split": "evaluation",
+      "sha256": "17cd49dc9cde113485375a9cc0da039c752d9ad767c93634de31cb00a97bbb45",
+      "truth": [],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000560371.jpg"
+    },
+    {
+      "image": "images/000000516708.jpg",
+      "image_id": 516708,
+      "split": "evaluation",
+      "sha256": "494edb6f7557509a260523204290833e4166d273b9866255e8d244532c1f5e2b",
+      "truth": [
+        "traffic light"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000516708.jpg"
+    },
+    {
+      "image": "images/000000082807.jpg",
+      "image_id": 82807,
+      "split": "evaluation",
+      "sha256": "3e179674fec6fc9f3ee3fc07038ede753ab95ff4b5a39916a10c6582427fed6b",
+      "truth": [
+        "cake",
+        "chair",
+        "dining table",
+        "dog"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000082807.jpg"
+    },
+    {
+      "image": "images/000000244181.jpg",
+      "image_id": 244181,
+      "split": "evaluation",
+      "sha256": "34cc82b7d7f4de23de607f288592aba51e47fa58bb4b2f8d50ab7baa502be340",
+      "truth": [
+        "bottle",
+        "dining table",
+        "sandwich"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000244181.jpg"
+    },
+    {
+      "image": "images/000000022705.jpg",
+      "image_id": 22705,
+      "split": "evaluation",
+      "sha256": "01627a2e4b79593b0debcffcdcf9b6c795d0d9e71aa2a3e9e22a9db05a70bc85",
+      "truth": [
+        "bottle",
+        "bowl",
+        "person",
+        "refrigerator",
+        "wine glass"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000022705.jpg"
+    },
+    {
+      "image": "images/000000466835.jpg",
+      "image_id": 466835,
+      "split": "evaluation",
+      "sha256": "8e35c6451c5836659e3622553c8ceb9ff72fb38e3d9329422eeb5823676bd4d4",
+      "truth": [
+        "banana"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000466835.jpg"
+    },
+    {
+      "image": "images/000000013923.jpg",
+      "image_id": 13923,
+      "split": "evaluation",
+      "sha256": "91494500cd053f1c4e547edc53f62edce2b088588bf9b4dbc8ceaea86ad4d49e",
+      "truth": [
+        "bottle",
+        "bowl",
+        "chair",
+        "couch",
+        "dining table",
+        "potted plant",
+        "tv",
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000013923.jpg"
+    },
+    {
+      "image": "images/000000502336.jpg",
+      "image_id": 502336,
+      "split": "evaluation",
+      "sha256": "8b0cbc3210da8c5a493eade8e10b31f9ca525e0595f499ec04c52f8be56deef1",
+      "truth": [
+        "handbag",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000502336.jpg"
+    },
+    {
+      "image": "images/000000201775.jpg",
+      "image_id": 201775,
+      "split": "evaluation",
+      "sha256": "3cfbf69aacedcd18675390856496ba802341f7f137fb267a83899581b558eb02",
+      "truth": [
+        "sink",
+        "toilet"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000201775.jpg"
+    },
+    {
+      "image": "images/000000051610.jpg",
+      "image_id": 51610,
+      "split": "evaluation",
+      "sha256": "c4b6fdea9764b29e9ef8015c0bf6c1bb45c396f17fa0a425cafa9f2c32a025e6",
+      "truth": [
+        "bed",
+        "laptop",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000051610.jpg"
+    },
+    {
+      "image": "images/000000416451.jpg",
+      "image_id": 416451,
+      "split": "evaluation",
+      "sha256": "b4bd3443947e71587d18ec9dc2847a457206ada8b93f2e355eb1352c0b248cb7",
+      "truth": [
+        "book",
+        "bottle",
+        "couch",
+        "cup",
+        "person",
+        "remote",
+        "wine glass"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000416451.jpg"
+    },
+    {
+      "image": "images/000000005600.jpg",
+      "image_id": 5600,
+      "split": "evaluation",
+      "sha256": "37e5625d5de54eb524ad2425d855e1d9d54fcb29c3475dacffc86ab48bcaec39",
+      "truth": [
+        "bowl",
+        "spoon"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000005600.jpg"
+    },
+    {
+      "image": "images/000000247917.jpg",
+      "image_id": 247917,
+      "split": "evaluation",
+      "sha256": "3d19e31ae4de033abffb9586dffd9663e646f040d1ac5293bc4c7c467150c1c1",
+      "truth": [
+        "baseball glove",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000247917.jpg"
+    },
+    {
+      "image": "images/000000458223.jpg",
+      "image_id": 458223,
+      "split": "evaluation",
+      "sha256": "b1dd74ccf72451429d9444fec031e55abf94038b8fcc94e4abc20f4cc74d22fa",
+      "truth": [
+        "backpack",
+        "bicycle",
+        "boat",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000458223.jpg"
+    },
+    {
+      "image": "images/000000559707.jpg",
+      "image_id": 559707,
+      "split": "evaluation",
+      "sha256": "50ae104992c88d5356fa5087bd62c51904134cb6ffa507e4c503024c75efe403",
+      "truth": [
+        "broccoli",
+        "fork"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000559707.jpg"
+    },
+    {
+      "image": "images/000000508312.jpg",
+      "image_id": 508312,
+      "split": "evaluation",
+      "sha256": "c4925590bbbe293539fdbbd4f02586b2780e9e117cacc26811e61aea41b8d454",
+      "truth": [
+        "microwave",
+        "oven",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000508312.jpg"
+    },
+    {
+      "image": "images/000000280891.jpg",
+      "image_id": 280891,
+      "split": "evaluation",
+      "sha256": "ab14c4948b83a787fae4903d5a51669f19b71dfd9f0862229651d8adeeb44b97",
+      "truth": [
+        "apple",
+        "bottle",
+        "handbag",
+        "orange",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000280891.jpg"
+    },
+    {
+      "image": "images/000000568147.jpg",
+      "image_id": 568147,
+      "split": "evaluation",
+      "sha256": "a43a30c8c1fa592eb76b7205a2764642240f2b29c76d06543a9197bdc8b95a8a",
+      "truth": [
+        "car",
+        "parking meter",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000568147.jpg"
+    },
+    {
+      "image": "images/000000561335.jpg",
+      "image_id": 561335,
+      "split": "evaluation",
+      "sha256": "545a3c99c733adb9cffa428674dd012efc7067980bdb5148b1a042d2bf5bf708",
+      "truth": [
+        "boat"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000561335.jpg"
+    },
+    {
+      "image": "images/000000481573.jpg",
+      "image_id": 481573,
+      "split": "evaluation",
+      "sha256": "4e84dea6549eb1c36daa3e7fa6a454eab6fb5910318c2e9ac1482034fa4ea918",
+      "truth": [
+        "person",
+        "skateboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000481573.jpg"
+    },
+    {
+      "image": "images/000000282046.jpg",
+      "image_id": 282046,
+      "split": "evaluation",
+      "sha256": "e5d58d919749594cc6e6a79df4c7ff4d7b8218eacf1a117111bfa66c7490d9e1",
+      "truth": [
+        "bench"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000282046.jpg"
+    },
+    {
+      "image": "images/000000237071.jpg",
+      "image_id": 237071,
+      "split": "evaluation",
+      "sha256": "c977609c2c685eef309ff9140d94fc4ae47dd66a8d8624f6af6a63fb5a5a166c",
+      "truth": [
+        "person",
+        "sports ball",
+        "tennis racket"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000237071.jpg"
+    },
+    {
+      "image": "images/000000156643.jpg",
+      "image_id": 156643,
+      "split": "evaluation",
+      "sha256": "9d16c4c9af76cdf2d8163e07d0257958cca6f39f42aff0bf3c5713c070b83907",
+      "truth": [
+        "bottle",
+        "cake",
+        "chair",
+        "cup",
+        "dining table",
+        "knife",
+        "person",
+        "teddy bear"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000156643.jpg"
+    },
+    {
+      "image": "images/000000500478.jpg",
+      "image_id": 500478,
+      "split": "evaluation",
+      "sha256": "1025c8bbb6466db353361663ab8af7d0328a32996cc96549deb53773349923de",
+      "truth": [
+        "baseball glove",
+        "chair",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000500478.jpg"
+    },
+    {
+      "image": "images/000000198805.jpg",
+      "image_id": 198805,
+      "split": "evaluation",
+      "sha256": "18efd547be82ec756df749112925aafa3285e509349525ffbba6e22c70c621e6",
+      "truth": [
+        "car",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000198805.jpg"
+    },
+    {
+      "image": "images/000000303863.jpg",
+      "image_id": 303863,
+      "split": "evaluation",
+      "sha256": "886f530f5431029d641303cbe7e41b63c419c620ab5e1e2b7ae2f1b0c8112a1d",
+      "truth": [
+        "handbag",
+        "person",
+        "train"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000303863.jpg"
+    },
+    {
+      "image": "images/000000210520.jpg",
+      "image_id": 210520,
+      "split": "evaluation",
+      "sha256": "3df27397165b945a4e394864d094d0f485d2bf27af499105faa6ec0dea7e18a6",
+      "truth": [
+        "bowl",
+        "cup",
+        "dining table",
+        "fork",
+        "knife",
+        "spoon",
+        "vase",
+        "wine glass"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000210520.jpg"
+    },
+    {
+      "image": "images/000000018193.jpg",
+      "image_id": 18193,
+      "split": "evaluation",
+      "sha256": "ee9037876bab7f2b504cd4be49144bbde27f32ddc05361cd6f3c843c947dd911",
+      "truth": [
+        "chair",
+        "hot dog",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000018193.jpg"
+    },
+    {
+      "image": "images/000000580197.jpg",
+      "image_id": 580197,
+      "split": "evaluation",
+      "sha256": "e3de2e67d44d36afed4cc06bf35aec2b4a7cd3064e5c28c0342c98479ea2717a",
+      "truth": [
+        "person",
+        "tie"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000580197.jpg"
+    },
+    {
+      "image": "images/000000565153.jpg",
+      "image_id": 565153,
+      "split": "evaluation",
+      "sha256": "9d9e970324e45224cf232bd56bc15f8dd2420e14dd97073ea52543709a93d65d",
+      "truth": [
+        "parking meter",
+        "stop sign"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000565153.jpg"
+    },
+    {
+      "image": "images/000000546475.jpg",
+      "image_id": 546475,
+      "split": "evaluation",
+      "sha256": "1549419c814febbb429a04bff35fe25a134ab09914af3cdf4a0023a0eb932265",
+      "truth": [
+        "cell phone",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000546475.jpg"
+    },
+    {
+      "image": "images/000000494634.jpg",
+      "image_id": 494634,
+      "split": "evaluation",
+      "sha256": "ed95442934c1c0b0d585992e8efbdfa94dd28d664187fb35be5f1d95b7486aa9",
+      "truth": [
+        "bottle",
+        "cat",
+        "laptop",
+        "oven",
+        "wine glass"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000494634.jpg"
+    },
+    {
+      "image": "images/000000340697.jpg",
+      "image_id": 340697,
+      "split": "evaluation",
+      "sha256": "e8561c69704c7b6b901d95c2555dd4d8758534b94dc661f23c9dfd901013fc4c",
+      "truth": [
+        "bottle"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000340697.jpg"
+    },
+    {
+      "image": "images/000000231169.jpg",
+      "image_id": 231169,
+      "split": "evaluation",
+      "sha256": "81c074b0a5f5966302986ecc7e2bea71dec9b564a6e5a0e99712dd82b1a314a4",
+      "truth": [
+        "train"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000231169.jpg"
+    },
+    {
+      "image": "images/000000343149.jpg",
+      "image_id": 343149,
+      "split": "evaluation",
+      "sha256": "8d98267ce9b4c72ec8a37b19110d2e1e67607e59ad9704fb9f6d196784e32c89",
+      "truth": [
+        "cell phone",
+        "clock",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000343149.jpg"
+    },
+    {
+      "image": "images/000000080273.jpg",
+      "image_id": 80273,
+      "split": "evaluation",
+      "sha256": "ec27145efc9e16fb7220b91b9b93aac4529e9d68a30caaadd964ac9637af2c76",
+      "truth": [
+        "person",
+        "snowboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000080273.jpg"
+    },
+    {
+      "image": "images/000000364297.jpg",
+      "image_id": 364297,
+      "split": "evaluation",
+      "sha256": "26fe8e8acf4da5acf46c8a745530edfb97fc98622717e3133ebde99b35a7ca33",
+      "truth": [
+        "cat",
+        "keyboard",
+        "tv"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000364297.jpg"
+    },
+    {
+      "image": "images/000000351823.jpg",
+      "image_id": 351823,
+      "split": "evaluation",
+      "sha256": "79351a61303ff0a648c96da7e67449e839d300d9c9f1a8503ea38b0faa7ce430",
+      "truth": [
+        "person",
+        "tennis racket"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000351823.jpg"
+    },
+    {
+      "image": "images/000000254814.jpg",
+      "image_id": 254814,
+      "split": "evaluation",
+      "sha256": "915aec9b08643741b27129a6b789be3ba30fc47489b44cbe89771798be37d6bc",
+      "truth": [
+        "bicycle",
+        "bus",
+        "car",
+        "motorcycle",
+        "person",
+        "traffic light",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000254814.jpg"
+    },
+    {
+      "image": "images/000000302536.jpg",
+      "image_id": 302536,
+      "split": "evaluation",
+      "sha256": "8bc7c92a03a7cb6a77a3ebde15ada830637e4b2b05d468b267e7fa4417aefa31",
+      "truth": [
+        "couch",
+        "person",
+        "remote",
+        "sports ball"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000302536.jpg"
+    },
+    {
+      "image": "images/000000560880.jpg",
+      "image_id": 560880,
+      "split": "evaluation",
+      "sha256": "da716b857d3c953c702dd0776e3d118038ea84739890eb854623c31a56f53b0a",
+      "truth": [
+        "dog",
+        "horse",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000560880.jpg"
+    },
+    {
+      "image": "images/000000455716.jpg",
+      "image_id": 455716,
+      "split": "evaluation",
+      "sha256": "ba2cedb078804d0be4074cfbfcf76e4c51d90393dd6180c85e6e11df89767f8f",
+      "truth": [
+        "backpack",
+        "handbag",
+        "motorcycle"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000455716.jpg"
+    },
+    {
+      "image": "images/000000284623.jpg",
+      "image_id": 284623,
+      "split": "evaluation",
+      "sha256": "b7d443c3ac4cd71881259a33c8d85aa8dc2036de7a70de6d05b25a5aaec51698",
+      "truth": [
+        "bottle",
+        "cat",
+        "sink",
+        "toothbrush"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000284623.jpg"
+    },
+    {
+      "image": "images/000000402774.jpg",
+      "image_id": 402774,
+      "split": "evaluation",
+      "sha256": "de2566157fe6dc38cd6a87b557d7b731079b39ea009e835f310f558445b506ca",
+      "truth": [
+        "handbag",
+        "person",
+        "umbrella"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000402774.jpg"
+    },
+    {
+      "image": "images/000000544444.jpg",
+      "image_id": 544444,
+      "split": "evaluation",
+      "sha256": "e208eb88ca5bb9a93ee044f18e775949281ec207153e1acf5f9a5abba705eaf8",
+      "truth": [
+        "person",
+        "skis"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000544444.jpg"
+    },
+    {
+      "image": "images/000000567740.jpg",
+      "image_id": 567740,
+      "split": "evaluation",
+      "sha256": "7d5540f44438a85c429ed48e16f2d561384d20dd18f8efd589de54602141a48a",
+      "truth": [
+        "backpack",
+        "person",
+        "skis"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000567740.jpg"
+    },
+    {
+      "image": "images/000000485027.jpg",
+      "image_id": 485027,
+      "split": "evaluation",
+      "sha256": "422be8766376d51dd877e8ace9fbaf8fa9c9045eb690ae0f90e152e420dd4f1a",
+      "truth": [
+        "person",
+        "sports ball",
+        "tennis racket"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000485027.jpg"
+    },
+    {
+      "image": "images/000000345385.jpg",
+      "image_id": 345385,
+      "split": "evaluation",
+      "sha256": "e4d18bda0d6e3e7c0c174fd540876b039d886a266b3b61bef8aa0cb7d01e8798",
+      "truth": [
+        "bed",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000345385.jpg"
+    },
+    {
+      "image": "images/000000519208.jpg",
+      "image_id": 519208,
+      "split": "evaluation",
+      "sha256": "251ea96f960403b82085683813326671034e3dfa5171887bd155fb14528a9534",
+      "truth": [
+        "elephant",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000519208.jpg"
+    },
+    {
+      "image": "images/000000034760.jpg",
+      "image_id": 34760,
+      "split": "evaluation",
+      "sha256": "0fd67be645460db96f578a810d5d59b84ec4ca8f7ee905a1b538b8591211a1a9",
+      "truth": [
+        "bottle",
+        "sink",
+        "toilet"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000034760.jpg"
+    },
+    {
+      "image": "images/000000095899.jpg",
+      "image_id": 95899,
+      "split": "evaluation",
+      "sha256": "b4e8f6fc5440abc790184973e0ec44428be8a682be6be0894311477727a19251",
+      "truth": [
+        "stop sign"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000095899.jpg"
+    },
+    {
+      "image": "images/000000107554.jpg",
+      "image_id": 107554,
+      "split": "evaluation",
+      "sha256": "ff73401833c0ede37a6e08cc49bfbfc9583c1223a0bbe13a58f21840f5ca152c",
+      "truth": [
+        "car",
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000107554.jpg"
+    },
+    {
+      "image": "images/000000124659.jpg",
+      "image_id": 124659,
+      "split": "evaluation",
+      "sha256": "b22d1dcef9e38af51c21a13438095e72102f2ce72f7c6f3a581b39b84fe9454f",
+      "truth": [
+        "book",
+        "chair",
+        "clock",
+        "couch",
+        "laptop"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000124659.jpg"
+    },
+    {
+      "image": "images/000000578489.jpg",
+      "image_id": 578489,
+      "split": "evaluation",
+      "sha256": "6b202e24633cff5e2ca73be84378f8d7f442b040ed618499da83603faffab2fd",
+      "truth": [
+        "bottle",
+        "couch",
+        "person",
+        "remote"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000578489.jpg"
+    },
+    {
+      "image": "images/000000297681.jpg",
+      "image_id": 297681,
+      "split": "evaluation",
+      "sha256": "854a1a8c19dd9a428efd4fb35900b48f2606cf784238883cf0ae9ca1a0eaf0e4",
+      "truth": [
+        "car"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000297681.jpg"
+    },
+    {
+      "image": "images/000000396863.jpg",
+      "image_id": 396863,
+      "split": "evaluation",
+      "sha256": "6d63ebaeede867676d7087efbe6ddfc778cb5868524539ff187420e2b594c807",
+      "truth": [
+        "horse",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000396863.jpg"
+    },
+    {
+      "image": "images/000000350023.jpg",
+      "image_id": 350023,
+      "split": "evaluation",
+      "sha256": "93ae8ddf49d3289ccb6262bd74f9cab4b625283cc57d3013c95ff9651cea7c48",
+      "truth": [
+        "bicycle",
+        "bus",
+        "car",
+        "motorcycle",
+        "person",
+        "traffic light"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000350023.jpg"
+    },
+    {
+      "image": "images/000000060363.jpg",
+      "image_id": 60363,
+      "split": "evaluation",
+      "sha256": "f0c260ac44dfd4199719e0e00c92600ab0eea655fcdc9084c9e929943ee10dc7",
+      "truth": [
+        "bird",
+        "clock"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000060363.jpg"
+    },
+    {
+      "image": "images/000000288862.jpg",
+      "image_id": 288862,
+      "split": "evaluation",
+      "sha256": "c4627295adf87b4ad334f05daaab4681b928708be73b58858517cf7260e4fe36",
+      "truth": [
+        "person",
+        "skateboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000288862.jpg"
+    },
+    {
+      "image": "images/000000395343.jpg",
+      "image_id": 395343,
+      "split": "evaluation",
+      "sha256": "10741d3fd4125685d73542bca5210777c5a33240a41785661f42e3d42d5641b2",
+      "truth": [
+        "bowl",
+        "chair",
+        "cup",
+        "dining table",
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000395343.jpg"
+    },
+    {
+      "image": "images/000000092177.jpg",
+      "image_id": 92177,
+      "split": "evaluation",
+      "sha256": "15e52b3f8099e161a6b6d0cf9ae647b199328c71106c6adf9abbaf2f53660673",
+      "truth": [
+        "cake",
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000092177.jpg"
+    },
+    {
+      "image": "images/000000246308.jpg",
+      "image_id": 246308,
+      "split": "evaluation",
+      "sha256": "1cf3ed51231a81dbdcf1c5fb95b2cd2ad5c7373453983233149bed64a3698a2b",
+      "truth": [
+        "chair",
+        "keyboard",
+        "laptop",
+        "mouse",
+        "tv"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000246308.jpg"
+    },
+    {
+      "image": "images/000000150638.jpg",
+      "image_id": 150638,
+      "split": "evaluation",
+      "sha256": "c7847b6a940733f7ae4ee04c5d6a524c76fd9659826dd6269c4564b07f5bc8cb",
+      "truth": [
+        "bottle",
+        "cup",
+        "dining table",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000150638.jpg"
+    },
+    {
+      "image": "images/000000413552.jpg",
+      "image_id": 413552,
+      "split": "evaluation",
+      "sha256": "9551e30c4b72c2c8034424d1da07d5ca23a6f8f27462c2402561e2d83a039069",
+      "truth": [
+        "person",
+        "toothbrush"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000413552.jpg"
+    },
+    {
+      "image": "images/000000105912.jpg",
+      "image_id": 105912,
+      "split": "evaluation",
+      "sha256": "371f4f6ea696a0b01e6f2b1a5a3bf27d420dc3e8c8276091dd8f29f8aa21baa2",
+      "truth": [
+        "bus",
+        "car",
+        "fire hydrant",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000105912.jpg"
+    },
+    {
+      "image": "images/000000101780.jpg",
+      "image_id": 101780,
+      "split": "evaluation",
+      "sha256": "b5e70b751fdeb00a722ea0da8b3f1c1f9b5813707b7d29289b506f1e42d60edb",
+      "truth": [
+        "giraffe"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000101780.jpg"
+    },
+    {
+      "image": "images/000000340175.jpg",
+      "image_id": 340175,
+      "split": "evaluation",
+      "sha256": "2abd91fd8c44621597d54a3d8ef40fe9a9d004dd62cac55078915bea091afdc1",
+      "truth": [
+        "apple",
+        "bench",
+        "book",
+        "chair",
+        "couch",
+        "dining table",
+        "potted plant",
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000340175.jpg"
+    },
+    {
+      "image": "images/000000040471.jpg",
+      "image_id": 40471,
+      "split": "evaluation",
+      "sha256": "77aaef65849b5bdb4df3ba5bb16028c3a4918b563fcb2c191114a32c9c6c9d77",
+      "truth": [
+        "apple",
+        "banana",
+        "bottle",
+        "bowl",
+        "cup",
+        "knife",
+        "microwave",
+        "oven",
+        "refrigerator",
+        "sink",
+        "spoon"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000040471.jpg"
+    },
+    {
+      "image": "images/000000206487.jpg",
+      "image_id": 206487,
+      "split": "evaluation",
+      "sha256": "3df6eaf2b80be894a9909549b5177958ab932776d4e8a5843c51464710284b5f",
+      "truth": [
+        "bus",
+        "car",
+        "motorcycle",
+        "person",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000206487.jpg"
+    },
+    {
+      "image": "images/000000054592.jpg",
+      "image_id": 54592,
+      "split": "evaluation",
+      "sha256": "850a7dbd3351b791b86e7be0b8f24f461e12141d648b89bf1aff5f10135516f4",
+      "truth": [
+        "backpack",
+        "person",
+        "skis"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000054592.jpg"
+    },
+    {
+      "image": "images/000000231831.jpg",
+      "image_id": 231831,
+      "split": "evaluation",
+      "sha256": "1d5fd2d14a5a0ffc6995c37a3e88130aee322f541cba2113f982b538be9a6430",
+      "truth": [
+        "book",
+        "cat",
+        "cell phone",
+        "chair",
+        "remote",
+        "scissors"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000231831.jpg"
+    },
+    {
+      "image": "images/000000105455.jpg",
+      "image_id": 105455,
+      "split": "evaluation",
+      "sha256": "a7dbf43a4af66af24dab0b4070b0ab172b9a2952237c8dd9b9a00e6501c6cd9c",
+      "truth": [
+        "car",
+        "clock"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000105455.jpg"
+    },
+    {
+      "image": "images/000000407518.jpg",
+      "image_id": 407518,
+      "split": "evaluation",
+      "sha256": "e040b3d434af83c78dab765ebcca1719430fd1194f8d938b2f0294393a5d9f59",
+      "truth": [
+        "bird"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000407518.jpg"
+    },
+    {
+      "image": "images/000000106881.jpg",
+      "image_id": 106881,
+      "split": "evaluation",
+      "sha256": "f0cd6a0a524ec11f91aba701dae2762fef51250f5031c3616e8c054624eb4d7b",
+      "truth": [
+        "bird"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000106881.jpg"
+    },
+    {
+      "image": "images/000000349594.jpg",
+      "image_id": 349594,
+      "split": "evaluation",
+      "sha256": "17b6593b2a4de3cb6f14bddd952ae49181d2876c13ad29b7d7d1cb27315a49fa",
+      "truth": [
+        "donut",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000349594.jpg"
+    },
+    {
+      "image": "images/000000100428.jpg",
+      "image_id": 100428,
+      "split": "evaluation",
+      "sha256": "b93715083071f1c221b9221191225533062d07fce19814760ec72fb5156106af",
+      "truth": [
+        "person",
+        "tie"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000100428.jpg"
+    },
+    {
+      "image": "images/000000226883.jpg",
+      "image_id": 226883,
+      "split": "evaluation",
+      "sha256": "9005d022c5e1b405168431bd0373b7d7c6a1b6fa41034fa39bd0c4db73bffcf1",
+      "truth": [
+        "horse"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000226883.jpg"
+    },
+    {
+      "image": "images/000000011197.jpg",
+      "image_id": 11197,
+      "split": "evaluation",
+      "sha256": "b6dbcc5c9e52f51480c4974ae6b15003ce25cd98fb936e2f26694fb7058fdbcb",
+      "truth": [
+        "backpack",
+        "bicycle",
+        "car",
+        "person",
+        "traffic light"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000011197.jpg"
+    },
+    {
+      "image": "images/000000177489.jpg",
+      "image_id": 177489,
+      "split": "evaluation",
+      "sha256": "63df404db028c2317782bc5fff7094b5cddee8ac3c4e0846bb3631c1ac6991f6",
+      "truth": [
+        "bottle",
+        "bowl",
+        "chair",
+        "dining table",
+        "fork",
+        "orange",
+        "person",
+        "pizza",
+        "spoon",
+        "wine glass"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000177489.jpg"
+    },
+    {
+      "image": "images/000000557916.jpg",
+      "image_id": 557916,
+      "split": "evaluation",
+      "sha256": "d0ed66b03146c8c001b308d9ba601731ef6a2684b33452fac162b5160ad424c5",
+      "truth": [
+        "bed",
+        "person",
+        "teddy bear",
+        "vase"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000557916.jpg"
+    },
+    {
+      "image": "images/000000447314.jpg",
+      "image_id": 447314,
+      "split": "evaluation",
+      "sha256": "3fb6b82c5c04e6fd280a51bc5a17331c3f1c799531eb294873802f34e85c7c97",
+      "truth": [
+        "kite",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000447314.jpg"
+    },
+    {
+      "image": "images/000000572956.jpg",
+      "image_id": 572956,
+      "split": "evaluation",
+      "sha256": "f8ef81d3f24b7cecb7cdcc4d69ae76ea6cc7de0b8f831940d0cc28d0f77ce216",
+      "truth": [
+        "motorcycle"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000572956.jpg"
+    },
+    {
+      "image": "images/000000545730.jpg",
+      "image_id": 545730,
+      "split": "evaluation",
+      "sha256": "917c24c0ebdf40d18e15b236ee5fc79206f246e89e489fdeb8cdced1b0810703",
+      "truth": [
+        "zebra"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000545730.jpg"
+    },
+    {
+      "image": "images/000000119516.jpg",
+      "image_id": 119516,
+      "split": "evaluation",
+      "sha256": "ee4d278eecc42f9c6830e030207fbabe888aebb36c58681f034f27081594d8c9",
+      "truth": [
+        "bicycle",
+        "cell phone",
+        "handbag",
+        "motorcycle",
+        "person",
+        "traffic light"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000119516.jpg"
+    },
+    {
+      "image": "images/000000036539.jpg",
+      "image_id": 36539,
+      "split": "evaluation",
+      "sha256": "e16c9d4bab618469d1d841a4b905fa01232f42c0f18884b349b243b736c66d86",
+      "truth": [
+        "person",
+        "snowboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000036539.jpg"
+    },
+    {
+      "image": "images/000000085376.jpg",
+      "image_id": 85376,
+      "split": "evaluation",
+      "sha256": "0c61f0ddf5a17a348a194e16232f78d62391008b3e0aa4a204ce77c4ef6182c8",
+      "truth": [
+        "car",
+        "motorcycle",
+        "person",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000085376.jpg"
+    },
+    {
+      "image": "images/000000474078.jpg",
+      "image_id": 474078,
+      "split": "evaluation",
+      "sha256": "607abd6bca3220055496c450a547b3cf86bd2494cecad96c9a812902cd084046",
+      "truth": [
+        "baseball bat",
+        "baseball glove",
+        "person",
+        "sports ball"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000474078.jpg"
+    },
+    {
+      "image": "images/000000393056.jpg",
+      "image_id": 393056,
+      "split": "evaluation",
+      "sha256": "33051682e3da464d8d6b754321a18eb34ea1db742d52f775e281b399df5827f0",
+      "truth": [
+        "person",
+        "surfboard"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000393056.jpg"
+    },
+    {
+      "image": "images/000000014038.jpg",
+      "image_id": 14038,
+      "split": "evaluation",
+      "sha256": "7dc972133bcc2e8e49ca1c2b7c20678eecb0c853e78f085f7270f295e1349350",
+      "truth": [
+        "bed",
+        "book",
+        "bottle",
+        "cell phone",
+        "chair",
+        "couch",
+        "dining table",
+        "microwave",
+        "potted plant",
+        "refrigerator",
+        "tv"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000014038.jpg"
+    },
+    {
+      "image": "images/000000398237.jpg",
+      "image_id": 398237,
+      "split": "evaluation",
+      "sha256": "b43f8242b584ca61b44ef84745a63405a6da721a5f5374e699109a241893540a",
+      "truth": [
+        "kite",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000398237.jpg"
+    },
+    {
+      "image": "images/000000018770.jpg",
+      "image_id": 18770,
+      "split": "evaluation",
+      "sha256": "92edb27a1c69e8e77d6ee17ddd2f12489d1852ff4c32c8357b329ba1fd26b046",
+      "truth": [
+        "person",
+        "tie"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000018770.jpg"
+    },
+    {
+      "image": "images/000000229216.jpg",
+      "image_id": 229216,
+      "split": "evaluation",
+      "sha256": "627bc997b0d21da6ac5ea5b715a456282e8b5f0f62cd30b6fec45ad1341aaabd",
+      "truth": [
+        "cell phone",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000229216.jpg"
+    },
+    {
+      "image": "images/000000096493.jpg",
+      "image_id": 96493,
+      "split": "evaluation",
+      "sha256": "cecec146af7564d8229b996b99d25289924c039bf41475b0c533909699b39351",
+      "truth": [
+        "couch",
+        "person",
+        "remote"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000096493.jpg"
+    },
+    {
+      "image": "images/000000455085.jpg",
+      "image_id": 455085,
+      "split": "evaluation",
+      "sha256": "022d2068d525b03a753287c333c09026fe22b9ae6d8071d4e8c757cbed32bdc4",
+      "truth": [
+        "bus",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000455085.jpg"
+    },
+    {
+      "image": "images/000000394677.jpg",
+      "image_id": 394677,
+      "split": "evaluation",
+      "sha256": "d3f156d75342b1ba97c39b8fc120f069e6254d1f8c4a0e1686d5c7a15a7ded0a",
+      "truth": [
+        "cell phone",
+        "couch",
+        "handbag",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000394677.jpg"
+    },
+    {
+      "image": "images/000000574315.jpg",
+      "image_id": 574315,
+      "split": "evaluation",
+      "sha256": "b4f4f99c9f1231ed99efa94744f4ae8ef9657ff69ce14a8d0ca60c7f5974dc13",
+      "truth": [
+        "cat",
+        "couch",
+        "keyboard",
+        "laptop",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000574315.jpg"
+    },
+    {
+      "image": "images/000000066706.jpg",
+      "image_id": 66706,
+      "split": "evaluation",
+      "sha256": "c4e4712f58e6206b4510ec2845af46fdd30501efdb5752b7d33dd935b773d38a",
+      "truth": [
+        "banana",
+        "cup",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000066706.jpg"
+    }
+  ]
+}
