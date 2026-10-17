@@ -6,6 +6,8 @@ Primary comparison: the same fixed 69-name RAM/COCO vocabulary intersection as t
 
 RAM, CLIP, alpha=0.5 fusion and fusion+MMR (relevance weight=0.8) all use the same images and vocabulary. No tuning is performed in this run. The development partition is reserved for future controlled experiments. Report primary evaluation metrics on the 384 evaluation images separately from development.
 
+Compute only the 69 independent RAM label queries to reduce CPU work. This optimization is permitted only because the official RAM tagging head removes label self-attention. Verify its raw probabilities against native full-vocabulary inference on the existing eight-image pilot before the larger run, and check agreement on the first new image (absolute tolerance 1e-6, relative tolerance 1e-5). This is an execution optimization, not a new scoring method. Abort on disagreement and retain the diagnostic.
+
 Primary endpoint: mean per-image F1@5. Also report mean P@5 and recall@5, per-image paired differences against RAM, and a paired image bootstrap 95% percentile interval for the mean difference (10,000 resamples, seed 20261017). Bootstrap samples resample actual observed image results; they are uncertainty estimates, not new model observations or synthetic reference data.
 
 Keep the original annotations, selected IDs, image hashes, complete raw scores and failure logs. Verify cached results against the complete manifest before resuming. No data are excluded for poor model predictions. Report reference-label coverage and the number of images with no remaining in-vocabulary positives.
