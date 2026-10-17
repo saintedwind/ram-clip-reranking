@@ -1,0 +1,853 @@
+{
+  "scope": "Exploratory class AP, not the preregistered primary F1 endpoint or full COCO-80 mAP",
+  "images": 384,
+  "candidate_classes": 69,
+  "classes_with_positives": 69,
+  "methods": {
+    "ram": {
+      "mean_ap_present_classes": 0.8038757237628041,
+      "per_class": {
+        "person": {
+          "positives": 214,
+          "ap": 0.9746797842938865
+        },
+        "bicycle": {
+          "positives": 12,
+          "ap": 0.6160677864637367
+        },
+        "car": {
+          "positives": 37,
+          "ap": 0.7770183719677078
+        },
+        "motorcycle": {
+          "positives": 15,
+          "ap": 0.8513838481654573
+        },
+        "bus": {
+          "positives": 14,
+          "ap": 0.9090937039151324
+        },
+        "train": {
+          "positives": 14,
+          "ap": 0.970734126984127
+        },
+        "truck": {
+          "positives": 18,
+          "ap": 0.7031701273759945
+        },
+        "boat": {
+          "positives": 8,
+          "ap": 0.7350407268170426
+        },
+        "traffic light": {
+          "positives": 11,
+          "ap": 0.8431043388429753
+        },
+        "stop sign": {
+          "positives": 6,
+          "ap": 0.8560606060606061
+        },
+        "parking meter": {
+          "positives": 4,
+          "ap": 0.7717391304347826
+        },
+        "bench": {
+          "positives": 19,
+          "ap": 0.5626790681901566
+        },
+        "bird": {
+          "positives": 9,
+          "ap": 0.9477124183006536
+        },
+        "cat": {
+          "positives": 18,
+          "ap": 1.0
+        },
+        "dog": {
+          "positives": 13,
+          "ap": 0.9016609571265441
+        },
+        "horse": {
+          "positives": 9,
+          "ap": 1.0
+        },
+        "sheep": {
+          "positives": 6,
+          "ap": 0.9583333333333333
+        },
+        "cow": {
+          "positives": 6,
+          "ap": 0.9102564102564102
+        },
+        "elephant": {
+          "positives": 6,
+          "ap": 1.0
+        },
+        "bear": {
+          "positives": 1,
+          "ap": 1.0
+        },
+        "zebra": {
+          "positives": 4,
+          "ap": 1.0
+        },
+        "giraffe": {
+          "positives": 9,
+          "ap": 1.0
+        },
+        "backpack": {
+          "positives": 18,
+          "ap": 0.42395555157510284
+        },
+        "umbrella": {
+          "positives": 13,
+          "ap": 0.9087067802131323
+        },
+        "handbag": {
+          "positives": 30,
+          "ap": 0.45255573426385287
+        },
+        "tie": {
+          "positives": 14,
+          "ap": 0.7130250209086133
+        },
+        "frisbee": {
+          "positives": 5,
+          "ap": 0.942857142857143
+        },
+        "snowboard": {
+          "positives": 5,
+          "ap": 1.0
+        },
+        "sports ball": {
+          "positives": 16,
+          "ap": 0.3478520424100565
+        },
+        "kite": {
+          "positives": 6,
+          "ap": 1.0
+        },
+        "baseball bat": {
+          "positives": 8,
+          "ap": 0.9861111111111112
+        },
+        "baseball glove": {
+          "positives": 13,
+          "ap": 0.988588334742181
+        },
+        "skateboard": {
+          "positives": 9,
+          "ap": 1.0
+        },
+        "surfboard": {
+          "positives": 15,
+          "ap": 1.0
+        },
+        "tennis racket": {
+          "positives": 15,
+          "ap": 1.0
+        },
+        "bottle": {
+          "positives": 38,
+          "ap": 0.6791433116685366
+        },
+        "wine glass": {
+          "positives": 10,
+          "ap": 0.6945772058823529
+        },
+        "cup": {
+          "positives": 40,
+          "ap": 0.5527007687742828
+        },
+        "fork": {
+          "positives": 14,
+          "ap": 0.6880777012396471
+        },
+        "knife": {
+          "positives": 10,
+          "ap": 0.48500661917615795
+        },
+        "spoon": {
+          "positives": 13,
+          "ap": 0.5234120902511707
+        },
+        "bowl": {
+          "positives": 24,
+          "ap": 0.5247896051120219
+        },
+        "banana": {
+          "positives": 10,
+          "ap": 0.7748092926490985
+        },
+        "apple": {
+          "positives": 14,
+          "ap": 0.8174648268398268
+        },
+        "sandwich": {
+          "positives": 6,
+          "ap": 0.9166666666666666
+        },
+        "orange": {
+          "positives": 9,
+          "ap": 0.5663575959816154
+        },
+        "broccoli": {
+          "positives": 5,
+          "ap": 0.9666666666666668
+        },
+        "carrot": {
+          "positives": 5,
+          "ap": 0.5111111111111111
+        },
+        "hot dog": {
+          "positives": 5,
+          "ap": 0.9111111111111111
+        },
+        "pizza": {
+          "positives": 9,
+          "ap": 0.9797979797979798
+        },
+        "donut": {
+          "positives": 9,
+          "ap": 0.894400352733686
+        },
+        "cake": {
+          "positives": 10,
+          "ap": 0.8863354037267082
+        },
+        "chair": {
+          "positives": 39,
+          "ap": 0.702083270973982
+        },
+        "couch": {
+          "positives": 17,
+          "ap": 0.9668003565062389
+        },
+        "bed": {
+          "positives": 13,
+          "ap": 0.8401828940290479
+        },
+        "laptop": {
+          "positives": 12,
+          "ap": 0.9601449275362318
+        },
+        "mouse": {
+          "positives": 4,
+          "ap": 1.0
+        },
+        "remote": {
+          "positives": 8,
+          "ap": 0.7902777777777779
+        },
+        "keyboard": {
+          "positives": 9,
+          "ap": 0.8005799755799755
+        },
+        "microwave": {
+          "positives": 6,
+          "ap": 0.7285353535353536
+        },
+        "oven": {
+          "positives": 8,
+          "ap": 0.5139655483405483
+        },
+        "toaster": {
+          "positives": 1,
+          "ap": 1.0
+        },
+        "sink": {
+          "positives": 9,
+          "ap": 0.89836860670194
+        },
+        "book": {
+          "positives": 18,
+          "ap": 0.5808417185904906
+        },
+        "clock": {
+          "positives": 18,
+          "ap": 0.8877252405591866
+        },
+        "vase": {
+          "positives": 18,
+          "ap": 0.8003531807530108
+        },
+        "scissors": {
+          "positives": 2,
+          "ap": 0.07275132275132275
+        },
+        "hair drier": {
+          "positives": 1,
+          "ap": 0.5
+        },
+        "toothbrush": {
+          "positives": 2,
+          "ap": 1.0
+        }
+      }
+    },
+    "clip": {
+      "mean_ap_present_classes": 0.5024303759296826,
+      "per_class": {
+        "person": {
+          "positives": 214,
+          "ap": 0.7011602885736621
+        },
+        "bicycle": {
+          "positives": 12,
+          "ap": 0.16215357711741074
+        },
+        "car": {
+          "positives": 37,
+          "ap": 0.42762026551284654
+        },
+        "motorcycle": {
+          "positives": 15,
+          "ap": 0.7656332158230892
+        },
+        "bus": {
+          "positives": 14,
+          "ap": 0.5574472431311219
+        },
+        "train": {
+          "positives": 14,
+          "ap": 0.8469600679187145
+        },
+        "truck": {
+          "positives": 18,
+          "ap": 0.3923227387000743
+        },
+        "boat": {
+          "positives": 8,
+          "ap": 0.3456671299734075
+        },
+        "traffic light": {
+          "positives": 11,
+          "ap": 0.5036479885677746
+        },
+        "stop sign": {
+          "positives": 6,
+          "ap": 0.7462962962962963
+        },
+        "parking meter": {
+          "positives": 4,
+          "ap": 0.39154686601495114
+        },
+        "bench": {
+          "positives": 19,
+          "ap": 0.42036806862570686
+        },
+        "bird": {
+          "positives": 9,
+          "ap": 0.6522116670671008
+        },
+        "cat": {
+          "positives": 18,
+          "ap": 0.9632741985683162
+        },
+        "dog": {
+          "positives": 13,
+          "ap": 0.7303745822375631
+        },
+        "horse": {
+          "positives": 9,
+          "ap": 0.8168430335097001
+        },
+        "sheep": {
+          "positives": 6,
+          "ap": 0.8101045296167246
+        },
+        "cow": {
+          "positives": 6,
+          "ap": 0.6616481268380002
+        },
+        "elephant": {
+          "positives": 6,
+          "ap": 0.8143115942028984
+        },
+        "bear": {
+          "positives": 1,
+          "ap": 0.3333333333333333
+        },
+        "zebra": {
+          "positives": 4,
+          "ap": 0.95
+        },
+        "giraffe": {
+          "positives": 9,
+          "ap": 1.0
+        },
+        "backpack": {
+          "positives": 18,
+          "ap": 0.0771377644317392
+        },
+        "umbrella": {
+          "positives": 13,
+          "ap": 0.4630618996714034
+        },
+        "handbag": {
+          "positives": 30,
+          "ap": 0.17160737857426273
+        },
+        "tie": {
+          "positives": 14,
+          "ap": 0.3107641910256251
+        },
+        "frisbee": {
+          "positives": 5,
+          "ap": 0.7961904761904762
+        },
+        "snowboard": {
+          "positives": 5,
+          "ap": 0.7859649122807018
+        },
+        "sports ball": {
+          "positives": 16,
+          "ap": 0.6402413831602156
+        },
+        "kite": {
+          "positives": 6,
+          "ap": 1.0
+        },
+        "baseball bat": {
+          "positives": 8,
+          "ap": 0.8651315789473684
+        },
+        "baseball glove": {
+          "positives": 13,
+          "ap": 0.6643387893753403
+        },
+        "skateboard": {
+          "positives": 9,
+          "ap": 0.9210858585858586
+        },
+        "surfboard": {
+          "positives": 15,
+          "ap": 0.8018448041609807
+        },
+        "tennis racket": {
+          "positives": 15,
+          "ap": 0.8994244644244644
+        },
+        "bottle": {
+          "positives": 38,
+          "ap": 0.23014578799352423
+        },
+        "wine glass": {
+          "positives": 10,
+          "ap": 0.20086616005270053
+        },
+        "cup": {
+          "positives": 40,
+          "ap": 0.16842384218490128
+        },
+        "fork": {
+          "positives": 14,
+          "ap": 0.21319365117349856
+        },
+        "knife": {
+          "positives": 10,
+          "ap": 0.05810225199252679
+        },
+        "spoon": {
+          "positives": 13,
+          "ap": 0.11510330652939722
+        },
+        "bowl": {
+          "positives": 24,
+          "ap": 0.16831367668276562
+        },
+        "banana": {
+          "positives": 10,
+          "ap": 0.6661202205313234
+        },
+        "apple": {
+          "positives": 14,
+          "ap": 0.39131731301714234
+        },
+        "sandwich": {
+          "positives": 6,
+          "ap": 0.5570319634703196
+        },
+        "orange": {
+          "positives": 9,
+          "ap": 0.26099004563500405
+        },
+        "broccoli": {
+          "positives": 5,
+          "ap": 0.7277992277992278
+        },
+        "carrot": {
+          "positives": 5,
+          "ap": 0.04888931448504835
+        },
+        "hot dog": {
+          "positives": 5,
+          "ap": 0.736996336996337
+        },
+        "pizza": {
+          "positives": 9,
+          "ap": 0.8743589743589744
+        },
+        "donut": {
+          "positives": 9,
+          "ap": 0.671836899010812
+        },
+        "cake": {
+          "positives": 10,
+          "ap": 0.43978090007501774
+        },
+        "chair": {
+          "positives": 39,
+          "ap": 0.1860144521613115
+        },
+        "couch": {
+          "positives": 17,
+          "ap": 0.5279346030311104
+        },
+        "bed": {
+          "positives": 13,
+          "ap": 0.6626919870751511
+        },
+        "laptop": {
+          "positives": 12,
+          "ap": 0.6446253674536073
+        },
+        "mouse": {
+          "positives": 4,
+          "ap": 0.1426098473801886
+        },
+        "remote": {
+          "positives": 8,
+          "ap": 0.2553117136694347
+        },
+        "keyboard": {
+          "positives": 9,
+          "ap": 0.6826981265196368
+        },
+        "microwave": {
+          "positives": 6,
+          "ap": 0.5967948717948718
+        },
+        "oven": {
+          "positives": 8,
+          "ap": 0.3110089869281046
+        },
+        "toaster": {
+          "positives": 1,
+          "ap": 0.0625
+        },
+        "sink": {
+          "positives": 9,
+          "ap": 0.35458837217871825
+        },
+        "book": {
+          "positives": 18,
+          "ap": 0.09638891702999611
+        },
+        "clock": {
+          "positives": 18,
+          "ap": 0.5537719625734027
+        },
+        "vase": {
+          "positives": 18,
+          "ap": 0.392394079728746
+        },
+        "scissors": {
+          "positives": 2,
+          "ap": 0.04301470588235294
+        },
+        "hair drier": {
+          "positives": 1,
+          "ap": 0.058823529411764705
+        },
+        "toothbrush": {
+          "positives": 2,
+          "ap": 0.17753623188405795
+        }
+      }
+    },
+    "fusion": {
+      "mean_ap_present_classes": 0.7445762683099462,
+      "per_class": {
+        "person": {
+          "positives": 214,
+          "ap": 0.9745292169393577
+        },
+        "bicycle": {
+          "positives": 12,
+          "ap": 0.3764963146756625
+        },
+        "car": {
+          "positives": 37,
+          "ap": 0.7033386753496387
+        },
+        "motorcycle": {
+          "positives": 15,
+          "ap": 0.8666424620252792
+        },
+        "bus": {
+          "positives": 14,
+          "ap": 0.8057931719696425
+        },
+        "train": {
+          "positives": 14,
+          "ap": 0.969047619047619
+        },
+        "truck": {
+          "positives": 18,
+          "ap": 0.6796321259949161
+        },
+        "boat": {
+          "positives": 8,
+          "ap": 0.6251984126984127
+        },
+        "traffic light": {
+          "positives": 11,
+          "ap": 0.7962870017682853
+        },
+        "stop sign": {
+          "positives": 6,
+          "ap": 0.8717948717948717
+        },
+        "parking meter": {
+          "positives": 4,
+          "ap": 0.6411290322580645
+        },
+        "bench": {
+          "positives": 19,
+          "ap": 0.5652715720492616
+        },
+        "bird": {
+          "positives": 9,
+          "ap": 0.9093915343915343
+        },
+        "cat": {
+          "positives": 18,
+          "ap": 0.9970760233918128
+        },
+        "dog": {
+          "positives": 13,
+          "ap": 0.9353415814954278
+        },
+        "horse": {
+          "positives": 9,
+          "ap": 1.0
+        },
+        "sheep": {
+          "positives": 6,
+          "ap": 0.9166666666666666
+        },
+        "cow": {
+          "positives": 6,
+          "ap": 0.8581871345029239
+        },
+        "elephant": {
+          "positives": 6,
+          "ap": 0.9333333333333332
+        },
+        "bear": {
+          "positives": 1,
+          "ap": 1.0
+        },
+        "zebra": {
+          "positives": 4,
+          "ap": 1.0
+        },
+        "giraffe": {
+          "positives": 9,
+          "ap": 1.0
+        },
+        "backpack": {
+          "positives": 18,
+          "ap": 0.32259714846151205
+        },
+        "umbrella": {
+          "positives": 13,
+          "ap": 0.8007474007474007
+        },
+        "handbag": {
+          "positives": 30,
+          "ap": 0.3882013298765688
+        },
+        "tie": {
+          "positives": 14,
+          "ap": 0.725148881101262
+        },
+        "frisbee": {
+          "positives": 5,
+          "ap": 0.8766666666666667
+        },
+        "snowboard": {
+          "positives": 5,
+          "ap": 1.0
+        },
+        "sports ball": {
+          "positives": 16,
+          "ap": 0.6368580910618449
+        },
+        "kite": {
+          "positives": 6,
+          "ap": 1.0
+        },
+        "baseball bat": {
+          "positives": 8,
+          "ap": 0.8791666666666667
+        },
+        "baseball glove": {
+          "positives": 13,
+          "ap": 0.9751850713389175
+        },
+        "skateboard": {
+          "positives": 9,
+          "ap": 1.0
+        },
+        "surfboard": {
+          "positives": 15,
+          "ap": 1.0
+        },
+        "tennis racket": {
+          "positives": 15,
+          "ap": 1.0
+        },
+        "bottle": {
+          "positives": 38,
+          "ap": 0.5457113878990455
+        },
+        "wine glass": {
+          "positives": 10,
+          "ap": 0.6305014733607283
+        },
+        "cup": {
+          "positives": 40,
+          "ap": 0.3856505549891642
+        },
+        "fork": {
+          "positives": 14,
+          "ap": 0.7037285349362417
+        },
+        "knife": {
+          "positives": 10,
+          "ap": 0.3201105401743488
+        },
+        "spoon": {
+          "positives": 13,
+          "ap": 0.4525704380521656
+        },
+        "bowl": {
+          "positives": 24,
+          "ap": 0.41306644754093524
+        },
+        "banana": {
+          "positives": 10,
+          "ap": 0.7502168102168103
+        },
+        "apple": {
+          "positives": 14,
+          "ap": 0.6498226458554607
+        },
+        "sandwich": {
+          "positives": 6,
+          "ap": 0.9102564102564102
+        },
+        "orange": {
+          "positives": 9,
+          "ap": 0.4536715924345561
+        },
+        "broccoli": {
+          "positives": 5,
+          "ap": 0.942857142857143
+        },
+        "carrot": {
+          "positives": 5,
+          "ap": 0.24861111111111112
+        },
+        "hot dog": {
+          "positives": 5,
+          "ap": 0.7733333333333334
+        },
+        "pizza": {
+          "positives": 9,
+          "ap": 0.9444444444444444
+        },
+        "donut": {
+          "positives": 9,
+          "ap": 0.8669753086419754
+        },
+        "cake": {
+          "positives": 10,
+          "ap": 0.8696859903381642
+        },
+        "chair": {
+          "positives": 39,
+          "ap": 0.5728669857961708
+        },
+        "couch": {
+          "positives": 17,
+          "ap": 0.9149012685709098
+        },
+        "bed": {
+          "positives": 13,
+          "ap": 0.8968531468531469
+        },
+        "laptop": {
+          "positives": 12,
+          "ap": 0.9609699940582292
+        },
+        "mouse": {
+          "positives": 4,
+          "ap": 0.7361111111111112
+        },
+        "remote": {
+          "positives": 8,
+          "ap": 0.7317934782608696
+        },
+        "keyboard": {
+          "positives": 9,
+          "ap": 0.8020723104056438
+        },
+        "microwave": {
+          "positives": 6,
+          "ap": 0.7777777777777777
+        },
+        "oven": {
+          "positives": 8,
+          "ap": 0.4374718468468468
+        },
+        "toaster": {
+          "positives": 1,
+          "ap": 0.14285714285714285
+        },
+        "sink": {
+          "positives": 9,
+          "ap": 0.7394324194324193
+        },
+        "book": {
+          "positives": 18,
+          "ap": 0.5178834389404751
+        },
+        "clock": {
+          "positives": 18,
+          "ap": 0.8194056242718393
+        },
+        "vase": {
+          "positives": 18,
+          "ap": 0.7815723366021745
+        },
+        "scissors": {
+          "positives": 2,
+          "ap": 0.027851458885941646
+        },
+        "hair drier": {
+          "positives": 1,
+          "ap": 1.0
+        },
+        "toothbrush": {
+          "positives": 2,
+          "ap": 0.625
+        }
+      }
+    }
+  },
+  "definition": "Sum of precision at each distinct score threshold weighted by recall increase; ties grouped",
+  "mmr": "Not reported: top-five MMR selections are not cross-image class confidence scores"
+}

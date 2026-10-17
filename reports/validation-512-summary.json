@@ -1,0 +1,283 @@
+{
+  "endpoint": "Mean per-image F1@5",
+  "bootstrap_seed": 20261017,
+  "bootstrap_resamples": 10000,
+  "partitions": {
+    "development": {
+      "images": 128,
+      "category_image_counts": {
+        "airplane": 3,
+        "apple": 2,
+        "backpack": 5,
+        "banana": 2,
+        "baseball bat": 3,
+        "bear": 1,
+        "bed": 3,
+        "bench": 10,
+        "bicycle": 4,
+        "bird": 1,
+        "boat": 2,
+        "book": 5,
+        "bottle": 11,
+        "bowl": 14,
+        "broccoli": 2,
+        "bus": 5,
+        "cake": 5,
+        "car": 12,
+        "carrot": 3,
+        "cat": 2,
+        "cell phone": 9,
+        "chair": 14,
+        "clock": 6,
+        "couch": 5,
+        "cow": 3,
+        "cup": 11,
+        "dining table": 16,
+        "dog": 1,
+        "donut": 3,
+        "elephant": 5,
+        "fire hydrant": 1,
+        "fork": 6,
+        "frisbee": 2,
+        "handbag": 6,
+        "horse": 2,
+        "keyboard": 1,
+        "kite": 3,
+        "knife": 4,
+        "laptop": 4,
+        "microwave": 2,
+        "motorcycle": 4,
+        "mouse": 1,
+        "orange": 2,
+        "oven": 3,
+        "parking meter": 2,
+        "person": 63,
+        "pizza": 2,
+        "potted plant": 3,
+        "refrigerator": 2,
+        "remote": 6,
+        "sandwich": 1,
+        "sheep": 2,
+        "sink": 3,
+        "skateboard": 8,
+        "snowboard": 2,
+        "spoon": 5,
+        "sports ball": 4,
+        "stop sign": 1,
+        "suitcase": 4,
+        "surfboard": 5,
+        "teddy bear": 3,
+        "tennis racket": 2,
+        "tie": 3,
+        "toilet": 4,
+        "traffic light": 5,
+        "train": 5,
+        "truck": 4,
+        "tv": 6,
+        "umbrella": 2,
+        "vase": 5,
+        "wine glass": 3,
+        "zebra": 2
+      },
+      "reference_positives": 366,
+      "excluded_reference_positives": 51,
+      "images_without_in_vocabulary_positives": 7,
+      "mean_metrics": {
+        "ram": {
+          "p_at_k": 0.39531250000000007,
+          "recall_at_k": 0.8322730654761905,
+          "f1_at_k": 0.5007933472777223
+        },
+        "clip": {
+          "p_at_k": 0.29375000000000007,
+          "recall_at_k": 0.6625186011904761,
+          "f1_at_k": 0.38124258553946055
+        },
+        "fusion": {
+          "p_at_k": 0.39062500000000006,
+          "recall_at_k": 0.8275762648809524,
+          "f1_at_k": 0.49649122578810073
+        },
+        "mmr": {
+          "p_at_k": 0.38906250000000003,
+          "recall_at_k": 0.8260137648809524,
+          "f1_at_k": 0.49492872578810077
+        }
+      },
+      "paired_f1_against_ram": {
+        "clip": {
+          "mean_difference": -0.11955076173826173,
+          "bootstrap_95_percentile_interval": [
+            -0.14942077345397659,
+            -0.09078775499673938
+          ],
+          "improved_images": 3,
+          "worse_images": 55,
+          "tied_images": 70
+        },
+        "fusion": {
+          "mean_difference": -0.004302121489621497,
+          "bootstrap_95_percentile_interval": [
+            -0.018570689293345547,
+            0.009747333829365061
+          ],
+          "improved_images": 6,
+          "worse_images": 9,
+          "tied_images": 113
+        },
+        "mmr": {
+          "mean_difference": -0.005864621489621498,
+          "bootstrap_95_percentile_interval": [
+            -0.020503162202380968,
+            0.008539651537698395
+          ],
+          "improved_images": 6,
+          "worse_images": 10,
+          "tied_images": 112
+        }
+      }
+    },
+    "evaluation": {
+      "images": 384,
+      "category_image_counts": {
+        "airplane": 6,
+        "apple": 14,
+        "backpack": 18,
+        "banana": 10,
+        "baseball bat": 8,
+        "baseball glove": 13,
+        "bear": 1,
+        "bed": 13,
+        "bench": 19,
+        "bicycle": 12,
+        "bird": 9,
+        "boat": 8,
+        "book": 18,
+        "bottle": 38,
+        "bowl": 24,
+        "broccoli": 5,
+        "bus": 14,
+        "cake": 10,
+        "car": 37,
+        "carrot": 5,
+        "cat": 18,
+        "cell phone": 23,
+        "chair": 39,
+        "clock": 18,
+        "couch": 17,
+        "cow": 6,
+        "cup": 40,
+        "dining table": 38,
+        "dog": 13,
+        "donut": 9,
+        "elephant": 6,
+        "fire hydrant": 3,
+        "fork": 14,
+        "frisbee": 5,
+        "giraffe": 9,
+        "hair drier": 1,
+        "handbag": 30,
+        "horse": 9,
+        "hot dog": 5,
+        "keyboard": 9,
+        "kite": 6,
+        "knife": 10,
+        "laptop": 12,
+        "microwave": 6,
+        "motorcycle": 15,
+        "mouse": 4,
+        "orange": 9,
+        "oven": 8,
+        "parking meter": 4,
+        "person": 214,
+        "pizza": 9,
+        "potted plant": 11,
+        "refrigerator": 13,
+        "remote": 8,
+        "sandwich": 6,
+        "scissors": 2,
+        "sheep": 6,
+        "sink": 9,
+        "skateboard": 9,
+        "skis": 9,
+        "snowboard": 5,
+        "spoon": 13,
+        "sports ball": 16,
+        "stop sign": 6,
+        "suitcase": 7,
+        "surfboard": 15,
+        "teddy bear": 10,
+        "tennis racket": 15,
+        "tie": 14,
+        "toaster": 1,
+        "toilet": 5,
+        "toothbrush": 2,
+        "traffic light": 11,
+        "train": 14,
+        "truck": 18,
+        "tv": 16,
+        "umbrella": 13,
+        "vase": 18,
+        "wine glass": 10,
+        "zebra": 4
+      },
+      "reference_positives": 1177,
+      "excluded_reference_positives": 141,
+      "images_without_in_vocabulary_positives": 13,
+      "mean_metrics": {
+        "ram": {
+          "p_at_k": 0.4296875,
+          "recall_at_k": 0.8548419462481962,
+          "f1_at_k": 0.5294321057992933
+        },
+        "clip": {
+          "p_at_k": 0.3151041666666667,
+          "recall_at_k": 0.6729488899410775,
+          "f1_at_k": 0.39739469153531654
+        },
+        "fusion": {
+          "p_at_k": 0.4166666666666667,
+          "recall_at_k": 0.8393490334896585,
+          "f1_at_k": 0.5161484132187257
+        },
+        "mmr": {
+          "p_at_k": 0.4156250000000001,
+          "recall_at_k": 0.8386979918229919,
+          "f1_at_k": 0.5151892306189181
+        }
+      },
+      "paired_f1_against_ram": {
+        "clip": {
+          "mean_difference": -0.13203741426397678,
+          "bootstrap_95_percentile_interval": [
+            -0.15085784748382403,
+            -0.11329609337421839
+          ],
+          "improved_images": 13,
+          "worse_images": 169,
+          "tied_images": 202
+        },
+        "fusion": {
+          "mean_difference": -0.013283692580567582,
+          "bootstrap_95_percentile_interval": [
+            -0.023136123136123135,
+            -0.003887794424903807
+          ],
+          "improved_images": 22,
+          "worse_images": 43,
+          "tied_images": 319
+        },
+        "mmr": {
+          "mean_difference": -0.014242875180375182,
+          "bootstrap_95_percentile_interval": [
+            -0.024146900553150545,
+            -0.004753482556216933
+          ],
+          "improved_images": 22,
+          "worse_images": 45,
+          "tied_images": 317
+        }
+      }
+    }
+  }
+}
