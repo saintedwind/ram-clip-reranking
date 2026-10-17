@@ -6,7 +6,9 @@ The original code had confidence-extraction and evaluation errors. This revision
 
 ## Status
 
-The ranking regression tests pass. Eight real COCO photographs and their existing annotations have been downloaded and fingerprinted. **Pretrained inference is not yet verified:** the RAM download was truncated and is being resumed; the canonical CLIP weight endpoint timed out. No model quality score is reported until both weights pass their checksums and the complete experiment runs.
+Fifteen regression and recorded-result consistency tests pass. A real CLIP ViT-B/32 CPU run completed on all eight COCO photographs using the original annotations and a checksum-verified official checkpoint. On the fixed 69-label RAM/COCO intersection, mean P@5 was **0.2500**, recall@5 **0.8333**, and F1@5 **0.3720**. These are pilot observations, not a held-out benchmark or evidence of improvement over RAM. See the [raw run](reports/clip-pilot.json) and [interpretation](reports/PILOT.md).
+
+**The full RAM/fusion comparison is pending:** the 5.6 GB RAM download was truncated and is being resumed. No RAM or improvement score is reported before verified inference completes.
 
 Read the [audit](reports/AUDIT.md), [fixed protocol](reports/PROTOCOL.md) and [data manifest](reports/data-manifest.json). The manifest contains hashes and existing object labels, not redistributed photographs.
 
@@ -33,6 +35,12 @@ With those source directories on `PYTHONPATH`, verified weights and a local `ber
 
 ```sh
 python -m tag_research.experiment --data /path/to/coco8 --ram /path/to/ram_swin_large_14m.pth --clip /path/to/ViT-B-32.pt --tokenizer /path/to/bert-tokenizer --output results/pilot.json
+```
+
+The independently executable CLIP stage is:
+
+```sh
+python -m tag_research.clip_baseline --data /path/to/coco8 --clip /path/to/ViT-B-32.pt --ram-vocabulary /path/to/recognize-anything/ram/data/ram_tag_list.txt --output results/clip-pilot.json
 ```
 
 The runner refuses mismatched weight hashes and records per-image scores, predictions and timings. It captures RAM's actual classifier logits and checks agreement with the official thresholded tags. Each model retains its own preprocessing. It never substitutes placeholder scores or inferred ground truth.
