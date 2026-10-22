@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-22",
+  "scope": "Eight previously observed real COCO val2017 images; integration smoke test only, not new independent evaluation",
+  "aliases": {
+    "airplane": "plane",
+    "fire hydrant": "hydrant",
+    "dining table": "dinning table",
+    "refrigerator": "fridge",
+    "skis": "ski",
+    "teddy bear": "teddy",
+    "tv": "television"
+  },
+  "unresolved": [
+    "cell phone",
+    "potted plant",
+    "suitcase",
+    "toilet"
+  ],
+  "selection": "First eight rows of the frozen validation-512 manifest; selected before ontology inference",
+  "parameters": {
+    "alpha": 0.5,
+    "mmr_relevance_weight": 0.8,
+    "k": 5
+  },
+  "source_sha256": {
+    "experiment_ontology.py": "5ae6144c4d38d6e1a7da57de39c1cef1370853d9b4f980b16b5e4c3f706f50eb",
+    "ontology.py": "f6078787aa252b93d37e9b7a984534a73e3bf46a3e1ec807b601acebd998585d"
+  }
+}

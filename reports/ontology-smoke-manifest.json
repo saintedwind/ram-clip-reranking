@@ -1,0 +1,110 @@
+{
+  "source": "https://s3.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2017.zip",
+  "annotation_sha256": "e8c7f7908f1d7278341fae127d0da654f102f11bd7b21d8aeefa635b8c810b6f",
+  "selection": "512 smallest SHA256(ram-clip-validation-v1:<image_id>); first128 development, remaining384 evaluation",
+  "images": [
+    {
+      "image": "images/000000170670.jpg",
+      "image_id": 170670,
+      "split": "development",
+      "sha256": "e4dd8fbb9f4387c124505a280afc9d67595185e527a8d55d2b7431ae0265888a",
+      "truth": [
+        "bottle",
+        "bowl",
+        "carrot",
+        "chair",
+        "cup",
+        "dining table",
+        "fork"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000170670.jpg"
+    },
+    {
+      "image": "images/000000330790.jpg",
+      "image_id": 330790,
+      "split": "development",
+      "sha256": "08687a9320a720f9656f3a91e299c2e5bb5d7b45949eb92851f9ddfd0fdfd55c",
+      "truth": [
+        "elephant"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000330790.jpg"
+    },
+    {
+      "image": "images/000000577976.jpg",
+      "image_id": 577976,
+      "split": "development",
+      "sha256": "f4a69620b9c578112bdac7b7007aaa75d79e4b77e6b96318aa8b1a7defb3d4e5",
+      "truth": [
+        "car",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000577976.jpg"
+    },
+    {
+      "image": "images/000000170893.jpg",
+      "image_id": 170893,
+      "split": "development",
+      "sha256": "bf061e23b14d2fda9ade5fa12ebb39da559b2b3aca7637c21205be46f2ac8114",
+      "truth": [
+        "dog",
+        "toilet"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000170893.jpg"
+    },
+    {
+      "image": "images/000000405279.jpg",
+      "image_id": 405279,
+      "split": "development",
+      "sha256": "bdc769fa26d5f5c896bff480e128ac076ec6972c567b719a55c7eb74adefbafd",
+      "truth": [
+        "bench",
+        "kite",
+        "person"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000405279.jpg"
+    },
+    {
+      "image": "images/000000133819.jpg",
+      "image_id": 133819,
+      "split": "development",
+      "sha256": "ddb32ae4d1057b76bbfcde96ef5b03c0df64811155bf2da75ca622f83ddc1f29",
+      "truth": [
+        "bus",
+        "handbag",
+        "parking meter",
+        "person",
+        "traffic light"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000133819.jpg"
+    },
+    {
+      "image": "images/000000088040.jpg",
+      "image_id": 88040,
+      "split": "development",
+      "sha256": "8b46197eff2bc39805e73ee3dadd8c48b81e42e645e2f733acb94c814fe9199e",
+      "truth": [
+        "bottle",
+        "bowl",
+        "cup",
+        "dining table",
+        "fork",
+        "knife",
+        "spoon"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000088040.jpg"
+    },
+    {
+      "image": "images/000000538458.jpg",
+      "image_id": 538458,
+      "split": "development",
+      "sha256": "203c9583c75afd905b6ad3c1c28644b66c2508fc66d42cab29de1cb2532575a9",
+      "truth": [
+        "person",
+        "skateboard",
+        "traffic light",
+        "truck"
+      ],
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000538458.jpg"
+    }
+  ]
+}
