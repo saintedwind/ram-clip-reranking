@@ -105,3 +105,7 @@ python tools/render_validation.py results/validation-512-summary.json results/va
 Plot rendering additionally requires matplotlib. On Windows, use a short build/temp path if the fairscale package build hits the platform's path-length limit; the recorded run used the complete fairscale 0.4.13 registry source on `PYTHONPATH`, without dummy dependency functions.
 
 RAM scores are cached every eight images and checked against the frozen image/label manifest before resuming. The query-subset mode is validated against native RAM outputs and is recorded in the result. Use a separate output path when comparing native and subset-query execution; cache modes cannot be mixed.
+
+## Ontology alignment update
+
+A separate runner now supports 76 COCO categories through seven documented terminology mappings. Four ambiguous mappings remain excluded. See the [alignment report](reports/ONTOLOGY_ALIGNMENT.md) and [registration](reports/ontology-registration.json). Historic 69-class metrics above remain unchanged. Run with `python -m tag_research.experiment_ontology` using the same arguments as the original runner.
