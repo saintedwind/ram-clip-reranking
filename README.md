@@ -109,3 +109,7 @@ RAM scores are cached every eight images and checked against the frozen image/la
 ## Ontology alignment update
 
 A separate runner now supports 76 COCO categories through seven documented terminology mappings. Four ambiguous mappings remain excluded. See the [alignment report](reports/ONTOLOGY_ALIGNMENT.md) and [registration](reports/ontology-registration.json). Historic 69-class metrics above remain unchanged. Run with `python -m tag_research.experiment_ontology` using the same arguments as the original runner.
+
+## Publication audit — 2026-11-01
+
+See [source/evidence review and retained limitations](reports/PUBLICATION_2026-11-01.md). Historical experiments retain their original dates; the publication check does not establish new model accuracy or deployment evidence.
