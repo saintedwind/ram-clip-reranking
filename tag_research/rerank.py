@@ -4,9 +4,13 @@ import numpy as np
 def unit_rows(values):
     values=np.asarray(values,dtype=np.float64)
     if values.ndim!=2 or not np.isfinite(values).all():raise ValueError('expected finite matrix')
-    norms=np.linalg.norm(values,axis=1,keepdims=True)
-    if np.any(norms<1e-12):raise ValueError('zero-norm embedding')
-    return values/norms
+    # Scale before squaring so finite large embeddings cannot overflow to zero.
+    scale=np.max(np.abs(values),axis=1,keepdims=True,initial=0.0)
+    if np.any(scale==0):raise ValueError('zero-norm embedding')
+    scaled=values/scale
+    norms=np.linalg.norm(scaled,axis=1,keepdims=True)
+    if np.any(scale<1e-12/norms):raise ValueError('zero-norm embedding')
+    return scaled/norms
 
 def standardize(scores):
     scores=np.asarray(scores,dtype=np.float64)
